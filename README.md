@@ -49,7 +49,7 @@ typewriter is indeed a big pain, which does encourage drafting without stopping,
 But it also keeps you rooted to one place. It's not
 something you can take to the local coffee shop unless you want to annoy everyone around you
 and generally look like a hipster jackass. (Of course, if you can stomach that, then more power to you,
-and if you are a hipster jackass, then you just go on and be the best hipster jackass you can be!)
+and if you *are* a hipster jackass, then you just go on and be the best hipster jackass you can be!)
 
 So, enter the humble line editor. You can learn to enter text into ed(1) in five minutes, but
 the basic idea is that learning to do any real editing with a line (or character) editor is so
@@ -170,47 +170,33 @@ Just to set the record straight, and all that.
 
 
 # Various Line Editors
+In strict ASCII sort order....
 
-### ALE
+## ALE
 
 *TBD*
 
 
-## atto
+## ED.com (also led)
 
-A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
-it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
+*honorable mention*
 
-I've put a copy of the code on [GitHub](https://github.com/EvansWinner/atto_line_editor) with some small
-changes to get it to compile under Linux. From there you can find Dieter's original page on the Wayback machine.
+ED.com is a line editor that was used on the CP/M operating system, a kind of
+precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
+on a channel called "TechTinkering: [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) 
+and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)
 
-I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
+ED (which I style ED.com in the CP/M style to differentiate it from the Unix ed(1))
+appears to be something like a mix between a line-based editor and a character-
+based editor, like Teco. This makes it appear complicated, byzantine -- and
+interesting. I get the impression that it was written in assembly language and
+that a port to modern systems would amount to a complete re-write. Et voila: Sage Hendricks
+has a re-implementation for \*nix systems, called "led" (for "leaf context editor") on
+[GitHub](https://github.com/sage-etcher/leaf-context-editor). I have been able to build it
+on a couple of platforms, but either I don't know how to invoke it, or it doesn't work. 
+If you're a c hacker, please make it work and let me know. 
 
-
-## buup
-
-Basically my own attempt to modify ``atto`` for Linux use, on [GitHub](https://github.com/EvansWinner/buup) 
-but not really ready to be used... kinda like this page itself.
-
-
-## ed (aka., ed(1), and yes yes, aka., "The standard Unix editor"
-
-'ed' is the "standard Unix text editor" as many have said and joked. It is also
-probably the only line editor anyone reading this ought ever to bother with.
-It comes standard or is easily gotten on any Linux, BSD, or on MacOS, and it 
-has been ported to Microsoft Windows. It is mature, stable, and reliable.
-
-Therefore it is uninteresting. Well, that's not entirely true, but the nerd
-in me wants to find other options.
-
-If ed(1) isn't on your Linux or BSD system, wipe your hard drive and install a better
-distribution. Failing that, try something like ``sudo xbps-install ed`` or for you poor benighted souls, try
-``sudo port install ed`` or ``sudo apt install ed`` -- you get the idea.
-
-If you would like to know how it works, Google for a tutorial or two, and then when you've got a taste
-of it, read Brian Kernighan's two classic tutorials, in order: 1) 
-[A tutorial introduction to the UNIX text editor](https://www.nyx.net/~ewilli/edtut.pdf) and 2)
-[Advanced Editing on UNIX](https://cscie26.dce.harvard.edu/~dce-lib113/reference/progtools/EdTut.pdf)
+There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) available.
 
 
 ## EDLIN 
@@ -240,6 +226,50 @@ It is more than enough for
 most use cases other, perhaps, than use in scripts. I intend to make sure this FDOS version
 will compile on MacOS and \*BSD.
 
+## Teco
+
+*TBD*
+## atto
+
+*honorable mention* (Doesn't really seem to be usable.)
+
+A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
+it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
+
+I've put a copy of the code on [GitHub](https://github.com/EvansWinner/atto_line_editor) with some small
+changes to get it to compile under Linux. From there you can find Dieter's original page on the Wayback machine.
+
+I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
+
+
+## buup
+
+*honorable mention* (Not quite usable uet.)
+
+Basically my own attempt to modify ``atto`` for Linux use, on [GitHub](https://github.com/EvansWinner/buup) 
+but not really ready to be used... kinda like this page itself.
+
+
+## ed (aka., ed(1), and yes yes, aka., "The standard Unix editor"
+
+'ed' is the "standard Unix text editor" as many have said and joked. It is also
+probably the only line editor anyone reading this ought ever to bother with.
+It comes standard or is easily gotten on any Linux, BSD, or on MacOS, and it 
+has been ported to Microsoft Windows. It is mature, stable, and reliable.
+
+Therefore it is uninteresting. Well, that's not entirely true, but the nerd
+in me wants to find other options.
+
+If ed(1) isn't on your Linux or BSD system, wipe your hard drive and install a better
+distribution. Failing that, try something like ``sudo xbps-install ed`` or for you poor benighted souls, try
+``sudo port install ed`` or ``sudo apt install ed`` -- you get the idea.
+
+If you would like to know how it works, Google for a tutorial or two, and then when you've got a taste
+of it, read Brian Kernighan's two classic tutorials, in order: 1) 
+[A tutorial introduction to the UNIX text editor](https://www.nyx.net/~ewilli/edtut.pdf) and 2)
+[Advanced Editing on UNIX](https://cscie26.dce.harvard.edu/~dce-lib113/reference/progtools/EdTut.pdf)
+
+
 ## em
 
 *TBD*
@@ -251,6 +281,11 @@ will compile on MacOS and \*BSD.
 
 
 ## ex
+
+*TBD*
+
+
+## led (the one written in Lisp and compiled to Lua)
 
 *TBD*
 
@@ -273,36 +308,8 @@ Some links of general interest, of which the second is contained in the first:
 - [An incomplete history of the QED text editor](https://www.bell-labs.com/usr/dmr/www/qed.html)
 
 
-## led (the one written in Lisp and compiled to Lua)
-
-*TBD*
-
-
-## ED.com (also led) *honorable mention*
-
-ED.com is a line editor that was used on the CP/M operating system, a kind of
-precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
-on a channel called "TechTinkering: [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) 
-and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)
-
-ED (which I style ED.com in the CP/M style to differentiate it from the Unix ed(1))
-appears to be something like a mix between a line-based editor and a character-
-based editor, like Teco. This makes it appear complicated, byzantine -- and
-interesting. I get the impression that it was written in assembly language and
-that a port to modern systems would amount to a complete re-write. Et voila: Sage Hendricks
-has a re-implementation for \*nix systems, called "led" (for "leaf context editor") on
-[GitHub](https://github.com/sage-etcher/leaf-context-editor). I have been able to build it
-on a couple of platforms, but either I don't know how to invoke it, or it doesn't work. 
-If you're a c hacker, please make it work and let me know. 
-
-There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) available.
-
-
 ## sam -d
 
 *TBD*
 
 
-## Teco
-
-*TBD*
