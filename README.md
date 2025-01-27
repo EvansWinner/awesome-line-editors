@@ -11,7 +11,7 @@ And also, "character editors," as well. And no, I'm not talking about
 the people who will fix your memoirs line-by-line for
 a fee.  I am talking about text editors of yore, like the Unix ``ed(1)`` editor,
 which operated in terms of lines, or like Teco, which theoretically operated in terms of
-individual characters, and which were originally designed to work on a Teletex terminal with a
+individual characters, and which were originally designed to work on a Teletext terminal with a
 printer printing one line at a time like God intended, instead of a video display, like modern
 computers for lazy people.
 
@@ -21,7 +21,7 @@ computers for lazy people.
 Before anything else, since a YouTube video is worth a thousand ill-chosen words, check out a 
 couple of impressive demos. There are lots of other videos of people using line editors on YouTube (almost
 all using the Unix ed(1) editor) but most were done by college students who just discovered ed
-yesterday and don't know anything about it. They're mostly kind of embarasing, frankly. But these
+yesterday and don't know anything about it. They're mostly kind of embarrassing, frankly. But these
 are the two cool ones I've found because they were done by legit wizards: 
 
  - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)
@@ -30,7 +30,7 @@ are the two cool ones I've found because they were done by legit wizards:
 
 # I can't be bothered to watch the videos, or I still don't get the point 
 
-Yeah, ok, fair enough. For most people there is zero reason to be interested in line editors.
+Yeah, OK, fair enough. For most people there is zero reason to be interested in line editors.
 For what it's worth, here is how I came to appreciate them.
 
 ## First, distraction-free -- hey, a bird!
@@ -63,18 +63,18 @@ little edits in config files, and then soon you'll realize that you like the min
 no-bullshit feel of the line editor. You'll find yourself stopping what you're doing writing your
 first draft, and getting sucked into endless editing, and completely lose your flow.
 
-It turns out distraction-free writing is a state of mind, not a toolset.
+It turns out distraction-free writing is a state of mind, not a tool-set.
 
 But then I continue to like line editors for another reason, which I can sum up in just two words:
 
 
 ## Thumb typing
 
-Another part of the writing saga is trying to work out how to have the tooks you need any time, anywhere
+Another part of the writing saga is trying to work out how to have the tools you need any time, anywhere
 you are. For me, part of that is using Termux on my Android phone. I like Termux and have gotten good
-at using it. I plug my phone into a port-replecator and get power to the phone and output to a proper monitor,
+at using it. I plug my phone into a port-replicator and get power to the phone and output to a proper monitor,
 and decent keyboard input. But there are times when I'm waiting in line at the DMV and don't have a keyboard.
-In short, I'm typing with my thumbs on a soft keyboard -- and more often than I'd like to admid. 
+In short, I'm typing with my thumbs on a soft keyboard -- and more often than I'd like to admit. 
 (What about this text itself? Am I writing it in a line editor? No, as it happens, I'm in vi in a Linux VM
 on a Chromebook. So much for dog food.)
 
@@ -91,7 +91,7 @@ I guess.
 
 But in all seriousness, these days, line editors mostly have one purpose: to work when nothing else
 will. For example, if your Linux machine is so hosed that it can't figure out
-its terminal charactarisitics, and nothing works but command line programs that
+its terminal characteristics, and nothing works but command line programs that
 don't try to do anything fancy with the screen, then a line editor is what you
 will need for cleaning up that config file. (This can really happen; it's
 happened to me.)
@@ -129,7 +129,7 @@ want an editor that has surgical commands for digging into lines at a character 
 debatable whether that is really any faster than either using regexes -- or sometimes just retyping the line
 entire.
 
-In amy case, some editors, like Teco (the Famed Father of Emacs) are called "character" or "character-level"
+In any case, some editors, like Teco (the Famed Father of Emacs) are called "character" or "character-level"
 editors. For my purposes, they mostly all operate in such a way that they are like a little REPL for a text
 editing programming language -- a DSL usually not Turing-complete, though famously, Teco's is.  
 
@@ -138,7 +138,7 @@ editing programming language -- a DSL usually not Turing-complete, though famous
 
 Well, first, pick one. I'll wait.
 
-Ok, now that you've picked ed(1), let me mention a couple of things.
+OK, now that you've picked ed(1), let me mention a couple of things.
 
 1. It's not as hard to learn to use effectively as you think.
 2. Google for ed tutorials. There are a number of them. Go through a couple to get a feel for things;
@@ -151,8 +151,8 @@ Ok, now that you've picked ed(1), let me mention a couple of things.
 Well, mainly, there is the page on the Text Editor Wiki: [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
 Unfortunately much is out of date, and also most of the editors don't seem to have a realistic way to usefully
-be run on modern systems (which I consder: Microsoft Windows, \*nix, MacOS, Android, IOS, and \*BSD).
-But it's still a good place to start looking at things. Many could be run in a VM, but I don't conder that "usefully" unless
+be run on modern systems (which I consider: Microsoft Windows, \*nix, MacOS, Android, IOS, and \*BSD).
+But it's still a good place to start looking at things. Many could be run in a VM, but I don't consider that "usefully" unless
 the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
 thing from the command line to get the editor (not the VM) to run. Termux counts as realistic, as does maybe WSL or the equivalent 
 you can run on a Chromebook. But the Hercules mainframe emulator would be a case of not a "realistic way to usefully" run it.
@@ -184,7 +184,7 @@ it is not to be confused with the Emacs-alike of the same name. See more informa
 I've put a copy of the code on [GitHub](https://github.com/EvansWinner/atto_line_editor) with some small
 changes to get it to compile under Linux. From there you can find Dieter's original page on the Wayback machine.
 
-I also have started working a little on a slightly modified version for POSIX environemnts (see ``buup`` below).
+I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
 
 
 ## buup
@@ -195,7 +195,7 @@ but not really ready to be used... kinda like this page itself.
 
 ## ed (aka., ed(1), and yes yes, aka., "The standard Unix editor"
 
-'ed' is the "standard unix text editor" as many have said and joked. It is also
+'ed' is the "standard Unix text editor" as many have said and joked. It is also
 probably the only line editor anyone reading this ought ever to bother with.
 It comes standard or is easily gotten on any Linux, BSD, or on MacOS, and it 
 has been ported to Microsoft Windows. It is mature, stable, and reliable.
@@ -233,7 +233,7 @@ Here are a couple of videos about the FreeDOS version:
 
 There are native Windows binaries of FreeDOS EDLIN available [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
 
-EDLIN came standard on MS-DOS machines and I belive up to about Windows 7,
+EDLIN came standard on MS-DOS machines and I believe up to about Windows 7,
 in some versions, at any rate. It is a little more friendly 
 than ed(1) and a good deal little less powerful, at least the FreeDOS version seems to me.
 It is more than enough for
@@ -259,10 +259,10 @@ will compile on MacOS and \*BSD.
 
 QED was, it is said, written for an old 1960s machine using an old 1960s 
 operating system. Various later versions appeared and eventually it was
-reimplemented in c, and there is a version on GitHub called [qed-new](https://github.com/phonologus/qed-new)
+re implemented in c, and there is a version on GitHub called [qed-new](https://github.com/phonologus/qed-new)
 with Unicode support which will compile and run,
-at least minimally, on POSIXy sysgtems I've tried, with a little tinkering.
-I do not know anythig more about it and
+at least minimally, on POSIXy systems I've tried, with a little tinkering.
+I do not know anything more about it and
 haven't really played with it much, but it sports multiple buffers, which
 is nice if you're into that kind of thing. It and "sam -d" might be the most
 powerful line editors around.
@@ -281,13 +281,13 @@ Some links of general interest, of which the second is contained in the first:
 ## ED.com (also led) *honorable mention*
 
 ED.com is a line editor that was used on the CP/M operating system, a kind of
-precurssor to DOS. All I know about ED.com I learned from a pair of vidoes on YouTube
+precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
 on a channel called "TechTinkering: [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) 
 and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)
 
 ED (which I style ED.com in the CP/M style to differentiate it from the Unix ed(1))
 appears to be something like a mix between a line-based editor and a character-
-based editr, like Teco. This makes it appear complicated, byzantine -- and
+based editor, like Teco. This makes it appear complicated, byzantine -- and
 interesting. I get the impression that it was written in assembly language and
 that a port to modern systems would amount to a complete re-write. Et voila: Sage Hendricks
 has a re-implementation for \*nix systems, called "led" (for "leaf context editor") on
@@ -303,6 +303,6 @@ There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/C
 *TBD*
 
 
-## teco
+## Teco
 
 *TBD*
