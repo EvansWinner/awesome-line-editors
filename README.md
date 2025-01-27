@@ -1,9 +1,7 @@
----
-title: "Awesome Line Editors"
-subtitle: "Making teletype tech useful again"
----
+# Awesome Line Editors
+**or, making teletype tech useful again**
 
-(For some value of "awesome," anyway. "Interesting," might be more accureate.)
+(For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
 
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
@@ -11,8 +9,8 @@ subtitle: "Making teletype tech useful again"
 
 And also, "character editors," as well. And no, I'm not talking about 
 the people who will fix your memoirs line-by-line for
-a fee.  I am talking about text editors of yore, like the Unix ed(1) editor,
-which operated in terms of lines, or like Teco, which theoretically operatoed in terms of
+a fee.  I am talking about text editors of yore, like the Unix ``ed(1)`` editor,
+which operated in terms of lines, or like Teco, which theoretically operated in terms of
 individual characters, and which were originally designed to work on a Teletex terminal with a
 printer printing one line at a time like God intended, instead of a video display, like modern
 computers for lazy people.
@@ -21,9 +19,9 @@ computers for lazy people.
 # Advertisement 
 
 Before anything else, since a YouTube video is worth a thousand ill-chosen words, check out a 
-couple of impressive demos. There are lots of other videos of people using line editors on YouTubei (almost
+couple of impressive demos. There are lots of other videos of people using line editors on YouTube (almost
 all using the Unix ed(1) editor) but most were done by college students who just discovered ed
-yesterday and don't know anything about it. They're mostly kind of embarrasing, frankly. But these
+yesterday and don't know anything about it. They're mostly kind of embarasing, frankly. But these
 are the two cool ones I've found because they were done by legit wizards: 
 
  - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)
@@ -83,9 +81,9 @@ on a Chromebook. So much for dog food.)
 It seems slightly ironic to me, but the ultra-modern technology of the cell phone / pocket computer
 has brought back a situation where the extremely terse command language of a line editor is a value
 just as it was when the I/O model as a Teletype line printer without a CRT or the curses library, etc.
-Thumb typing makes every extra character an annoyance, and even when Control and Alt and Escape are present
+Thumb typing makes every extra character an annoyance, and even when ``Control`` and ``Alt`` and ``Escape`` are present
 on the keyboard, key chording in general is an annoyance too. That leaves out Emacs for sure, and makes
-vi barely tollerable. Ed and similar editors could have a renneaisannce, at least among hipster-nerd-writers,
+vi barely tolerable. Ed and similar editors could have a renaissance, at least among hipster-nerd-writers,
 I guess.
 
 
@@ -93,7 +91,7 @@ I guess.
 
 But in all seriousness, these days, line editors mostly have one purpose: to work when nothing else
 will. For example, if your Linux machine is so hosed that it can't figure out
-its terminal characterisitics, and nothing works but command line programs that
+its terminal charactarisitics, and nothing works but command line programs that
 don't try to do anything fancy with the screen, then a line editor is what you
 will need for cleaning up that config file. (This can really happen; it's
 happened to me.)
@@ -147,6 +145,7 @@ Ok, now that you've picked ed(1), let me mention a couple of things.
    then read the two PDFs I link to by Brian Kernighan under ed(1) below.
 3. Just use the editor for daily stuff for a while and it will start to click.
 
+
 # On to the details, but first, some general external resources
 
 Well, mainly, there is the page on the Text Editor Wiki: [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
@@ -174,7 +173,7 @@ Just to set the record straight, and all that.
 
 ### ALE
 
-**TBD**
+*TBD*
 
 
 ## atto
@@ -243,15 +242,17 @@ will compile on MacOS and \*BSD.
 
 ## em
 
+*TBD*
+
 
 ## en
 
-**TBD**
+*TBD*
 
 
 ## ex
 
-**TBD**
+*TBD*
 
 
 ## qed
@@ -274,7 +275,7 @@ Some links of general interest, of which the second is contained in the first:
 
 ## led (the one written in Lisp and compiled to Lua)
 
-**TBD**
+*TBD*
 
 
 ## ED.com (also led) *honorable mention*
@@ -299,9 +300,9 @@ There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/C
 
 ## sam -d
 
-**TBD**
+*TBD*
 
 
 ## teco
 
-**TBD**
+*TBD*
