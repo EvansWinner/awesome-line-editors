@@ -1,4 +1,5 @@
 # Awesome Line Editors
+
 **or, making teletype tech useful again**
 
 (For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
@@ -6,6 +7,8 @@
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
 [Skip Intro](#various-line-editors)
+
+![The Sacred Hermetic Order of ed(1)](edPunchCard.png)
 
 # Table of Contents
 
@@ -39,9 +42,10 @@ And also, "character editors," as well. And no, I'm not talking about
 the people who will fix your memoirs line-by-line for
 a fee.  I am talking about text editors of yore, like the Unix ``ed(1)`` editor,
 which operated in terms of lines, or like Teco, which theoretically operated in terms of
-individual characters, and which were originally designed to work on a Teletext terminal with a
-printer printing one line at a time like God intended, instead of a video display, like modern
-computers for lazy people.
+individual characters, and which were originally designed to work on a Teletext terminal
+(or Teletype machine? What's the difference?) with a
+printer printing one line at a time like God intended, instead of a video display, like 
+these new-fangled modern computers for lazy people.
 
 
 # Advertisement 
@@ -60,6 +64,7 @@ are the two cool ones I've found because they were done by legit wizards:
 
 Yeah, OK, fair enough. For most people there is zero reason to be interested in line editors.
 For what it's worth, here is how I came to appreciate them.
+
 
 ## First, distraction-free -- hey, a bird!
 
@@ -340,4 +345,8 @@ Some links of general interest, of which the second is contained in the first:
 
 *TBD*
 
+
+---
+
+<img align="center" src="edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300>
 
