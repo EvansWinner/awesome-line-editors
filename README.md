@@ -7,6 +7,34 @@
 
 [Skip Intro](#various-line-editors)
 
+# Table of Contents
+
+- [Advertisement](#advertisement)
+- [I can't be bothered to watch the videos, or I still don't get the point](#i-can't-be-bothered-to-watch-the-videos,-or-i-still-don't-get-the-point)
+  - [First, distraction-free -- hey, a bird!](#first,-distraction-free----hey,-a-bird!)
+  - [Thumb typing](#thumb-typing)
+  - [And then the usual excuse](#and-then-the-usual-excuse)
+  - [Finally, one crazy thing](#finally,-one-crazy-thing)
+- [Some quick notes first](#some-quick-notes-first)
+  - [Line editors vs. character editors](#line-editors-vs.-character-editors)
+  - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor?)
+- [On to the details, but first, some general external resources](#on-to-the-details,-but-first,-some-general-external-resources)
+- [Disclaimer](#disclaimer)
+- [Various Line Editors](#various-line-editors)
+  - [ALE](#ale)
+  - [ED.com (also led)](#ed.com-(also-led))
+  - [EDLIN](#edlin)
+  - [Teco](#teco)
+  - [atto](#atto)
+  - [buup](#buup)
+  - [ed (aka., ed(1), and yes yes, aka., "The standard Unix editor"](#ed-(aka.,-ed(1),-and-yes-yes,-aka.,-"the-standard-unix-editor")
+  - [em](#em)
+  - [en](#en)
+  - [ex](#ex)
+  - [led (the one written in Lisp and compiled to Lua)](#led-(the-one-written-in-lisp-and-compiled-to-lua))
+  - [qed](#qed)
+  - [sam -d](#sam--d)
+
 And also, "character editors," as well. And no, I'm not talking about 
 the people who will fix your memoirs line-by-line for
 a fee.  I am talking about text editors of yore, like the Unix ``ed(1)`` editor,
