@@ -8,7 +8,7 @@
 
 [Skip Intro](#the-editors)
 
-![The Sacred Hermetic Order of ed(1)](edPunchCard.png)
+![The Sacred Hermetic Order of ed(1)](img/edPunchCard.png)
 
 # Table of Contents
 
@@ -55,12 +55,12 @@ these new-fangled modern computers for lazy people.
 
 Before anything else, since a YouTube video is worth a thousand ill-chosen words, check out a 
 couple of impressive demos. There are lots of other videos of people using line editors on YouTube (almost
-all using the Unix ed(1) editor) but most were done by college students who just discovered ed
+all using the Unix ``ed(1)`` editor) but most were done by college students who just discovered ed
 yesterday and don't know anything about it. They're mostly kind of embarrassing, frankly. But these
 are the two cool ones I've found because they were done by legit wizards: 
 
- - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ) ![Youtube](youtube.png) 
- - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU) ![YouTube](youtube.png) 
+ - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ) ![Youtube](img/youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU) ![YouTube](img/youtube.png) 
 
 
 # I can't be bothered to watch the videos, or I still don't get the point 
@@ -87,14 +87,14 @@ something you can take to the local coffee shop unless you want to annoy everyon
 and generally look like a hipster jackass. (Of course, if you can stomach that, then more power to you,
 and if you *are* a hipster jackass, then you just go on and be the best hipster jackass you can be!)
 
-So, enter the humble line editor. You can learn to enter text into ed(1) in five minutes, but
+So, enter the humble line editor. You can learn to enter text into ``ed(1)`` in five minutes, but
 the basic idea is that learning to do any real editing with a line (or character) editor is so
 difficult, that you won't bother. You'll just type away, and then once you've finished drafting
 something, you'll save it and open the file to edit in a proper text editor like THE, or Emacs, or vi,
 or Microsoft Blub 3.0, right?
 
 There's only one problem. It actually turns out that it only takes a little while before you'll learn
-how to edit text in ed(1) quite quickly, and soon you will find yourself using ed voluntarily to make
+how to edit text in ``ed(1)`` quite quickly, and soon you will find yourself using ``ed`` voluntarily to make
 little edits in config files, and then soon you'll realize that you like the minimal interface, the
 no-bullshit feel of the line editor. You'll find yourself stopping what you're doing writing your
 first draft, and getting sucked into endless editing, and completely lose your flow.
@@ -152,7 +152,7 @@ seems to have thought so when he wrote his editor [ALE](https://github.com/arcfi
 
 Quick note, just like I said above: There is a distinction to be made between 
 "line editors" and "character editors. The line may not be
-very distinct. In the classic Unix ed(1) editor, the conceptual unit of structure is the line.
+very distinct. In the classic Unix ``ed(1)'' editor, the conceptual unit of structure is the line.
 You navigate to and between and around lines. Once you've found a line you like, if you want to
 change something, for example, you issue a (s)ubstitute command, and use a regular expression to
 specify what you want to change, and then specify what you want to change it to as a string.
@@ -174,11 +174,11 @@ editing programming language -- a DSL usually not Turing-complete, though famous
 
 Well, first, pick one. I'll wait.
 
-OK, now that you've picked ed(1), let me mention a couple of things.
+OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 1. It's not as hard to learn to use effectively as you think.
-2. Google for ed tutorials. There are a number of them. Go through a couple to get a feel for things;
-   then read the two PDFs I link to by Brian Kernighan under ed(1) below.
+2. Google for ``ed`` tutorials. There are a number of them. Go through a couple to get a feel for things;
+   then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
 3. Just use the editor for daily stuff for a while and it will start to click.
 
 
@@ -223,8 +223,8 @@ In strict ASCII sort order....
 
 ED.com is a line editor that was used on the CP/M operating system, a kind of
 precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
-on a channel called "TechTinkering": [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](youtube.png)
-and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](youtube.png)
+on a channel called "TechTinkering": [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](img/youtube.png)
+and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](img/youtube.png)
 
 ED (which I style ED.com in the CP/M style to differentiate it from the Unix ``ed(1)``)
 appears to be something like a mix between a line-based editor and a character-
@@ -251,14 +251,14 @@ possibly lacking in character editing features of ED.com.
 
 Here are a couple of videos about the FreeDOS version:
 
- - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w) ![YouTube](youtube.png)   
- - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo) ![YouTube](youtube.png)
+ - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w) ![YouTube](img/youtube.png)   
+ - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo) ![YouTube](img/youtube.png)
 
 There are native Windows binaries of FreeDOS EDLIN available [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
 
 EDLIN came standard on MS-DOS machines and I believe up to about Windows 7,
 in some versions, at any rate. It is a little more friendly 
-than ed(1) and a good deal little less powerful, at least the FreeDOS version seems to me.
+than ``ed(1)`` and a good deal little less powerful, at least the FreeDOS version seems to me.
 It is more than enough for
 most use cases other, perhaps, than use in scripts. I intend to make sure this FDOS version
 will compile on MacOS and \*BSD.
@@ -368,5 +368,5 @@ Some links of general interest, of which the second is contained in the first:
 ---
 Brought to you by --
 
-<img align="center" src="edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300>
+<img align="center" src="img/edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300>
 
