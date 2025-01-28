@@ -59,8 +59,8 @@ all using the Unix ed(1) editor) but most were done by college students who just
 yesterday and don't know anything about it. They're mostly kind of embarrassing, frankly. But these
 are the two cool ones I've found because they were done by legit wizards: 
 
- - ![Youtube](youtube.png) [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)
- - ![Youtube](youtube.png) [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)
+ - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)![Youtube](youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)![YouTube](youtube.png) 
 
 
 # I can't be bothered to watch the videos, or I still don't get the point 
@@ -220,8 +220,8 @@ In strict ASCII sort order....
 
 ED.com is a line editor that was used on the CP/M operating system, a kind of
 precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
-on a channel called "TechTinkering: [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) 
-and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)
+on a channel called "TechTinkering: [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g)![YouTube](youtube.png)
+and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)![YouTube](youtube.png)
 
 ED (which I style ED.com in the CP/M style to differentiate it from the Unix ed(1))
 appears to be something like a mix between a line-based editor and a character-
@@ -248,8 +248,8 @@ possibly lacking in character editing features of ED.com.
 
 Here are a couple of videos about the FreeDOS version:
 
- - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w)
- - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo)
+ - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w)![YouTube](youtube.png)   
+ - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo)![YouTube](youtube.png)
 
 There are native Windows binaries of FreeDOS EDLIN available [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
 
