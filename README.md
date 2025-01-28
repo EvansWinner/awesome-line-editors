@@ -36,7 +36,8 @@
   - [em](#em)
   - [en](#en)
   - [ex](#ex)
-  - [led (the one written in Lisp and compiled to Lua)](#led-(the-one-written-in-lisp-and-compiled-to-lua))
+  - [led 1](#led-1)
+  - [led 2](#led-2)
   - [qed](#qed)
   - [sam -d](#sam--d)
 
@@ -226,11 +227,8 @@ ED (which I style ED.com in the CP/M style to differentiate it from the Unix ed(
 appears to be something like a mix between a line-based editor and a character-
 based editor, like Teco. This makes it appear complicated, byzantine -- and
 interesting. I get the impression that it was written in assembly language and
-that a port to modern systems would amount to a complete re-write. Et voila: Sage Hendricks
-has a re-implementation for \*nix systems, called "led" (for "leaf context editor") on
-[GitHub](https://github.com/sage-etcher/leaf-context-editor). I have been able to build it
-on a couple of platforms, but either I don't know how to invoke it, or it doesn't work. 
-If you're a c hacker, please make it work and let me know. 
+that a port to modern systems would amount to a complete re-write. See ``led`` (the other one)
+below for an attempt at that.
 
 There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) available.
 
@@ -323,9 +321,22 @@ of it, read Brian Kernighan's two classic tutorials, in order: 1)
 *TBD*
 
 
-## led (the one written in Lisp and compiled to Lua)
+## led 1 
+
+The one written in Lisp and compiled to Lua)
 
 *TBD*
+
+
+## led 2
+
+The ED.com re-implementation)
+
+Sage Hendricks has a re-implementation if the CP/M ED.com for \*nix systems
+called "led" (for "leaf context editor") on
+[GitHub](https://github.com/sage-etcher/leaf-context-editor). I have been able to build it
+on a couple of platforms, but either I don't know how to invoke it, or it doesn't work. 
+If you're a c hacker, please make it work and let me know. 
 
 
 ## qed
