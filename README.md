@@ -27,7 +27,7 @@
 
 - [The Editors](#various-line-editors)
   - [ALE](#ale)
-  - [ED.com](#ed.com-(also-led))
+  - [ED.COM](#ed.com-(also-led))
   - [EDLIN](#edlin)
   - [Teco](#teco)
   - [atto](#atto)
@@ -216,33 +216,11 @@ In strict ASCII sort order....
 
 *TBD*
 
-### Versions
-
-
-
-## ED.com
-
-*honorable mention* (Not really available on modern systems)
-
-ED.com is a line editor that was used on the CP/M operating system, a kind of
-precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
-on a channel called "TechTinkering": [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](img/youtube.png)
-and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](img/youtube.png)
-
-ED (which I style ED.com in the CP/M style to differentiate it from the Unix ``ed(1)``)
-appears to be something like a mix between a line-based editor and a character-
-based editor, like Teco. This makes it appear complicated, byzantine -- and
-interesting. I get the impression that it was written in assembly language and
-that a port to modern systems would amount to a complete re-write. See ``led`` (the other one)
-below for an attempt at that.
-
-There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) available.
-
 
 ## EDLIN 
 
 I'm really not sure about EDLIN. The original seems as if it may have been intended
-to be a clone or simplified version of the ED.com editor from the old CP/M operating
+to be a clone or simplified version of the ED.COM editor from the old CP/M operating
 system (about which more below). While the MS-DOS source has been released by Microsoft
 on [GitHub](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) it is Assembly code
 and could be challenging to re-implement.
@@ -250,7 +228,7 @@ and could be challenging to re-implement.
 The FreeDOS project has done an implementation in c which is on [GitHub](https://github.com/FDOS/edlin)
 and I have been able to compile and run it on several POSIX or POSIX-adjacent systems, but my skimming 
 some documentation suggests that the FreeDOS implementation is a simplified version
-possibly lacking in character editing features of ED.com.
+possibly lacking in character editing features of ED.COM.
 
 Here are a couple of videos about the FreeDOS version:
 
@@ -336,9 +314,9 @@ This is the "led" that is written in Lisp and compiled to Lua.
 
 ## led 2
 
-This is the "led" that is a re-implementation of the CP/M ED.com editor.
+This is the "led" that is a re-implementation of the CP/M ED.COM editor.
 
-Sage Hendricks has a re-implementation if the CP/M ED.com for \*nix systems
+Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix systems
 called "led" (for "leaf context editor") on
 [GitHub](https://github.com/sage-etcher/leaf-context-editor). I have been able to build it
 on a couple of platforms, but either I don't know how to invoke it, or it doesn't work. 
@@ -347,7 +325,7 @@ If you're a c hacker, please make it work and let me know.
 
 ## qed
 
-QED was, it is said, written for an old 1960s machine using an old 1960s 
+``qed`` (sometimes written QED)  was, it is said, written for an old 1960s machine using an old 1960s 
 operating system. Various later versions appeared and eventually it was
 re implemented in c, and there is a version on GitHub called [qed-new](https://github.com/phonologus/qed-new)
 with Unicode support which will compile and run,
@@ -359,7 +337,7 @@ powerful line editors around.
 
 Some links of general interest, of which the second is contained in the first:
 
-- [Some QED / ex / vi historical documents](https://www.reddit.com/r/vim/comments/1o6s9m/some_qed_ex_vi_historical_documents/)
+- [Some ``qed`` / ``ex`` / ``vi`` historical documents](https://www.reddit.com/r/vim/comments/1o6s9m/some_qed_ex_vi_historical_documents/)
 - [An incomplete history of the QED text editor](https://www.bell-labs.com/usr/dmr/www/qed.html)
 
 
@@ -369,6 +347,25 @@ Some links of general interest, of which the second is contained in the first:
 
 
 # Appendix A: Honorable Mentions
+
+## ED.COM
+
+Not really available on modern systems.
+
+ED.COM is a line editor that was used on the CP/M operating system, a kind of
+precursor to DOS. All I know about ED.COM I learned from a pair of videos on YouTube
+on a channel called "TechTinkering": [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](img/youtube.png)
+and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](img/youtube.png)
+
+ED (which I style ED.COM in the CP/M style to differentiate it from the Unix ``ed(1)``)
+appears to be something like a mix between a line-based editor and a character-
+based editor, like Teco. This makes it appear complicated, byzantine -- and
+interesting. I get the impression that it was written in assembly language and
+that a port to modern systems would amount to a complete re-write. See ``led`` (the other one)
+below for an attempt at that.
+
+There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) available.
+
 
 # Appendix B: Mainly of Historical Interest
 
