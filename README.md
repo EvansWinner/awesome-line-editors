@@ -27,7 +27,6 @@
 
 - [The Editors](#various-line-editors)
   - [ALE](#ale)
-  - [ED.COM](#ed.com-(also-led))
   - [EDLIN](#edlin)
   - [Teco](#teco)
   - [atto](#atto)
@@ -41,6 +40,7 @@
   - [qed](#qed)
   - [sam -d](#sam--d)
 - [Appendix I: Honorable Mentions](#appendix-i:-honorable-mentions)
+  - [ED.COM](#ed.com-(also-led))
 - [Appendix II: Mainly of Historical Interest]((#appendix-ii:-mainly-of-historical-interest)
 - [Appendix III: Others -- mainly final projects on GitHub I think](#appendix-iii:-others----mainly-final-projects-on-github-i-think)
 
