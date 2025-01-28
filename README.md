@@ -323,14 +323,14 @@ of it, read Brian Kernighan's two classic tutorials, in order: 1)
 
 ## led 1 
 
-The one written in Lisp and compiled to Lua)
+This is the "led" that is written in Lisp and compiled to Lua.
 
 *TBD*
 
 
 ## led 2
 
-The ED.com re-implementation)
+This is the "led" that is a re-implementation of the CP/M ED.com editor.
 
 Sage Hendricks has a re-implementation if the CP/M ED.com for \*nix systems
 called "led" (for "leaf context editor") on
