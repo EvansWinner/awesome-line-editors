@@ -59,8 +59,8 @@ all using the Unix ed(1) editor) but most were done by college students who just
 yesterday and don't know anything about it. They're mostly kind of embarrassing, frankly. But these
 are the two cool ones I've found because they were done by legit wizards: 
 
- - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)
- - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)
+ - ![Youtube](youtube.png) [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)
+ - ![Youtube](youtube.png) [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)
 
 
 # I can't be bothered to watch the videos, or I still don't get the point 
