@@ -12,6 +12,7 @@
 
 # Table of Contents
 
+
 - [Advertisement](#advertisement)
 - [I can't be bothered to watch the videos, or I still don't get the point](#i-can't-be-bothered-to-watch-the-videos,-or-i-still-don't-get-the-point)
   - [First, distraction-free -- hey, a bird!](#first,-distraction-free----hey,-a-bird!)
@@ -23,7 +24,8 @@
   - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor?)
 - [On to the details, but first, some general external resources](#on-to-the-details,-but-first,-some-general-external-resources)
 - [Disclaimer](#disclaimer)
-- [Various Line Editors](#various-line-editors)
+
+- [The Editors](#various-line-editors)
   - [ALE](#ale)
   - [ED.com (also led)](#ed.com-(also-led))
   - [EDLIN](#edlin)
@@ -202,7 +204,8 @@ can be actually compiled and run on "modern" systems and used daily.
 Just to set the record straight, and all that.
 
 
-# Various Line Editors
+# The Editors
+
 In strict ASCII sort order....
 
 ## ALE
