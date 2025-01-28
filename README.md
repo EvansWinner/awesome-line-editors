@@ -368,15 +368,15 @@ Some links of general interest, of which the second is contained in the first:
 *TBD*
 
 
-## Appendix I: Honorable Mentions
+# Appendix A: Honorable Mentions
 
-## Appendix II: Mainly of Historical Interest
+# Appendix B: Mainly of Historical Interest
 
-## Appendix III: Others -- mainly final projects on GitHub I think
+# Appendix C: Others -- mainly final projects on GitHub I think
 
 
 ---
-Brought to you by --
-
-<img align="center" src="img/edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300>
-
+<p align="center"
+  Brought to you by -- <br />
+  <img src="img/edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300 /> 
+</p>
