@@ -347,6 +347,7 @@ Some links of general interest, of which the second is contained in the first:
 
 
 ---
+Brought to you by --
 
 <img align="center" src="edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300>
 
