@@ -30,7 +30,7 @@
   - [Teco](#teco)
   - [atto](#atto)
   - [buup](#buup)
-  - [ed (aka., ed(1), and yes yes, aka., "The standard Unix editor"](#ed-(aka.,-ed(1),-and-yes-yes,-aka.,-"the-standard-unix-editor")
+  - [ed](#ed)
   - [em](#em)
   - [en](#en)
   - [ex](#ex)
