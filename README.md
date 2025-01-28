@@ -184,7 +184,7 @@ OK, now that you've picked ed(1), let me mention a couple of things.
 Well, mainly, there is the page on the Text Editor Wiki: [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
 Unfortunately much is out of date, and also most of the editors don't seem to have a realistic way to usefully
-be run on modern systems (which I consider: Microsoft Windows, \*nix, MacOS, Android, IOS, and \*BSD).
+be run on modern systems (which I consider: Microsoft Windows, Linux, MacOS, Android, IOS, and BSD).
 But it's still a good place to start looking at things. Many could be run in a VM, but I don't consider that "usefully" unless
 the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
 thing from the command line to get the editor (not the VM) to run. Termux counts as realistic, as does maybe WSL or the equivalent 
@@ -283,9 +283,11 @@ Basically my own attempt to modify ``atto`` for Linux use, on [GitHub](https://g
 but not really ready to be used... kinda like this page itself.
 
 
-## ed (aka., ed(1), and yes yes, aka., "The standard Unix editor"
+## ed
 
-'ed' is the "standard Unix text editor" as many have said and joked. It is also
+(Aka. ``ed(1)``, and yes yes, also aka. "The standard Unix editor."
+
+``ed`` is the "standard Unix text editor" as many have said and joked. It is also
 probably the only line editor anyone reading this ought ever to bother with.
 It comes standard or is easily gotten on any Linux, BSD, or on MacOS, and it 
 has been ported to Microsoft Windows. It is mature, stable, and reliable.
@@ -293,7 +295,7 @@ has been ported to Microsoft Windows. It is mature, stable, and reliable.
 Therefore it is uninteresting. Well, that's not entirely true, but the nerd
 in me wants to find other options.
 
-If ed(1) isn't on your Linux or BSD system, wipe your hard drive and install a better
+If ``ed(1)`` isn't on your Linux or BSD system, wipe your hard drive and install a better
 distribution. Failing that, try something like ``sudo xbps-install ed`` or for you poor benighted souls, try
 ``sudo port install ed`` or ``sudo apt install ed`` -- you get the idea.
 
