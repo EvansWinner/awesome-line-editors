@@ -373,7 +373,7 @@ There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/C
 
 
 ---
-<p align="center"
+<p align="center">
   Brought to you by -- <br />
   <img src="img/edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300 /> 
 </p>
