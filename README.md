@@ -27,7 +27,7 @@
 
 - [The Editors](#various-line-editors)
   - [ALE](#ale)
-  - [ED.com (also led)](#ed.com-(also-led))
+  - [ED.com](#ed.com-(also-led))
   - [EDLIN](#edlin)
   - [Teco](#teco)
   - [atto](#atto)
@@ -213,10 +213,13 @@ In strict ASCII sort order....
 
 *TBD*
 
+### Versions
 
-## ED.com (also led)
 
-*honorable mention*
+
+## ED.com
+
+*honorable mention* (Not really available on modern systems)
 
 ED.com is a line editor that was used on the CP/M operating system, a kind of
 precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
