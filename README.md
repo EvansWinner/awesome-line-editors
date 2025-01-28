@@ -22,7 +22,7 @@
 - [Some quick notes first](#some-quick-notes-first)
   - [Line editors vs. character editors](#line-editors-vs.-character-editors)
   - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor?)
-- [On to the details, but first, some general external resources](#on-to-the-details,-but-first,-some-general-external-resources)
+- [Some general external resources](#some-general-external-resources)
 - [Disclaimer](#disclaimer)
 
 - [The Editors](#various-line-editors)
@@ -40,6 +40,9 @@
   - [led 2](#led-2)
   - [qed](#qed)
   - [sam -d](#sam--d)
+- [Appendix I: Honorable Mentions](#appendix-i:-honorable-mentions)
+- [Appendix II: Mainly of Historical Interest]((#appendix-ii:-mainly-of-historical-interest)
+- [Appendix III: Others -- mainly final projects on GitHub I think](#appendix-iii:-others----mainly-final-projects-on-github-i-think)
 
 And also, "character editors," as well. And no, I'm not talking about 
 the people who will fix your memoirs line-by-line for
@@ -363,6 +366,13 @@ Some links of general interest, of which the second is contained in the first:
 ## sam -d
 
 *TBD*
+
+
+## Appendix I: Honorable Mentions
+
+## Appendix II: Mainly of Historical Interest
+
+## Appendix III: Others -- mainly final projects on GitHub I think
 
 
 ---
