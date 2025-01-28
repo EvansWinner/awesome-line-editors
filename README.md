@@ -220,10 +220,10 @@ In strict ASCII sort order....
 
 ED.com is a line editor that was used on the CP/M operating system, a kind of
 precursor to DOS. All I know about ED.com I learned from a pair of videos on YouTube
-on a channel called "TechTinkering: [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](youtube.png)
+on a channel called "TechTinkering": [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](youtube.png)
 and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](youtube.png)
 
-ED (which I style ED.com in the CP/M style to differentiate it from the Unix ed(1))
+ED (which I style ED.com in the CP/M style to differentiate it from the Unix ``ed(1)``)
 appears to be something like a mix between a line-based editor and a character-
 based editor, like Teco. This makes it appear complicated, byzantine -- and
 interesting. I get the impression that it was written in assembly language and
