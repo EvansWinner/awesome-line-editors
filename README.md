@@ -29,8 +29,6 @@
   - [ALE](#ale)
   - [EDLIN](#edlin)
   - [Teco](#teco)
-  - [atto](#atto)
-  - [buup](#buup)
   - [ed](#ed)
   - [em](#em)
   - [en](#en)
@@ -41,6 +39,8 @@
   - [sam -d](#sam--d)
 - [Appendix I: Honorable Mentions](#appendix-i:-honorable-mentions)
   - [ED.COM](#ed.com-(also-led))
+  - [atto](#atto)
+  - [buup](#buup)
 - [Appendix II: Mainly of Historical Interest]((#appendix-ii:-mainly-of-historical-interest)
 - [Appendix III: Others -- mainly final projects on GitHub I think](#appendix-iii:-others----mainly-final-projects-on-github-i-think)
 
@@ -247,27 +247,6 @@ will compile on MacOS and \*BSD.
 ## Teco
 
 *TBD*
-## atto
-
-*honorable mention* (Doesn't really seem to be usable.)
-
-A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
-it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
-
-I've put a copy of the code on [GitHub](https://github.com/EvansWinner/atto_line_editor) with some small
-changes to get it to compile under Linux. From there you can find Dieter's original page on the Wayback machine.
-
-I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
-
-
-## buup
-
-*honorable mention* (Not quite usable uet.)
-
-Basically my own attempt to modify ``atto`` for Linux use, on [GitHub](https://github.com/EvansWinner/buup) 
-but not really ready to be used... kinda like this page itself.
-
-
 ## ed
 
 (Aka. ``ed(1)``, and yes yes, also aka. "The standard Unix editor."
@@ -286,8 +265,8 @@ distribution. Failing that, try something like ``sudo xbps-install ed`` or for y
 
 If you would like to know how it works, Google for a tutorial or two, and then when you've got a taste
 of it, read Brian Kernighan's two classic tutorials, in order: 1) 
-[A tutorial introduction to the UNIX text editor](https://www.nyx.net/~ewilli/edtut.pdf) and 2)
-[Advanced Editing on UNIX](https://cscie26.dce.harvard.edu/~dce-lib113/reference/progtools/EdTut.pdf)
+[A tutorial introduction to the UNIX text editor](https://www.nyx.net/~ewilli/edtut.pdf) ![PDF](img/pdf.png) and 2)
+[Advanced Editing on UNIX](https://cscie26.dce.harvard.edu/~dce-lib113/reference/progtools/EdTut.pdf) ![PDF](img/pdf.png)
 
 
 ## em
@@ -364,7 +343,28 @@ interesting. I get the impression that it was written in assembly language and
 that a port to modern systems would amount to a complete re-write. See ``led`` (the other one)
 below for an attempt at that.
 
-There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) available.
+There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) ![PDF](img/pdf.png) available.
+
+
+## atto
+
+*honorable mention* (Doesn't really seem to be usable.)
+
+A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
+it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
+
+I've put a copy of the code on [GitHub](https://github.com/EvansWinner/atto_line_editor) with some small
+changes to get it to compile under Linux. From there you can find Dieter's original page on the Wayback machine.
+
+I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
+
+
+## buup
+
+*honorable mention* (Not quite usable uet.)
+
+Basically my own attempt to modify ``atto`` for Linux use, on [GitHub](https://github.com/EvansWinner/buup) 
+but not really ready to be used... kinda like this page itself.
 
 
 # Appendix B: Mainly of Historical Interest
