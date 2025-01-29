@@ -1,6 +1,6 @@
 # Awesome Line Editors
 
-**or, Making Teletype Tech useful Again!**
+**or, Making Teletype Tech Useful Again!**
 
 (For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
 
