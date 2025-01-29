@@ -198,7 +198,7 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 # Some general external resources
 
-- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor).
+- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor). There is also a list on WikiPedia [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors).
 - A YouTube playlist, of somewhat dubious quality... curated by myself: [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
 - Well, mainly, there is the page on the Text Editor Wiki:
   [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
@@ -239,23 +239,26 @@ In strict ASCII sort order....
 
 ## EDLIN 
 
-I'm really not sure about EDLIN. The original seems as if it may have been intended
+[WikiPedia Page](https://en.wikipedia.org/wiki/Edlin) | [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
+
+### Commentary and one-liners
+
+I'm really not sure about EDLIN (as it is sometimes written, or Edlin, as the FDOS project writes it).
+[Tim Paterson's](https://en.wikipedia.org/wiki/Tim_Paterson)
+original seems as if it may have been intended
 to be a clone or simplified version of the ED.COM editor from the old CP/M operating
-system (about which more below). While the MS-DOS source has been released by Microsoft
-on [GitHub](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) it is Assembly code
-and could be challenging to re-implement.
+system (about which see the ED.COM entry).
+While the MS-DOS source has been released by Microsoft on
+[GitHub](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)
+it is Assembly code and could be challenging to compile or re-implement.
 
-The FreeDOS project has done an implementation in c which is on [GitHub](https://github.com/FDOS/edlin)
-and I have been able to compile and run it on several POSIX or POSIX-adjacent systems, but my skimming 
-some documentation suggests that the FreeDOS implementation is a simplified version
-possibly lacking in character editing features of ED.COM.
-
-Here are a couple of videos about the FreeDOS version:
-
- - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w) ![YouTube](img/youtube.png)   
- - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo) ![YouTube](img/youtube.png)
-
-There are native Windows binaries of FreeDOS EDLIN available [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
+The FreeDOS project has done an implementation in c which is on
+[GitHub](https://github.com/FDOS/edlin)
+and I have been able to compile and run it on several POSIX or POSIX-adjacent systems,
+but my skimming some documentation suggests that
+the FreeDOS implementation is a simplified version
+possibly lacking in character editing features of DOS EDLIN *may* have had.
+\[Please correct me if I'm wrong.\]
 
 EDLIN came standard on MS-DOS machines and I believe up to about Windows 7,
 in some versions, at any rate. It is a little more friendly 
@@ -264,9 +267,39 @@ It is more than enough for
 most use cases other, perhaps, than use in scripts. I intend to make sure this FDOS version
 will compile on MacOS and \*BSD.
 
+
+### Docs and Tutorials
+
+Here are a couple of videos about the FreeDOS project's YouTube
+  [channel](https://www.youtube.com/@freedosproject) ![YouTube](img/youtube.png):
+
+  - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w) ![YouTube](img/youtube.png)   
+  - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo) ![YouTube](img/youtube.png)
+
+The FreeDOS tutorial page images don't seem to work, so here is a snapshot from the Wayback Machine:
+[How to edit text with Edlin](https://web.archive.org/web/20231021151327/https://freedos.org/books/get-started/18-using-edlin/)
+
+
+### Getting It
+
+
+##### Source
+- Microsoft [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) on GitHub
+- FreeDOS [source](https://github.com/FDOS/edlin) on GitHub
+
+
+#### Binaries
+
+ - Windows: There are native Windows binaries of FreeDOS EDLIN available
+   [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
+ - Ubuntu Linux: There seems to be an apt package (!) available: [edlin](https://launchpad.net/ubuntu/+source/edlin)
+
+
 ## Teco
 
 *TBD*
+
+
 ## ed
 
 (Aka. ``ed(1)``, and yes yes, also aka., "[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
