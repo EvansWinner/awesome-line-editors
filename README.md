@@ -6,7 +6,7 @@
 
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
-&lt;&lt;&lt;[Skip Intro](#the-editors)&gt;&gt;&gt;
+→ [Skip Intro](#the-editors) ←
 
 ![The Sacred Hermetic Order of ed(1)](img/edPunchCard.png)
 
@@ -19,7 +19,7 @@
   - [Thumb typing](#thumb-typing)
   - [And then the usual excuse](#and-then-the-usual-excuse)
   - [Oh, and Suckless](#oh-and-suckless)
-  - [Finally, one crazy thing](#finally-one-crazy-thing)
+  - [Finally, one weird thing](#finally-one-weird-thing)
 - [Some quick notes first](#some-quick-notes-first)
   - [Line editors vs. character editors](#line-editors-vs-character-editors)
   - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor)
@@ -44,6 +44,7 @@
   - [buup](#buup)
 - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
 - [Appendix C: Others](#appendix-c-others)
+- [Colophon](#colophon)
 
 And also, "character editors," as well. And no, I'm not talking about 
 the people who will fix your memoirs line-by-line for
@@ -69,7 +70,7 @@ are the two cool ones I've found because they were done by legit wizards:
 
 # I can't be bothered to watch the videos, or I still don't get the point 
 
-Yeah, OK, fair enough. For most people there is zero reason to be interested in line editors.
+Yeah, OK, fair enough. For most people, there is zero reason to be interested in line editors.
 For what it's worth, here is how I came to appreciate them.
 
 
@@ -80,16 +81,16 @@ It may seem strange, but many writers find that one of the biggest enemies to pr
 tendency to stop when you're flowing and get distracted by editing what you've written.
 The common wisdom is to separate writing (drafting) and editing. One solution is to write
 long-hand. This works just until your hand gains strength and speed and you learn that
-it's easy to quickly scratch something out and then re-write it. And re-write it,
+it's easy to quickly scratch something out and re-write it. And re-write it,
 over and over.
 
 So the next step in the saga is to get a typewriter. You can waste a lot of time
-tinkering with typewriters, and they do fit the bill. Editing while drafting with a
-typewriter is indeed a big pain, which does encourage drafting without stopping, and editing later.
+tinkering with typewriters; they're fun and they do fit the bill. Editing while drafting with a
+typewriter is indeed a big hassle, which encourages drafting without stopping, and editing later.
 But it also keeps you rooted to one place. It's not
 something you can take to the local coffee shop unless you want to annoy everyone around you
 and generally look like a hipster jackass. (Of course, if you can stomach that, then more power to you,
-and if you *are* a hipster jackass, then you just go on and be the best hipster jackass you can be!)
+and if you *are* a hipster jackass, then you just go on and be the best hipster jackass you can be, you!)
 
 So, enter the humble line editor. You can learn to enter text into ``ed(1)`` in five minutes, but
 the basic idea is that learning to do any real editing with a line (or character) editor is so
@@ -99,7 +100,7 @@ or Microsoft Blub 3.0, right?
 
 There's only one problem. It actually turns out that it only takes a little while before you'll learn
 how to edit text in ``ed(1)`` quite quickly, and soon you will find yourself using ``ed`` voluntarily to make
-little edits in config files, and then soon you'll realize that you like the minimal interface, the
+little edits in config files, and then soon you'll realize that you like the minimal interface and the
 no-bullshit feel of the line editor. You'll find yourself stopping what you're doing writing your
 first draft, and getting sucked into endless editing, and completely lose your flow.
 
@@ -112,18 +113,18 @@ But then I continue to like line editors for another reason, which I can sum up 
 
 Another part of the writing saga is trying to work out how to have the tools you need any time, anywhere
 you are. For me, part of that is using Termux on my Android phone. I like Termux and have gotten good
-at using it. I plug my phone into a port-replicator and get power to the phone and output to a proper monitor,
-and decent keyboard input. But there are times when I'm waiting in line at the DMV and don't have a keyboard.
-In short, I'm typing with my thumbs on a soft keyboard -- and more often than I'd like to admit. 
-(What about this text itself? Am I writing it in a line editor? No, as it happens, I'm in vi in a Linux VM
+at using it. I plug my phone into a port-replicator with a real keyboard, get power to the phone,
+and output to a proper monitor. But there are times when I'm waiting in line at the DMV and don't have a keyboard.
+In short, I'm typing with my thumbs on a soft keyboard—and more often than I'd like to admit. 
+(What about this text itself? Am I writing it in a line editor? No, as it happens, I'm in ``vi`` in a Linux VM
 on a Chromebook. So much for dog food.)
 
 It seems slightly ironic to me, but the ultra-modern technology of the cell phone / pocket computer
 has brought back a situation where the extremely terse command language of a line editor is a value
-just as it was when the I/O model as a Teletype line printer without a CRT or the curses library, etc.
+just as it was when the I/O model was a Teletype line printer sans CRT or curses library, &c.
 Thumb typing makes every extra character an annoyance, and even when ``Control`` and ``Alt`` and ``Escape`` are present
-on the keyboard, key chording in general is an annoyance too. That leaves out Emacs for sure, and makes
-vi barely tolerable. Ed and similar editors could have a renaissance, at least among hipster-nerd-writers,
+on the keyboard, key chording in general is an annoyance too. That leaves out Emacs for certain and makes
+``vi`` barely tolerable. ``ed`` and similar editors could have a renaissance, at least among hipster-nerd-writers,
 I guess.
 
 
@@ -131,7 +132,7 @@ I guess.
 
 But in all seriousness, these days, line editors mostly have one purpose: to work when nothing else
 will. For example, if your Linux machine is so hosed that it can't figure out
-its terminal characteristics, and nothing works but command line programs that
+its terminal characteristics, and nothing works but command line programs in ``/bin`` that
 don't try to do anything fancy with the screen, then a line editor is what you
 will need for cleaning up that config file. (This can really happen; it's
 happened to me.)
@@ -140,18 +141,18 @@ happened to me.)
 
 Blah blah, small, blah, lightweight, blah blee bleh, [suckless](https://suckless.org/),
 can be statically linked, blah blah, isn't a [systemd](https://ihatesystemd.com/why/) service or whatever,
-Does One Thing and Does it Well[™](http://www.catb.org/esr/writings/taoup/html/ch01s06.html) -- you
+Does One Thing and Does it Well[™](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)—you
 know, all that rap.
 
 
-## Finally, one crazy thing
+## Finally, one weird thing
 
 Line editors tend to be very terse, and to expose what amounts to a language for the manipulation of textual data.
 Teco's command language is even Turing-complete. I don't know it
 well enough to comment extensively, but if you appreciate the kind of thinking that went into Ken
 Iverson's [Notation as a Tool of Thought](https://www.jsoftware.com/papers/tot.htm)
-and think that APL is a great numerical language, and wouldn't
-it be nice to have something with similar terseness specialized for text manipulation -- well then maybe
+and think that APL is a great numerical language, and Wouldn't
+it be nice to have something with similar terseness specialized for text manipulation?—well, then maybe
 line editors are your thing. APL god [Aaron Hsu](https://www.sacrideo.us/)
 seems to have thought so when he wrote his editor [ALE](https://github.com/arcfide/ALE)
 (on which see below, though in fact if you asked him what is a great language for text
@@ -166,20 +167,21 @@ Quick note, just like I said above: There is a distinction to be made between
 "line editors" and "character editors. The line may not be
 very distinct. In the classic Unix ``ed(1)'' editor, the conceptual unit of structure is the line.
 You navigate to and between and around lines. Once you've found a line you like, if you want to
-change something, for example, you issue a (s)ubstitute command, and use a regular expression to
-specify what you want to change, and then specify what you want to change it to as a string.
+change something, for example, you issue a (s)ubstitute command and use a regular expression to
+specify what you want to change; then you specify what you want to change it to as a string.
 So that's nice. It takes a little getting used to. It's great, though, when you want to do a lot
 of the same thing all at once, since you can use regular expressions to specify multiple lines at
 the same time.
 
 On the other hand, it's not great when you want to do complex changes within one line. For that, you
 want an editor that has surgical commands for digging into lines at a character level. But then, it's
-debatable whether that is really any faster than either using regexes -- or sometimes just retyping the line
+debatable whether that is really any faster than either using regexes—or sometimes just retyping the line
 entire.
 
 In any case, some editors, like Teco (the Famed Father of Emacs) are called "character" or "character-level"
 editors. For my purposes, they mostly all operate in such a way that they are like a little REPL for a text
-editing programming language -- a DSL usually not Turing-complete, though famously, Teco's is.  
+editing programming language—a DSL usually not Turing-complete, though famously, Teco's is;
+and so I'm lumping them all together here.
 
 
 ## How do I learn to use a line editor?
@@ -197,20 +199,21 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 # Some general external resources
 
 - Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor).
-
 - A YouTube playlist, of somewhat dubious quality... curated by myself: [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
-
 - Well, mainly, there is the page on the Text Editor Wiki:
   [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
   Unfortunately much is out of date, and also most of the editors don't seem to have a realistic way to usefully
-  be run on modern systems (which I consider: Microsoft Windows, Linux, MacOS, Android, IOS, and BSD).
+  be run on modern systems (which I consider: BSD, Linux, MacOS, Android, IOS, Microsoft Windows).
   But it's still a good place to start looking at things.
 
   Many could be run in a VM, but I don't consider that "usefully" unless
   the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
-  thing from the command line to get the editor (not the VM) to run. Termux counts as realistic, as does maybe WSL or the equivalent 
-  you can run on a Chromebook. But the Hercules mainframe emulator would be a case of not a "realistic way to usefully" run it.
+  thing from the command line to get the editor (not the VM) to run.
+  Termux counts as realistic, as does maybe WSL or the equivalent 
+  you can run on a Chromebook. But, say, the [Hercules](https://sdl-hercules-390.github.io/html/)
+  mainframe emulator ([fantastically](https://www.prince-webdesign.nl/tk5) cool as it may be)
+  would be a case of not a "realistic way to usefully" run it. Same with 
 
   This is the standard I am using in deciding what to include below, mostly. It is also where I would most appreciate PRs for this page
   if you have anything can add to it.
@@ -267,7 +270,7 @@ will compile on MacOS and \*BSD.
 ## ed
 
 (Aka. ``ed(1)``, and yes yes, also aka., "[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
-(Obligatory link for everyone who hasn't already heard the joke -- all two of youz.))
+(Obligatory link for everyone who hasn't already heard the joke—all two of youz.))
 
 ``ed`` is, in addition to being the standard text editor as see above, also
 probably the only line editor anyone reading this ought ever to bother with.
@@ -279,7 +282,7 @@ in me wants to find other options.
 
 If ``ed(1)`` isn't on your Linux or BSD system, wipe your hard drive and install a better
 distribution. Failing that, try something like ``sudo xbps-install ed`` or for you poor benighted souls, try
-``sudo port install ed`` or ``sudo apt install ed`` -- you get the idea.
+``sudo port install ed`` or ``sudo apt install ed``—you get the idea.
 
 If you would like to know how it works, Google for a tutorial or two, and then when you've got a taste
 of it, read Brian Kernighan's two classic tutorials, in order: 1) 
@@ -356,7 +359,7 @@ and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch
 
 ED (which I style ED.COM in the CP/M style to differentiate it from the Unix ``ed(1)``)
 appears to be something like a mix between a line-based editor and a character-
-based editor, like Teco. This makes it appear complicated, byzantine -- and
+based editor, like Teco. This makes it appear complicated, byzantine—and
 interesting. I get the impression that it was written in assembly language and
 that a port to modern systems would amount to a complete re-write. See ``led`` (the other one)
 below for an attempt at that.
@@ -394,9 +397,21 @@ Coming soon, or something.
 
 Final projects on GitHub I think.
 
+---
+
+# Colophon
+
+This was mostly written with [vim](https://www.vim.org/), frankly. Shoot me.
+Some was in ``vi``, and yes, some in ``ed``. Right at this moment, I'm typing
+in GitHub's web-based editor. I fear commitment.
+
+Why this silly page about text editors? Because when you can't think of anything to make,
+you end up spending all your time sharpening your tools.
+I wanted a mission and despite my sins, nobody will give me one.
+
 
 ---
 <p align="center">
-  Brought to you by -- <br />
+  Brought to you by—<br />
   <img src="img/edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300 /> 
 </p>
