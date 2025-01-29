@@ -42,7 +42,7 @@
   - [ED.COM](#edcom)
   - [atto](#atto)
   - [buup](#buup)
-- [Appendix B: Mainly of Historical Interest]((#appendix-b-mainly-of-historical-interest)
+- [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
 - [Appendix C: Others](#appendix-c-others)
 
 And also, "character editors," as well. And no, I'm not talking about 
@@ -386,9 +386,12 @@ but not really ready to be used... kinda like this page itself.
 
 # Appendix B: Mainly of Historical Interest
 
+Coming soon, or something.
+
+
 # Appendix C: Others
 
-Final projects on GitHub I think
+Final projects on GitHub I think.
 
 
 ---
