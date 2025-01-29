@@ -6,7 +6,7 @@
 
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
->>>[Skip Intro](#the-editors)<<<
+<p align="center">[Skip Intro](#the-editors)</p>
 
 ![The Sacred Hermetic Order of ed(1)](img/edPunchCard.png)
 
