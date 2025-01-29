@@ -37,12 +37,12 @@
   - [led 2](#led-2)
   - [qed](#qed)
   - [sam -d](#sam--d)
-- [Appendix I: Honorable Mentions](#appendix-i:-honorable-mentions)
-  - [ED.COM](#ed.com-(also-led)
+- [Appendix I: Honorable Mentions](#appendix-i-honorable-mentions)
+  - [ED.COM](#ed.com)
   - [atto](#atto)
   - [buup](#buup)
-- [Appendix II: Mainly of Historical Interest]((#appendix-ii:-mainly-of-historical-interest)
-- [Appendix III: Others](#appendix-iii:-others)
+- [Appendix II: Mainly of Historical Interest]((#appendix-ii-mainly-of-historical-interest)
+- [Appendix III: Others](#appendix-iii-others)
 
 And also, "character editors," as well. And no, I'm not talking about 
 the people who will fix your memoirs line-by-line for
