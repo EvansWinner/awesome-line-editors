@@ -199,7 +199,7 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 # Some general external resources
 
-- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor).
+- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor) ![Wikipedia](img/wikipedia.png)
 - There is also a list on WikiPedia
   [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors).
 - A YouTube playlist, of somewhat dubious quality... curated by myself:
