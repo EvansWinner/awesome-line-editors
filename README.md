@@ -164,11 +164,11 @@ processing with the terseness of APL, I bet he would answer: APL!).
 ## Line editors vs. character editors
 
 Quick note, just like I said above: There is a distinction to be made between 
-"line editors" and "character editors. The line may not be
-very distinct. In the classic Unix ``ed(1)'' editor, the conceptual unit of structure is the line.
+"line editors" and "character editors. The distinction may not actually be all that distinct.
+In the classic Unix ``ed(1)'' editor, the conceptual unit of structure is the line.
 You navigate to and between and around lines. Once you've found a line you like, if you want to
 change something, for example, you issue a (s)ubstitute command and use a regular expression to
-specify what you want to change; then you specify what you want to change it to as a string.
+specify what you want to change; then you specify what you want to change it to, as a string.
 So that's nice. It takes a little getting used to. It's great, though, when you want to do a lot
 of the same thing all at once, since you can use regular expressions to specify multiple lines at
 the same time.
@@ -182,6 +182,7 @@ In any case, some editors, like Teco (the Famed Father of Emacs) are called "cha
 editors. For my purposes, they mostly all operate in such a way that they are like a little REPL for a text
 editing programming language—a DSL usually not Turing-complete, though famously, Teco's is;
 and so I'm lumping them all together here.
+Heck, maybe "REPL-based text editors" would be a better name for them.
 
 
 ## How do I learn to use a line editor?
@@ -198,25 +199,37 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 # Some general external resources
 
-- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor). There is also a list on WikiPedia [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors).
-- A YouTube playlist, of somewhat dubious quality... curated by myself: [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
+- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor).
+- There is also a list on WikiPedia
+  [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors).
+- A YouTube playlist, of somewhat dubious quality... curated by myself:
+  [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
 - Well, mainly, there is the page on the Text Editor Wiki:
   [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
   Unfortunately much is out of date, and also most of the editors don't seem to have a realistic way to usefully
-  be run on modern systems (which I consider: BSD, Linux, MacOS, Android, IOS, Microsoft Windows).
+  be run on modern systems
+  (which I consider:
+  BSD,
+  Linux,
+  MacOS,
+  Android,
+  IOS,
+  Microsoft Windows).
   But it's still a good place to start looking at things.
 
   Many could be run in a VM, but I don't consider that "usefully" unless
   the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
   thing from the command line to get the editor (not the VM) to run.
   Termux counts as realistic, as does maybe WSL or the equivalent 
-  you can run on a Chromebook. But, say, the [Hercules](https://sdl-hercules-390.github.io/html/)
-  mainframe emulator ([fantastically](https://www.prince-webdesign.nl/tk5) cool as it may be)
-  would be a case of not a "realistic way to usefully" run it. Same with 
+  you can run on a Chromebook. But, say, the
+  [Hercules](https://sdl-hercules-390.github.io/html/)
+  mainframe emulator
+  ([fantastically](https://www.prince-webdesign.nl/tk5)
+  cool as it may be) would be a case of not a "realistic way to usefully" run it. Same with 
 
-  This is the standard I am using in deciding what to include below, mostly. It is also where I would most appreciate PRs for this page
-  if you have anything can add to it.
+  This is the standard I am using in deciding what to include below, mostly.
+  It is also where I would most appreciate PRs for this page if you have anything can add to it.
 
 
 # Disclaimer
@@ -350,8 +363,9 @@ This is the "led" that is a re-implementation of the CP/M ED.COM editor.
 
 Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix systems
 called "led" (for "leaf context editor") on
-[GitHub](https://github.com/sage-etcher/leaf-context-editor). I have been able to build it
-on a couple of platforms, but either I don't know how to invoke it, or it doesn't work. 
+[GitHub](https://github.com/sage-etcher/leaf-context-editor).
+I have been able to build it on a couple of platforms,
+but either I don't know how to invoke it, or it doesn't work. 
 If you're a c hacker, please make it work and let me know. 
 
 
@@ -359,7 +373,8 @@ If you're a c hacker, please make it work and let me know.
 
 ``qed`` (sometimes written QED)  was, it is said, written for an old 1960s machine using an old 1960s 
 operating system. Various later versions appeared and eventually it was
-re implemented in c, and there is a version on GitHub called [qed-new](https://github.com/phonologus/qed-new)
+re implemented in c, and there is a version on GitHub called
+[qed-new](https://github.com/phonologus/qed-new)
 with Unicode support which will compile and run,
 at least minimally, on POSIXy systems I've tried, with a little tinkering.
 I do not know anything more about it and
@@ -384,14 +399,21 @@ Some links of general interest, of which the second is contained in the first:
 
 *honorable mention* 
 
-[Aaron Hsu's](https://www.sacrideo.us/) editor [ALE](https://github.com/arcfide/ALE) is a line editor modeled on ``ed(1)`` in, apparently,
-something like 68 lines of characteristically inscrutable APL, including blank lines for formatting.
-I have not tested it in large part because it appears to be written for the Dyalog version of APL, for which you can get a
-free-for-noncommercial-use license—which I have done in the past with great interest, but at the moment I'm not set up for it
-and therefore have not been able to, though I yet might—test it, that is.
+[Aaron Hsu's](https://www.sacrideo.us/)
+editor
+[ALE](https://github.com/arcfide/ALE)
+is a line editor modeled on ``ed(1)`` in, apparently, something like 68 lines of characteristically inscrutable APL,
+including blank lines for formatting.
+I have not tested it in large part because it appears to be written for the
+[Dyalog](https://www.dyalog.com/)
+version of APL, for which you can get a
+[free-for-noncommercial-use license](https://www.dyalog.com/download-zone.htm)
+—which I have done in the past with great interest,
+but at the moment I'm not set up for it and therefore have not been able to,
+though I yet might—test it, that is.
 
-I include it here, under "honorable mentions" only because its environment is so specialized that it would not have much general use,
-and seems to be really a single-application editor.
+I include it here, under "honorable mentions" only because its environment is so specialized
+that it would not have much general use, and seems to be really a single-application editor.
 
 
 ## ED.COM
@@ -400,10 +422,12 @@ and seems to be really a single-application editor.
 
 Not really available on modern systems.
 
-ED.COM is a line editor that was used on the CP/M operating system, a kind of
-precursor to DOS. All I know about ED.COM I learned from a pair of videos on YouTube
-on a channel called "TechTinkering": [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](img/youtube.png)
-and the shorter, [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](img/youtube.png)
+ED.COM is a line editor that was used on the [CP/M](https://en.wikipedia.org/wiki/CP/M)  operating system, a kind of
+precursor to DOS. All I know about ED.COM I learned from a pair of videos
+done by someone whose name I haven't found, but whose channel on YouTube is called
+[TechTinkering](https://www.youtube.com/@TechTinkering):
+ - [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](img/youtube.png) and the shorter,
+ - [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](img/youtube.png)
 
 ED (which I style ED.COM in the CP/M style to differentiate it from the Unix ``ed(1)``)
 appears to be something like a mix between a line-based editor and a character-
