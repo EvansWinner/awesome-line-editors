@@ -27,7 +27,6 @@
 - [Disclaimer](#disclaimer)
 
 - [The Editors](#the-editors)
-  - [ALE](#ale)
   - [EDLIN](#edlin)
   - [Teco](#teco)
   - [ed](#ed)
@@ -39,6 +38,7 @@
   - [qed](#qed)
   - [sam -d](#sam-d)
 - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
+  - [ALE](#ale)
   - [ED.COM](#edcom)
   - [atto](#atto)
   - [buup](#buup)
@@ -221,9 +221,11 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 # Disclaimer
 
-The point and target of this page is to make line editors useful" so its purpose is practical. I have indulged in some extra
+The point and target of this page is to make line editors useful, so its purpose is practical. I have indulged in some extra
 "honorable mentions" below for fun, and in some links to things of historical interest, but the main focus is on things that
-can be actually compiled and run on "modern" systems and used daily.
+can be actually compiled and run on "modern" systems and used daily. This excludes things that require elaborate emulators
+to run, or editors embedded in single applications for use there only (like, in multi-user dungeon programs, or whatever you
+call them.
 
 Just to set the record straight, and all that.
 
@@ -231,10 +233,6 @@ Just to set the record straight, and all that.
 # The Editors
 
 In strict ASCII sort order....
-
-## ALE
-
-*TBD*
 
 
 ## EDLIN 
@@ -250,14 +248,14 @@ to be a clone or simplified version of the ED.COM editor from the old CP/M opera
 system (about which see the ED.COM entry).
 While the MS-DOS source has been released by Microsoft on
 [GitHub](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)
-it is Assembly code and could be challenging to compile or re-implement.
+it is Assembly code and could be challenging to assemble or re-implement.
 
 The FreeDOS project has done an implementation in c which is on
 [GitHub](https://github.com/FDOS/edlin)
 and I have been able to compile and run it on several POSIX or POSIX-adjacent systems,
 but my skimming some documentation suggests that
 the FreeDOS implementation is a simplified version
-possibly lacking in character editing features of DOS EDLIN *may* have had.
+possibly lacking in character editing features DOS EDLIN *may* have had.
 \[Please correct me if I'm wrong.\]
 
 EDLIN came standard on MS-DOS machines and I believe up to about Windows 7,
@@ -284,6 +282,7 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 
 ##### Source
+
 - Microsoft [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) on GitHub
 - FreeDOS [source](https://github.com/FDOS/edlin) on GitHub
 
@@ -292,7 +291,7 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
  - Windows: There are native Windows binaries of FreeDOS EDLIN available
    [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
- - Ubuntu Linux: There seems to be an apt package (!) available: [edlin](https://launchpad.net/ubuntu/+source/edlin)
+ - Ubuntu Linux: There seems to be an apt package [available](https://launchpad.net/ubuntu/+source/edlin)
 
 
 ## Teco
@@ -381,7 +380,23 @@ Some links of general interest, of which the second is contained in the first:
 
 # Appendix A: Honorable Mentions
 
+## ALE
+
+*honorable mention* 
+
+[Aaron Hsu's](https://www.sacrideo.us/) editor [ALE](https://github.com/arcfide/ALE) is a line editor modeled on ``ed(1)`` in, apparently,
+something like 68 lines of characteristically inscrutable APL, including blank lines for formatting.
+I have not tested it in large part because it appears to be written for the Dyalog version of APL, for which you can get a
+free-for-noncommercial-use license—which I have done in the past with great interest, but at the moment I'm not set up for it
+and therefore have not been able to, though I yet might—test it, that is.
+
+I include it here, under "honorable mentions" only because its environment is so specialized that it would not have much general use,
+and seems to be really a single-application editor.
+
+
 ## ED.COM
+
+*honorable mention*
 
 Not really available on modern systems.
 
