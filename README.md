@@ -503,7 +503,8 @@ Final projects on GitHub I think.
 
 This was mostly written with [vim](https://www.vim.org/), frankly. Shoot me.
 Some was in ``vi``, and yes, some in ``ed``. Right at this moment, I'm typing
-in GitHub's web-based editor. I fear commitment.
+in GitHub's web-based editor. I fear commitment
+(though evidently not Git commitment).
 
 Why this silly page about text editors? Because when you can't think of anything to make,
 you end up spending all your time sharpening your tools.
