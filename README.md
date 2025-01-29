@@ -154,7 +154,8 @@ and think that APL is a great numerical language, and wouldn't
 it be nice to have something with similar terseness specialized for text manipulation -- well then maybe
 line editors are your thing. APL god [Aaron Hsu](https://www.sacrideo.us/)
 seems to have thought so when he wrote his editor [ALE](https://github.com/arcfide/ALE)
-(on which see below).
+(on which see below, though in fact if you asked him what is a great language for text
+processing with the terseness of APL, I bet he would answer: APL!).
 
 
 # Some quick notes first
@@ -195,17 +196,24 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 # Some general external resources
 
-Well, mainly, there is the page on the Text Editor Wiki: [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
+- Well, mainly, there is the page on the Text Editor Wiki:
+  [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
-Unfortunately much is out of date, and also most of the editors don't seem to have a realistic way to usefully
-be run on modern systems (which I consider: Microsoft Windows, Linux, MacOS, Android, IOS, and BSD).
-But it's still a good place to start looking at things. Many could be run in a VM, but I don't consider that "usefully" unless
-the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
-thing from the command line to get the editor (not the VM) to run. Termux counts as realistic, as does maybe WSL or the equivalent 
-you can run on a Chromebook. But the Hercules mainframe emulator would be a case of not a "realistic way to usefully" run it.
+  Unfortunately much is out of date, and also most of the editors don't seem to have a realistic way to usefully
+  be run on modern systems (which I consider: Microsoft Windows, Linux, MacOS, Android, IOS, and BSD).
+  But it's still a good place to start looking at things.
 
-This is the standard I am using in deciding what to include below, mostly. It is also where I would most appreciate PRs for this page
-if you have anything can add to it.
+  Many could be run in a VM, but I don't consider that "usefully" unless
+  the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
+  thing from the command line to get the editor (not the VM) to run. Termux counts as realistic, as does maybe WSL or the equivalent 
+  you can run on a Chromebook. But the Hercules mainframe emulator would be a case of not a "realistic way to usefully" run it.
+
+  This is the standard I am using in deciding what to include below, mostly. It is also where I would most appreciate PRs for this page
+  if you have anything can add to it.
+
+- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor).
+
+- A YouTube playlist, of somewhat dubious quality... curated by myself: [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
 
 # Disclaimer
 
