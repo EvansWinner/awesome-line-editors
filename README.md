@@ -42,7 +42,7 @@
   - [atto](#atto)
   - [buup](#buup)
 - [Appendix II: Mainly of Historical Interest]((#appendix-ii:-mainly-of-historical-interest)
-- [Appendix III: Others -- mainly final projects on GitHub I think](#appendix-iii:-others----mainly-final-projects-on-github-i-think)
+- [Appendix III: Others](#appendix-iii:-others----mainly-final-projects-on-github-i-think)
 
 And also, "character editors," as well. And no, I'm not talking about 
 the people who will fix your memoirs line-by-line for
@@ -369,7 +369,9 @@ but not really ready to be used... kinda like this page itself.
 
 # Appendix B: Mainly of Historical Interest
 
-# Appendix C: Others -- mainly final projects on GitHub I think
+# Appendix C: Others
+
+Final projects on GitHub I think
 
 
 ---
