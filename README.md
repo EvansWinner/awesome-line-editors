@@ -4,27 +4,29 @@
 
 (For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
 
+
+## Praeliminaria
+
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
 → [Skip Intro](#the-editors) ←
 
 ![The Sacred Hermetic Order of ed(1)](img/edPunchCard.png)
 
-# Table of Contents
-
-
-- [Advertisement](#advertisement)
-- [I can't be bothered to watch the videos, or I still don't get the point](#i-cant-be-bothered-to-watch-the-videos-or-i-still-dont-get-the-point)
-  - [First, distraction-free -- hey, a bird!](#first-distraction-free----hey-a-bird)
-  - [Thumb typing](#thumb-typing)
-  - [And then the usual excuse](#and-then-the-usual-excuse)
-  - [Oh, and Suckless](#oh-and-suckless)
-  - [Finally, one weird thing](#finally-one-weird-thing)
-- [Some quick notes first](#some-quick-notes-first)
-  - [Line editors vs. character editors](#line-editors-vs-character-editors)
-  - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor)
-- [Some general external resources](#some-general-external-resources)
-- [Disclaimer](#disclaimer)
+### Table of Contents
+- [Praeliminaria](#praeliminaria)
+  - [Advertisement](#advertisement)
+  - [I can't be bothered to watch the videos, or I still don't get the point](#i-cant-be-bothered-to-watch-the-videos-or-i-still-dont-get-the-point)
+    - [First, distraction-free -- hey, a bird!](#first-distraction-free----hey-a-bird)
+    - [Thumb typing](#thumb-typing)
+    - [And then the usual excuse](#and-then-the-usual-excuse)
+    - [Oh, and Suckless](#oh-and-suckless)
+    - [Finally, one weird thing](#finally-one-weird-thing)
+  - [Some quick notes first](#some-quick-notes-first)
+    - [Line editors vs. character editors](#line-editors-vs-character-editors)
+    - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor)
+  - [Some general external resources](#some-general-external-resources)
+  - [Disclaimers](#disclaimers)
 
 - [The Editors](#the-editors)
   - [EDLIN](#edlin)
@@ -37,13 +39,14 @@
   - [led 2](#led-2)
   - [qed](#qed)
   - [sam -d](#sam-d)
-- [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
-  - [ALE](#ale)
-  - [ED.COM](#edcom)
-  - [atto](#atto)
-  - [buup](#buup)
-- [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
-- [Appendix C: Others](#appendix-c-others)
+- [Appendices](#appendices)
+  - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
+    - [ATTO](#atto)
+    - [ALE](#ale)
+    - [ED.COM](#edcom)
+    - [buup](#buup)
+  - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
+  - [Appendix C: Others](#appendix-c-others)
 - [Colophon](#colophon)
 
 And also, "character editors," as well. And no, I'm not talking about 
@@ -56,7 +59,7 @@ printer printing one line at a time like God intended, instead of a video displa
 these new-fangled modern computers for lazy people.
 
 
-# Advertisement 
+### Advertisement 
 
 Before anything else, since a YouTube video is worth a thousand ill-chosen words, check out a 
 couple of impressive demos. There are lots of other videos of people using line editors on YouTube (almost
@@ -68,13 +71,13 @@ are the two cool ones I've found because they were done by legit wizards:
  - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU) ![YouTube](img/youtube.png) 
 
 
-# I can't be bothered to watch the videos, or I still don't get the point 
+### I can't be bothered to watch the videos, or I still don't get the point 
 
 Yeah, OK, fair enough. For most people, there is zero reason to be interested in line editors.
 For what it's worth, here is how I came to appreciate them.
 
 
-## First, distraction-free -- hey, a bird!
+#### First, distraction-free -- hey, a bird!
 
 It all started as one of those "distraction-free writing environment" things. 
 It may seem strange, but many writers find that one of the biggest enemies to productivity is the
@@ -109,7 +112,7 @@ It turns out distraction-free writing is a state of mind, not a tool-set.
 But then I continue to like line editors for another reason, which I can sum up in just two words:
 
 
-## Thumb typing
+#### Thumb typing
 
 Another part of the writing saga is trying to work out how to have the tools you need any time, anywhere
 you are. For me, part of that is using Termux on my Android phone. I like Termux and have gotten good
@@ -128,7 +131,7 @@ on the keyboard, key chording in general is an annoyance too. That leaves out Em
 I guess.
 
 
-## And then the usual excuse
+#### And then the usual excuse
 
 But in all seriousness, these days, line editors mostly have one purpose: to work when nothing else
 will. For example, if your Linux machine is so hosed that it can't figure out
@@ -137,7 +140,7 @@ don't try to do anything fancy with the screen, then a line editor is what you
 will need for cleaning up that config file. (This can really happen; it's
 happened to me.)
 
-## Oh, and Suckless
+#### Oh, and Suckless
 
 Blah blah, small, blah, lightweight, blah blee bleh, [suckless](https://suckless.org/),
 can be statically linked, blah blah, isn't a [systemd](https://ihatesystemd.com/why/) service or whatever,
@@ -145,7 +148,7 @@ Does One Thing and Does it Well[™](http://www.catb.org/esr/writings/taoup/html
 know, all that rap.
 
 
-## Finally, one weird thing
+#### Finally, one weird thing
 
 Line editors tend to be very terse, and to expose what amounts to a language for the manipulation of textual data.
 Teco's command language is even Turing-complete. I don't know it
@@ -159,9 +162,9 @@ seems to have thought so when he wrote his editor [ALE](https://github.com/arcfi
 processing with the terseness of APL, I bet he would answer: APL!).
 
 
-# Some quick notes first
+## Some quick notes first
 
-## Line editors vs. character editors
+### Line editors vs. character editors
 
 Quick note, just like I said above: There is a distinction to be made between 
 "line editors" and "character editors. The distinction may not actually be all that distinct.
@@ -185,7 +188,7 @@ and so I'm lumping them all together here.
 Heck, maybe "REPL-based text editors" would be a better name for them.
 
 
-## How do I learn to use a line editor?
+### How do I learn to use a line editor?
 
 Well, first, pick one. I'll wait.
 
@@ -197,7 +200,7 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 3. Just use the editor for daily stuff for a while and it will start to click.
 
 
-# Some general external resources
+## Some general external resources
 
 - Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor) ![Wikipedia](img/wikipedia.png)
 - There is also a list on WikiPedia
@@ -232,7 +235,12 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
   It is also where I would most appreciate PRs for this page if you have anything can add to it.
 
 
-# Disclaimer
+## Disclaimers
+
+Just to set the record straight.
+
+
+### Focus on practically usable programs
 
 The point and target of this page is to make line editors useful, so its purpose is practical. I have indulged in some extra
 "honorable mentions" below for fun, and in some links to things of historical interest, but the main focus is on things that
@@ -240,7 +248,15 @@ can be actually compiled and run on "modern" systems and used daily. This exclud
 to run, or editors embedded in single applications for use there only (like, in multi-user dungeon programs, or whatever you
 call them.
 
-Just to set the record straight, and all that.
+Now, if you have interesting info about other line editors
+(there must be a lot from the old 8-bit days I don't know about, among other things)
+then please do send the information along and it can go in the appendices.
+
+
+### Stuff could be wrong
+
+Please send me a PR, or just a comment, with corrections or additions.
+I'm just one person, with a real job, and you know, a family and a mortgage and all that.
 
 
 # The Editors
@@ -289,7 +305,7 @@ Here are a couple of videos about the FreeDOS project's YouTube
   - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo) ![YouTube](img/youtube.png)
 
 The FreeDOS tutorial page images don't seem to work, so here is a snapshot from the Wayback Machine:
-[How to edit text with Edlin](https://web.archive.org/web/20231021151327/https://freedos.org/books/get-started/18-using-edlin/)
+[How to edit text with Edlin](https://web.archive.org/web/20231021151327/https://freedos.org/books/get-started/18-using-edlin/) ![Wayback Machine](img/archive.png)
 
 
 ### Getting It
@@ -394,9 +410,13 @@ Some links of general interest, of which the second is contained in the first:
 *TBD*
 
 
-# Appendix A: Honorable Mentions
+# Appendices
 
-## ALE
+
+## Appendix A: Honorable Mentions
+
+
+### ALE
 
 *honorable mention* 
 
@@ -417,7 +437,25 @@ I include it here, under "honorable mentions" only because its environment is so
 that it would not have much general use, and seems to be really a single-application editor.
 
 
-## ED.COM
+### ATTO
+
+*honorable mention* (Doesn't really seem to be usable.)
+
+A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
+it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
+
+Dieter's original web page about ATTO archived from 2016 is
+[here](https://web.archive.org/web/20160826220131/http://web.uta4you.at/shop/atto/index.htm) ![Wayback Machine](img/archive.png)
+
+I've posted a copy of the
+[code](https://github.com/EvansWinner/atto_line_editor) ![GitHub](img/github.png)
+with some small changes to get it to compile under Linux.
+From there you can find Dieter's original page on the Wayback machine.
+
+I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
+
+
+### ED.COM
 
 *honorable mention*
 
@@ -440,43 +478,26 @@ below for an attempt at that.
 There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) ![PDF](img/pdf.png) available.
 
 
-## ATTO
+### buup
 
-*honorable mention* (Doesn't really seem to be usable.)
-
-A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
-it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
-
-Dieter's original web page about ATTO archived from 2016 is
-[here](https://web.archive.org/web/20160826220131/http://web.uta4you.at/shop/atto/index.htm).
-
-I've posted a copy of the
-[code](https://github.com/EvansWinner/atto_line_editor) ![GitHub](img/github.png)
-with some small changes to get it to compile under Linux.
-From there you can find Dieter's original page on the Wayback machine.
-
-I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
-
-
-## buup
-
-*honorable mention* (Not quite usable uet.)
+*honorable mention* (Not quite usable yet.)
 
 [buup](https://github.com/EvansWinner/buup) ![GitHub](img/github.png)
 is basically my own attempt to modify ``atto`` for Linux use,
 but not really ready to be used... kinda like this page itself, really.
 
 
-# Appendix B: Mainly of Historical Interest
+## Appendix B: Mainly of Historical Interest
 
 Coming soon, or something.
 
 
-# Appendix C: Others
+## Appendix C: Others
 
 Final projects on GitHub I think.
 
 ---
+
 
 # Colophon
 
