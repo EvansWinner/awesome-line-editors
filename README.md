@@ -267,7 +267,7 @@ will compile on MacOS and \*BSD.
 ## ed
 
 (Aka. ``ed(1)``, and yes yes, also aka., "[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
-(Obligatory link for everyone who hasn't already heard the joke -- all two of youz.)
+(Obligatory link for everyone who hasn't already heard the joke -- all two of youz.))
 
 ``ed`` is, in addition to being the standard text editor as see above, also
 probably the only line editor anyone reading this ought ever to bother with.
