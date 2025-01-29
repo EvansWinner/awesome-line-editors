@@ -139,8 +139,8 @@ happened to me.)
 ## Oh, and Suckless
 
 Blah blah, small, blah, lightweight, blah blee bleh, [suckless](https://suckless.org/),
-can be statically linked, blah blah, isn't a [systemd](https://ihatesystemd.com/why/) service,
-does one thing and does it well[™](http://www.catb.org/esr/writings/taoup/html/ch01s06.html) -- you
+can be statically linked, blah blah, isn't a [systemd](https://ihatesystemd.com/why/) service or whatever,
+Does One Thing and Does it Well[™](http://www.catb.org/esr/writings/taoup/html/ch01s06.html) -- you
 know, all that rap.
 
 
