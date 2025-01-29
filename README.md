@@ -1,12 +1,12 @@
 # Awesome Line Editors
 
-**or, making teletype tech useful again**
+**or, Making Teletype Tech useful Again!**
 
 (For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
 
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
-[Skip Intro](#the-editors)
+>>>[Skip Intro](#the-editors)<<<
 
 ![The Sacred Hermetic Order of ed(1)](img/edPunchCard.png)
 
@@ -196,6 +196,10 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 # Some general external resources
 
+- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor).
+
+- A YouTube playlist, of somewhat dubious quality... curated by myself: [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
+
 - Well, mainly, there is the page on the Text Editor Wiki:
   [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
@@ -211,9 +215,6 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
   This is the standard I am using in deciding what to include below, mostly. It is also where I would most appreciate PRs for this page
   if you have anything can add to it.
 
-- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor).
-
-- A YouTube playlist, of somewhat dubious quality... curated by myself: [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
 
 # Disclaimer
 
