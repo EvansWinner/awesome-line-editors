@@ -440,12 +440,15 @@ below for an attempt at that.
 There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) ![PDF](img/pdf.png) available.
 
 
-## atto
+## ATTO
 
 *honorable mention* (Doesn't really seem to be usable.)
 
 A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
 it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
+
+Dieter's original web page about ATTO archived from 2016 is
+[here](https://web.archive.org/web/20160826220131/http://web.uta4you.at/shop/atto/index.htm).
 
 I've posted a copy of the
 [code](https://github.com/EvansWinner/atto_line_editor) ![GitHub](img/github.png)
