@@ -201,7 +201,7 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 - Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor) ![Wikipedia](img/wikipedia.png)
 - There is also a list on WikiPedia
-  [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors).
+  [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors) ![Wikipedia](img/wikipedia.png)
 - A YouTube playlist, of somewhat dubious quality... curated by myself:
   [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
 - Well, mainly, there is the page on the Text Editor Wiki:
@@ -250,12 +250,12 @@ In strict ASCII sort order....
 
 ## EDLIN 
 
-[WikiPedia Page](https://en.wikipedia.org/wiki/Edlin) | [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
+[WikiPedia Page](https://en.wikipedia.org/wiki/Edlin) ![Wikipedia](img/wikipedia.png) | [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
 
 ### Commentary and one-liners
 
 I'm really not sure about EDLIN (as it is sometimes written, or Edlin, as the FDOS project writes it).
-[Tim Paterson's](https://en.wikipedia.org/wiki/Tim_Paterson)
+[Tim Paterson's](https://en.wikipedia.org/wiki/Tim_Paterson) ![Wikipedia](img/wikipedia.png)
 original seems as if it may have been intended
 to be a clone or simplified version of the ED.COM editor from the old CP/M operating
 system (about which see the ED.COM entry).
@@ -422,7 +422,7 @@ that it would not have much general use, and seems to be really a single-applica
 
 Not really available on modern systems.
 
-ED.COM is a line editor that was used on the [CP/M](https://en.wikipedia.org/wiki/CP/M)  operating system, a kind of
+ED.COM is a line editor that was used on the [CP/M](https://en.wikipedia.org/wiki/CP/M) ![Wikipedia](img/wikipedia.png) operating system, a kind of
 precursor to DOS. All I know about ED.COM I learned from a pair of videos
 done by someone whose name I haven't found, but whose channel on YouTube is called
 [TechTinkering](https://www.youtube.com/@TechTinkering):
