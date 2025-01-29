@@ -18,7 +18,7 @@
   - [First, distraction-free -- hey, a bird!](#first-distraction-free----hey-a-bird)
   - [Thumb typing](#thumb-typing)
   - [And then the usual excuse](#and-then-the-usual-excuse)
-  - [Finally, one crazy thing](#finally,-one-crazy-thing)
+  - [Finally, one crazy thing](#finally-one-crazy-thing)
 - [Some quick notes first](#some-quick-notes-first)
   - [Line editors vs. character editors](#line-editors-vs-character-editors)
   - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor)
@@ -185,7 +185,7 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 3. Just use the editor for daily stuff for a while and it will start to click.
 
 
-# On to the details, but first, some general external resources
+# Some general external resources
 
 Well, mainly, there is the page on the Text Editor Wiki: [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
