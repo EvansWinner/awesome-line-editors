@@ -18,6 +18,7 @@
   - [First, distraction-free -- hey, a bird!](#first-distraction-free----hey-a-bird)
   - [Thumb typing](#thumb-typing)
   - [And then the usual excuse](#and-then-the-usual-excuse)
+  - [Oh, and Suckless](#oh-and-suckless)
   - [Finally, one crazy thing](#finally-one-crazy-thing)
 - [Some quick notes first](#some-quick-notes-first)
   - [Line editors vs. character editors](#line-editors-vs-character-editors)
@@ -134,6 +135,13 @@ its terminal characteristics, and nothing works but command line programs that
 don't try to do anything fancy with the screen, then a line editor is what you
 will need for cleaning up that config file. (This can really happen; it's
 happened to me.)
+
+## Oh, and Suckless
+
+Blah blah, small, blah, lightweight, blah blee bleh, [suckless](https://suckless.org/),
+can be statically linked, blah blah, isn't a [systemd](https://ihatesystemd.com/why/) service,
+does one thing and does it well[™](http://www.catb.org/esr/writings/taoup/html/ch01s06.html) -- you
+know, all that rap.
 
 
 ## Finally, one crazy thing
