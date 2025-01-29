@@ -154,7 +154,7 @@ Iverson's [Notation as a Tool of Thought](https://www.jsoftware.com/papers/tot.h
 and think that APL is a great numerical language, and Wouldn't
 it be nice to have something with similar terseness specialized for text manipulation?—well, then maybe
 line editors are your thing. APL god [Aaron Hsu](https://www.sacrideo.us/)
-seems to have thought so when he wrote his editor [ALE](https://github.com/arcfide/ALE)
+seems to have thought so when he wrote his editor [ALE](https://github.com/arcfide/ALE) ![GitHub](img/github.png)
 (on which see below, though in fact if you asked him what is a great language for text
 processing with the terseness of APL, I bet he would answer: APL!).
 
@@ -259,13 +259,14 @@ I'm really not sure about EDLIN (as it is sometimes written, or Edlin, as the FD
 original seems as if it may have been intended
 to be a clone or simplified version of the ED.COM editor from the old CP/M operating
 system (about which see the ED.COM entry).
-While the MS-DOS source has been released by Microsoft on
-[GitHub](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)
+While the MS-DOS
+[source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png)
+has been released by Microsoft,
 it is Assembly code and could be challenging to assemble or re-implement.
 
-The FreeDOS project has done an implementation in c which is on
-[GitHub](https://github.com/FDOS/edlin)
-and I have been able to compile and run it on several POSIX or POSIX-adjacent systems,
+The FreeDOS project has done an
+[implementation](https://github.com/FDOS/edlin) ![GitHub](img/github.png)
+in c, and I have been able to compile and run it on several POSIX or POSIX-adjacent systems,
 but my skimming some documentation suggests that
 the FreeDOS implementation is a simplified version
 possibly lacking in character editing features DOS EDLIN *may* have had.
@@ -296,8 +297,8 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 ##### Source
 
-- Microsoft [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) on GitHub
-- FreeDOS [source](https://github.com/FDOS/edlin) on GitHub
+- Microsoft [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png)
+- FreeDOS [source](https://github.com/FDOS/edlin) ![GitHub](img/github.png)
 
 
 #### Binaries
@@ -361,9 +362,9 @@ This is the "led" that is written in Lisp and compiled to Lua.
 
 This is the "led" that is a re-implementation of the CP/M ED.COM editor.
 
-Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix systems
-called "led" (for "leaf context editor") on
-[GitHub](https://github.com/sage-etcher/leaf-context-editor).
+Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix systems called
+[led](https://github.com/sage-etcher/leaf-context-editor) ![GitHub](img/github.png)
+(for "leaf context editor").
 I have been able to build it on a couple of platforms,
 but either I don't know how to invoke it, or it doesn't work. 
 If you're a c hacker, please make it work and let me know. 
@@ -373,8 +374,8 @@ If you're a c hacker, please make it work and let me know.
 
 ``qed`` (sometimes written QED)  was, it is said, written for an old 1960s machine using an old 1960s 
 operating system. Various later versions appeared and eventually it was
-re implemented in c, and there is a version on GitHub called
-[qed-new](https://github.com/phonologus/qed-new)
+re implemented in c, and there is a version available called
+[qed-new](https://github.com/phonologus/qed-new) ![GitHub](img/github.png)
 with Unicode support which will compile and run,
 at least minimally, on POSIXy systems I've tried, with a little tinkering.
 I do not know anything more about it and
@@ -401,7 +402,7 @@ Some links of general interest, of which the second is contained in the first:
 
 [Aaron Hsu's](https://www.sacrideo.us/)
 editor
-[ALE](https://github.com/arcfide/ALE)
+[ALE](https://github.com/arcfide/ALE) ![GitHub](img/github.png)
 is a line editor modeled on ``ed(1)`` in, apparently, something like 68 lines of characteristically inscrutable APL,
 including blank lines for formatting.
 I have not tested it in large part because it appears to be written for the
@@ -446,8 +447,10 @@ There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/C
 A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
 it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
 
-I've put a copy of the code on [GitHub](https://github.com/EvansWinner/atto_line_editor) with some small
-changes to get it to compile under Linux. From there you can find Dieter's original page on the Wayback machine.
+I've posted a copy of the
+[code](https://github.com/EvansWinner/atto_line_editor) ![GitHub](img/github.png)
+with some small changes to get it to compile under Linux.
+From there you can find Dieter's original page on the Wayback machine.
 
 I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
 
@@ -456,8 +459,9 @@ I also have started working a little on a slightly modified version for POSIX en
 
 *honorable mention* (Not quite usable uet.)
 
-Basically my own attempt to modify ``atto`` for Linux use, on [GitHub](https://github.com/EvansWinner/buup) 
-but not really ready to be used... kinda like this page itself.
+[buup](https://github.com/EvansWinner/buup) ![GitHub](img/github.png)
+is basically my own attempt to modify ``atto`` for Linux use,
+but not really ready to be used... kinda like this page itself, really.
 
 
 # Appendix B: Mainly of Historical Interest
