@@ -300,12 +300,22 @@ In strict
 
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?TSO_EDIT)
 
+
+### Commentary and one-liners
+
 IBM's EDIT command from as far back as
 [MVS](https://en.wikipedia.org/wiki/MVS)&nbsp;![Wikipedia](img/wikipedia.png)
 at least on
 [TSO](https://en.wikipedia.org/wiki/Time_Sharing_Option)&nbsp;![Wikipedia](img/wikipedia.png),
 and still current in z/OS under
 [TSO/E](https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-tsoe).
+
+
+### Versions
+
+There are no-doubt as many versions of EDIT as there are versions of TSO, and therefore of IBM mainframe operating systems.
+
+#### Docs and Tutorials
 
 [Jay Mosley](https://www.jaymoseley.com/)
 has an extensive
@@ -315,6 +325,15 @@ in (among many other places) an old IBM
 [TSO Command Language Reference](http://bitsavers.org/pdf/ibm/370/OS_VS2/Release_3.7_1976/GC28-0646-3_OS_VS2_TSO_Command_Language_Reference_Rel_3.7_Jan76.pdf)&nbsp;![PDF](img/pdf.png)
 on
 [Bitsavers](http://www.bitsavers.org/).
+
+
+#### Getting It
+
+The only way to access EDIT is on a mainframe or on an emulated mainframe.
+Emulations are out of scope here, so you would have to have access to some actual big iron.
+If you do, you do. If you don't, you don't.
+
+Let me know—I would love to know—if there are any reimplementations of EDIT on other systems.
 
 
 ## EDLIN 
