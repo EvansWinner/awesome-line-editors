@@ -29,6 +29,7 @@
   - [Disclaimers](#disclaimers)
 
 - [The Editors](#the-editors)
+  - [EDIT](#edit)
   - [EDLIN](#edlin)
   - [Teco](#teco)
   - [ed](#ed)
@@ -284,6 +285,25 @@ I'm just one person, with a real job, and you know, a family and a mortgage and 
 
 In strict 
 [ASCII sort order](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)....
+
+## EDIT
+
+IBM's EDIT command from as far back as
+[MVS](https://en.wikipedia.org/wiki/MVS)&nbsp;![img/wikipedia.png]
+at least on
+[TSO](https://en.wikipedia.org/wiki/Time_Sharing_Option)&nbsp;![img/wikipedia.png],
+and still current in z/OS under
+[TSO/E](https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-tsoe).
+
+[Jay Mosley](https://www.jaymoseley.com/)
+has an extensive
+[TSO Tutorial](https://www.jaymoseley.com/hercules/tso_tutor/tsotutor.htm)
+including the use of EDIT, and there are about 100 pages of documentation on EDIT
+in (among many other places) an old MVS
+[TSO Command Language Reference](http://bitsavers.org/pdf/ibm/370/OS_VS2/Release_3.7_1976/GC28-0646-3_OS_VS2_TSO_Command_Language_Reference_Rel_3.7_Jan76.pdf)&nbsp;![img/pdf.png]
+on
+[Bitsavers](http://www.bitsavers.org/),
+by IBM.
 
 
 ## EDLIN 
