@@ -394,7 +394,7 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 ##### Source
 
-- [source](https://github.com/FDOS/edlin)&nbsp;![GitHub](img/github.png)
+- [Source](https://github.com/FDOS/edlin)&nbsp;![GitHub](img/github.png)
   from the FreeDOS project, but compiles on POSIX systems.
 
 
