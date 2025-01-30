@@ -520,7 +520,7 @@ ED.COM is a line editor that was used on the
 operating system, a kind of precursor to DOS.
 All I know about ED.COM I learned from a pair of videos
 done by someone whose name I haven't found, but whose channel on YouTube is called
-[TechTinkering](https://www.youtube.com/@TechTinkering)&nbsp;![YouTube](img/YouTube png):
+[TechTinkering](https://www.youtube.com/@TechTinkering)&nbsp;![YouTube](img/youtube png):
  - [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g)&nbsp;![YouTube](img/youtube.png)
    and the shorter,
  - [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)&nbsp;![YouTube](img/youtube.png)
@@ -529,31 +529,37 @@ ED (which I style ED.COM in the CP/M style to differentiate it from the Unix ``e
 appears to be something like a mix between a line-based editor and a character-
 based editor, like Teco. This makes it appear complicated, byzantine—and
 interesting. I get the impression that it was written in assembly language and
-that a port to modern systems would amount to a complete re-write. See ``led`` (the other one)
-below for an attempt at that.
+that a port to modern systems would amount to a complete re-write. See the entry for [led](#led-2] for an attempt at that.
 
 There is also a
 [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf)&nbsp;![PDF](img/pdf.png)
 available.
 
 
-### buup
-
-*honorable mention* (Not quite usable yet.)
-
-[buup](https://github.com/EvansWinner/buup)&nbsp;![GitHub](img/github.png)
-is basically my own attempt to modify ATTO for Linux use,
-but not really ready to be used... kinda like this page itself, really.
-
 
 ## Appendix B: Mainly of Historical Interest
 
-Coming soon, or something.
+The past is coming soon... or something.
 
 
 ## Appendix C: Others
 
-Final projects on GitHub I think.
+This is mostly going to be school final projects on GitHub I think.
+"Implement a line editor like ``ed``. Include commands to
+open a file, write a file, print and replace lines."
+I think there are a lot of them, but I'll probably only include them
+if they at least compile and don't segfault when run.
+Maybe there will be something valuable.
+
+
+### buup
+
+Not quite usable yet.
+
+[buup](https://github.com/EvansWinner/buup)&nbsp;![GitHub](img/github.png)
+is basically my own attempt to modify [ATTO](#atto) for Linux use,
+but not really ready to be used... kinda like this page itself, really.
+
 
 ---
 
