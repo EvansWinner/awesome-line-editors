@@ -9,7 +9,7 @@
 
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
-**→ [Skip Intro](#the-editors) ←**
+**→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
 
 ![The Sacred Hermetic Order of ed(1)](img/edPunchCard.png)
 
@@ -38,7 +38,7 @@
   - [led 1](#led-1)
   - [led 2](#led-2)
   - [qed](#qed)
-  - [sam -d](#sam-d)
+  - [sam -d](#sam--d)
 - [Appendices](#appendices)
   - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
     - [ATTO](#atto)
@@ -63,12 +63,12 @@ these new-fangled modern computers for lazy people.
 
 Before anything else, since a YouTube video is worth a thousand ill-chosen words, check out a 
 couple of impressive demos. There are lots of other videos of people using line editors on YouTube (almost
-all using the Unix ``ed(1)`` editor) but most were done by college students who just discovered ed
-yesterday and don't know anything about it. They're mostly kind of embarrassing, frankly. But these
+all using the Unix ``ed(1)`` editor) but most were done by college students who just discovered ``ed``
+yesterday and don't know anything about it. They're mostly kind of embarrassing, frankly (the videos, I mean). But these below
 are the two cool ones I've found because they were done by legit wizards: 
 
- - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ) ![Youtube](img/youtube.png) 
- - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU) ![YouTube](img/youtube.png) 
+ - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png) 
 
 
 ### I can't be bothered to watch the videos, or I still don't get the point 
@@ -90,9 +90,10 @@ over and over.
 So the next step in the saga is to get a typewriter. You can waste a lot of time
 tinkering with typewriters; they're fun and they do fit the bill. Editing while drafting with a
 typewriter is indeed a big hassle, which encourages drafting without stopping, and editing later.
+
 But it also keeps you rooted to one place. It's not
 something you can take to the local coffee shop unless you want to annoy everyone around you
-and generally look like a hipster jackass. (Of course, if you can stomach that, then more power to you,
+and generally look like a hipster jackass. (Of course, if you can stomach that, then more power to you;
 and if you *are* a hipster jackass, then you just go on and be the best hipster jackass you can be, you!)
 
 So, enter the humble line editor. You can learn to enter text into ``ed(1)`` in five minutes, but
@@ -104,7 +105,7 @@ or Microsoft Blub 3.0, right?
 There's only one problem. It actually turns out that it only takes a little while before you'll learn
 how to edit text in ``ed(1)`` quite quickly, and soon you will find yourself using ``ed`` voluntarily to make
 little edits in config files, and then soon you'll realize that you like the minimal interface and the
-no-bullshit feel of the line editor. You'll find yourself stopping what you're doing writing your
+no-bullshit feel of the line editor. You'll find yourself stopping what you're doing while writing your
 first draft, and getting sucked into endless editing, and completely lose your flow.
 
 It turns out distraction-free writing is a state of mind, not a tool-set.
@@ -115,15 +116,15 @@ But then I continue to like line editors for another reason, which I can sum up 
 #### Thumb typing
 
 Another part of the writing saga is trying to work out how to have the tools you need any time, anywhere
-you are. For me, part of that is using Termux on my Android phone. I like Termux and have gotten good
+you are. For me, part of that is using
+[Termux]((https://termux.dev/en/)
+on my Android phone. I like Termux and have gotten good
 at using it. I plug my phone into a port-replicator with a real keyboard, get power to the phone,
 and output to a proper monitor. But there are times when I'm waiting in line at the DMV and don't have a keyboard.
 In short, I'm typing with my thumbs on a soft keyboard—and more often than I'd like to admit. 
-(What about this text itself? Am I writing it in a line editor? No, as it happens, I'm in ``vi`` in a Linux VM
-on a Chromebook. So much for dog food.)
 
 It seems slightly ironic to me, but the ultra-modern technology of the cell phone / pocket computer
-has brought back a situation where the extremely terse command language of a line editor is a value
+has brought back a situation in which the extremely terse command language of a line editor is a value
 just as it was when the I/O model was a Teletype line printer sans CRT or curses library, &c.
 Thumb typing makes every extra character an annoyance, and even when ``Control`` and ``Alt`` and ``Escape`` are present
 on the keyboard, key chording in general is an annoyance too. That leaves out Emacs for certain and makes
@@ -153,13 +154,18 @@ know, all that rap.
 Line editors tend to be very terse, and to expose what amounts to a language for the manipulation of textual data.
 Teco's command language is even Turing-complete. I don't know it
 well enough to comment extensively, but if you appreciate the kind of thinking that went into Ken
-Iverson's [Notation as a Tool of Thought](https://www.jsoftware.com/papers/tot.htm)
-and think that APL is a great numerical language, and Wouldn't
+Iverson's
+[Notation as a Tool of Thought](https://www.jsoftware.com/papers/tot.htm)
+and think that
+[APL](https://en.m.wikipedia.org/wiki/APL_(programming_language))&nbsp;![img/wikipedia.png]
+is a great numerical language, and Wouldn't
 it be nice to have something with similar terseness specialized for text manipulation?—well, then maybe
-line editors are your thing. APL god [Aaron Hsu](https://www.sacrideo.us/)
-seems to have thought so when he wrote his editor [ALE](https://github.com/arcfide/ALE) ![GitHub](img/github.png)
+line editors are your thing. APL god
+[Aaron Hsu](https://www.sacrideo.us/)
+seems to have thought so when he wrote his editor
+[ALE](https://github.com/arcfide/ALE) ![GitHub](img/github.png)
 (on which see below, though in fact if you asked him what is a great language for text
-processing with the terseness of APL, I bet he would answer: APL!).
+processing with the terseness of APL, I bet he would answer: "APL!").
 
 
 ## Some quick notes first
@@ -167,22 +173,24 @@ processing with the terseness of APL, I bet he would answer: APL!).
 ### Line editors vs. character editors
 
 Quick note, just like I said above: There is a distinction to be made between 
-"line editors" and "character editors. The distinction may not actually be all that distinct.
+"line editors" and "character editors." The distinction may not actually be all that distinct.
 In the classic Unix ``ed(1)'' editor, the conceptual unit of structure is the line.
 You navigate to and between and around lines. Once you've found a line you like, if you want to
-change something, for example, you issue a (s)ubstitute command and use a regular expression to
+change something for example, you issue a (s)ubstitute command and use a regular expression to
 specify what you want to change; then you specify what you want to change it to, as a string.
 So that's nice. It takes a little getting used to. It's great, though, when you want to do a lot
 of the same thing all at once, since you can use regular expressions to specify multiple lines at
 the same time.
 
-On the other hand, it's not great when you want to do complex changes within one line. For that, you
+On the other hand, what if you want to do complex changes within one line? For that, you
 want an editor that has surgical commands for digging into lines at a character level. But then, it's
 debatable whether that is really any faster than either using regexes—or sometimes just retyping the line
 entire.
 
 In any case, some editors, like Teco (the Famed Father of Emacs) are called "character" or "character-level"
-editors. For my purposes, they mostly all operate in such a way that they are like a little REPL for a text
+editors. For my purposes, they mostly all operate in such a way that they are like a little
+[REPL](https://en.m.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)&nbsp;![img/wikipedia.png]
+for a text
 editing programming language—a DSL usually not Turing-complete, though famously, Teco's is;
 and so I'm lumping them all together here.
 Heck, maybe "REPL-based text editors" would be a better name for them.
@@ -196,17 +204,18 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 
 1. It's not as hard to learn to use effectively as you think.
 2. Google for ``ed`` tutorials. There are a number of them. Go through a couple to get a feel for things;
-   then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
+then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
 3. Just use the editor for daily stuff for a while and it will start to click.
 
 
 ## Some general external resources
 
-- Obligatory Wikipedia page: [Line editor](https://en.wikipedia.org/wiki/Line_editor) ![Wikipedia](img/wikipedia.png)
-- There is also a list on WikiPedia
-  [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors) ![Wikipedia](img/wikipedia.png)
+- Obligatory Wikipedia page
+  [Line editor](https://en.wikipedia.org/wiki/Line_editor)&nbsp;![Wikipedia](img/wikipedia.png)
+- There is also a list on Wikipedia
+  [here](https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors)&nbsp;![Wikipedia](img/wikipedia.png)
 - A YouTube playlist, of somewhat dubious quality... curated by myself:
-  [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F) ![YouTube](img/youtube.png)
+  [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F)&nbsp;![YouTube](img/youtube.png)
 - Well, mainly, there is the page on the Text Editor Wiki:
   [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
