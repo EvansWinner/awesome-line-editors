@@ -282,27 +282,28 @@ I'm just one person, with a real job, and you know, a family and a mortgage and 
 
 # The Editors
 
-In strict ASCII sort order....
+In strict 
+[ASCII sort order](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)....
 
 
 ## EDLIN 
 
-[WikiPedia Page](https://en.wikipedia.org/wiki/Edlin) ![Wikipedia](img/wikipedia.png) | [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
+[Wikipedia Page](https://en.wikipedia.org/wiki/Edlin)&nbsp;![Wikipedia](img/wikipedia.png) | [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
 
 ### Commentary and one-liners
 
 I'm really not sure about EDLIN (as it is sometimes written, or Edlin, as the FDOS project writes it).
-[Tim Paterson's](https://en.wikipedia.org/wiki/Tim_Paterson) ![Wikipedia](img/wikipedia.png)
+[Tim Paterson's](https://en.wikipedia.org/wiki/Tim_Paterson)&nbsp;![Wikipedia](img/wikipedia.png)
 original seems as if it may have been intended
 to be a clone or simplified version of the ED.COM editor from the old CP/M operating
 system (about which see the ED.COM entry).
 While the MS-DOS
-[source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png)
+[source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)&nbsp;![GitHub](img/github.png)
 has been released by Microsoft,
 it is Assembly code and could be challenging to assemble or re-implement.
 
 The FreeDOS project has done an
-[implementation](https://github.com/FDOS/edlin) ![GitHub](img/github.png)
+[implementation](https://github.com/FDOS/edlin)&nbsp;![GitHub](img/github.png)
 in c, and I have been able to compile and run it on several POSIX or POSIX-adjacent systems,
 but my skimming some documentation suggests that
 the FreeDOS implementation is a simplified version
@@ -311,17 +312,16 @@ possibly lacking in character editing features DOS EDLIN *may* have had.
 
 EDLIN came standard on MS-DOS machines and I believe up to about Windows 7,
 in some versions, at any rate. It is a little more friendly 
-than ``ed(1)`` and a good deal little less powerful, at least the FreeDOS version seems to me.
-It is more than enough for
-most use cases other, perhaps, than use in scripts. I intend to make sure this FDOS version
-will compile on MacOS and \*BSD.
+than ``ed(1)`` and a good deal little less powerful, at least the FreeDOS version seems so to me.
+It is a functional text editor, though, for
+most use cases other, perhaps, than use in scripts.
 
 ### Versions
 
 
 #### xx-DOS version (MS-DOS, PC-DOS, whatever) versions
 
-It may be possible to usefully one of the old versions for DOS if you have old hardware
+It may be possible to legitimately use one of the old versions for DOS if you have old hardware
 but not so old you can't get data off of it. Otherwise, this is here mainly for historical interest.
 
 
@@ -337,7 +337,7 @@ It is included with MS-DOS, so if you have that, you should have EDLIN.
 
 #### Source
 
-- Microsoft MS-DOS v.4 [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png). 
+- Microsoft MS-DOS v.4 [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)&nbsp;![GitHub](img/github.png). 
 
 
 #### Binaries
@@ -352,14 +352,14 @@ This is the one you will want to get and probably compile for modern systems.
 
 #### Docs and Tutorials
 
-Here are a couple of videos about the FreeDOS project's YouTube
-  [channel](https://www.youtube.com/@freedosproject) ![YouTube](img/youtube.png):
+Here are a couple of videos about Edlin from the FreeDOS project's YouTube
+  [channel](https://www.youtube.com/@freedosproject)&nbsp;![YouTube](img/youtube.png):
 
-  - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w) ![YouTube](img/youtube.png)   
-  - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo) ![YouTube](img/youtube.png)
+  - [Using FreeDOS - EDLIN](https://www.youtube.com/watch?v=CIlJeKuSl9w)&nbsp;![YouTube](img/youtube.png)   
+  - [Patreon bonus - Programming in EDLIN](https://www.youtube.com/watch?v=MUmiluneuoo)&nbsp;![YouTube](img/youtube.png)
 
 The FreeDOS tutorial page images don't seem to work, so here is a snapshot from the Wayback Machine:
-[How to edit text with Edlin](https://web.archive.org/web/20231021151327/https://freedos.org/books/get-started/18-using-edlin/) ![Wayback Machine](img/archive.png)
+[How to edit text with Edlin](https://web.archive.org/web/20231021151327/https://freedos.org/books/get-started/18-using-edlin/)&nbsp;![Wayback Machine](img/archive.png)
 
 
 ### Getting It
@@ -367,8 +367,7 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 ##### Source
 
-- Microsoft MS-DOS v.4 [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png). Included for historical interest.
-- FreeDOS [source](https://github.com/FDOS/edlin) ![GitHub](img/github.png). ← Yes, this one.
+- FreeDOS [source](https://github.com/FDOS/edlin)&nbsp;![GitHub](img/github.png).
 
 
 #### Binaries
@@ -387,11 +386,11 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 ## ed
 
 (Aka. ``ed(1)``, and yes yes, also aka., "[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
-(Obligatory link for everyone who hasn't already heard the joke—all two of youz.))
+(Obligatory link for everyone who hasn't already heard the joke—all both of you.))
 
 ``ed`` is, in addition to being the standard text editor as see above, also
 probably the only line editor anyone reading this ought ever to bother with.
-It comes standard or is easily gotten on any Linux, BSD, or on MacOS, and it 
+It comes standard or is easily gotten on any Linux, Unix, BSD, or on MacOS; and it 
 has been ported to Microsoft Windows. It is mature, stable, and reliable.
 
 Therefore it is uninteresting. Well, that's not entirely true, but the nerd
@@ -403,8 +402,8 @@ distribution. Failing that, try something like ``sudo xbps-install ed`` or for y
 
 If you would like to know how it works, Google for a tutorial or two, and then when you've got a taste
 of it, read Brian Kernighan's two classic tutorials, in order: 1) 
-[A tutorial introduction to the UNIX text editor](https://www.nyx.net/~ewilli/edtut.pdf) ![PDF](img/pdf.png) and 2)
-[Advanced Editing on UNIX](https://cscie26.dce.harvard.edu/~dce-lib113/reference/progtools/EdTut.pdf) ![PDF](img/pdf.png)
+[A tutorial introduction to the UNIX text editor](https://www.nyx.net/~ewilli/edtut.pdf)&nbsp;![PDF](img/pdf.png) and 2)
+[Advanced Editing on UNIX](https://cscie26.dce.harvard.edu/~dce-lib113/reference/progtools/EdTut.pdf)&nbsp;![PDF](img/pdf.png)
 
 
 ## em
@@ -434,7 +433,7 @@ This is the "led" that is written in Lisp and compiled to Lua.
 This is the "led" that is a re-implementation of the CP/M ED.COM editor.
 
 Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix systems called
-[led](https://github.com/sage-etcher/leaf-context-editor) ![GitHub](img/github.png)
+[led](https://github.com/sage-etcher/leaf-context-editor)&nbsp;![GitHub](img/github.png)
 (for "leaf context editor").
 I have been able to build it on a couple of platforms,
 but either I don't know how to invoke it, or it doesn't work. 
@@ -446,7 +445,7 @@ If you're a c hacker, please make it work and let me know.
 ``qed`` (sometimes written QED)  was, it is said, written for an old 1960s machine using an old 1960s 
 operating system. Various later versions appeared and eventually it was
 re implemented in c, and there is a version available called
-[qed-new](https://github.com/phonologus/qed-new) ![GitHub](img/github.png)
+[qed-new](https://github.com/phonologus/qed-new)&nbsp;![GitHub](img/github.png)
 with Unicode support which will compile and run,
 at least minimally, on POSIXy systems I've tried, with a little tinkering.
 I do not know anything more about it and
@@ -477,7 +476,7 @@ Some links of general interest, of which the second is contained in the first:
 
 [Aaron Hsu's](https://www.sacrideo.us/)
 editor
-[ALE](https://github.com/arcfide/ALE) ![GitHub](img/github.png)
+[ALE](https://github.com/arcfide/ALE)&nbsp;![GitHub](img/github.png)
 is a line editor modeled on ``ed(1)`` in, apparently, something like 68 lines of characteristically inscrutable APL,
 including blank lines for formatting.
 I have not tested it in large part because it appears to be written for the
@@ -500,10 +499,10 @@ A very small line editor that really wants to use conio in the Microsoft environ
 it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
 
 Dieter's original web page about ATTO archived from 2016 is
-[here](https://web.archive.org/web/20160826220131/http://web.uta4you.at/shop/atto/index.htm) ![Wayback Machine](img/archive.png)
+[here](https://web.archive.org/web/20160826220131/http://web.uta4you.at/shop/atto/index.htm)&nbsp;![Wayback Machine](img/archive.png)
 
 I've posted a copy of the
-[code](https://github.com/EvansWinner/atto_line_editor) ![GitHub](img/github.png)
+[code](https://github.com/EvansWinner/atto_line_editor)&nbsp;![GitHub](img/github.png)
 with some small changes to get it to compile under Linux.
 From there you can find Dieter's original page on the Wayback machine.
 
@@ -516,12 +515,15 @@ I also have started working a little on a slightly modified version for POSIX en
 
 Not really available on modern systems.
 
-ED.COM is a line editor that was used on the [CP/M](https://en.wikipedia.org/wiki/CP/M) ![Wikipedia](img/wikipedia.png) operating system, a kind of
-precursor to DOS. All I know about ED.COM I learned from a pair of videos
+ED.COM is a line editor that was used on the
+[CP/M](https://en.wikipedia.org/wiki/CP/M)&nbsp;![Wikipedia](img/wikipedia.png)
+operating system, a kind of precursor to DOS.
+All I know about ED.COM I learned from a pair of videos
 done by someone whose name I haven't found, but whose channel on YouTube is called
-[TechTinkering](https://www.youtube.com/@TechTinkering):
- - [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g) ![YouTube](img/youtube.png) and the shorter,
- - [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE) ![YouTube](img/youtube.png)
+[TechTinkering](https://www.youtube.com/@TechTinkering)&nbsp;![YouTube](img/YouTube png):
+ - [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g)&nbsp;![YouTube](img/youtube.png)
+   and the shorter,
+ - [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)&nbsp;![YouTube](img/youtube.png)
 
 ED (which I style ED.COM in the CP/M style to differentiate it from the Unix ``ed(1)``)
 appears to be something like a mix between a line-based editor and a character-
@@ -530,15 +532,17 @@ interesting. I get the impression that it was written in assembly language and
 that a port to modern systems would amount to a complete re-write. See ``led`` (the other one)
 below for an attempt at that.
 
-There is also a [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf) ![PDF](img/pdf.png) available.
+There is also a
+[manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf)&nbsp;![PDF](img/pdf.png)
+available.
 
 
 ### buup
 
 *honorable mention* (Not quite usable yet.)
 
-[buup](https://github.com/EvansWinner/buup) ![GitHub](img/github.png)
-is basically my own attempt to modify ``atto`` for Linux use,
+[buup](https://github.com/EvansWinner/buup)&nbsp;![GitHub](img/github.png)
+is basically my own attempt to modify ATTO for Linux use,
 but not really ready to be used... kinda like this page itself, really.
 
 
@@ -558,7 +562,7 @@ Final projects on GitHub I think.
 
 This was mostly written with [vim](https://www.vim.org/), frankly. Shoot me.
 Some was in ``vi``, and yes, some in ``ed``. Right at this moment, I'm typing
-in GitHub's web-based editor. I fear commitment
+in GitHub's web-based editor. So, I fear commitment
 (though evidently not Git commitment).
 
 Why this silly page about text editors? Because when you can't think of anything to make,
