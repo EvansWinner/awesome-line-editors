@@ -218,11 +218,38 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
 - A YouTube playlist, of somewhat dubious quality... curated by myself:
   [Awesome Line Editors! \(And some not so awesome\)](https://www.youtube.com/watch?v=6ai0L__MROQ&list=PL-qKtep4qPg47t15pl4U4PE6NutDFn89F)&nbsp;![YouTube](img/youtube.png)
 - Well, mainly, there is the page on the Text Editor Wiki:
-  [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
+  [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily).
+  Unfortunately much on that wiki is out of date,
+  and also most of the editors don't seem to have a realistic way to usefully
+  be run on modern systems (see [Disclaimers](#disclaimers))
+  
 
-  Unfortunately much on that wiki is out of date, and also most of the editors don't seem to have a realistic way to usefully
-  be run on modern systems.
-  I conser those systems to be:
+## Disclaimers
+
+Just to set the record straight.
+
+
+### Focus on practically usable programs
+
+The point and target of this page is to make line editors useful, so its purpose is practical. I have indulged in some extra
+"honorable mentions" below for fun, and in some links to things of historical interest, but the main focus is on things that
+can be actually compiled and run on "modern" systems and used daily. This excludes things that require emulators
+to run, unless the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
+thing from the command line to get the editor (not the VM) to run.
+Termux counts as realistic, as does maybe
+[WSL](https://en.m.wikipedia.org/wiki/Windows_Subsystem_for_Linux)&nbsp;![Wikipedia](img/wikipedia.png) or the equivalent 
+you can run on a Chromebook. But, say, the
+[Hercules](https://sdl-hercules-390.github.io/html/)
+mainframe emulator
+([fantastically](https://www.prince-webdesign.nl/tk5)
+cool as it may be) would be a case of not a "realistic way to usefully" run it. Same with 8 bit systems and emulators like
+[Commodore](https://en.m.wikipedia.org/wiki/Commodore_International)&nbsp;![Wikipedia](img/wikipedia.png)
+computers /
+[Vice](https://vice-emu.sourceforge.io/),
+&c., &c.
+
+In any case, I consider "modern" systems to be:
+
   - Unix and obviously Unix-like systems like Solaris, BSD, GNU/Linux, MacOS, Minix
   - Android, using something like Termux
   - IOS, using something like
@@ -234,41 +261,14 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
     [z/VM](https://en.m.wikipedia.org/wiki/Z/VM)&nbsp;![Wikipedia](img/wikipedia.png),
     and whatever their marketing department calls
     [OS/400](https://www.ibm.com/products/ibm-i)
-these days
-
-  But it (the Text Editor Wiki) still seems a good place to start looking at things.
-
-  Many could be run in a VM, but I don't consider that "usefully" unless
-  the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
-  thing from the command line to get the editor (not the VM) to run.
-  Termux counts as realistic, as does maybe
-  [WSL](https://en.m.wikipedia.org/wiki/Windows_Subsystem_for_Linux)&nbsp;![Wikipedia](img/wikipedia.png) or the equivalent 
-  you can run on a Chromebook. But, say, the
-  [Hercules](https://sdl-hercules-390.github.io/html/)
-  mainframe emulator
-  ([fantastically](https://www.prince-webdesign.nl/tk5)
-  cool as it may be) would be a case of not a "realistic way to usefully" run it. Same with 8 bit systems and emulators like
-  [Commodore](https://en.m.wikipedia.org/wiki/Commodore_International)&nbsp;![Wikipedia](img/wikipedia.png)
-  computers /
-  [Vice](https://vice-emu.sourceforge.io/),
-  &c., &c.
-
-  This is the standard I am using in deciding what to include below, mostly.
-  It is also where I would most appreciate PRs for this page if you have anything you can add to it.
+   - Maaaaaybe VMS or some flavor thereof
 
 
-## Disclaimers
+Also, I exclude editors embedded in single applications for use there only (like, in multi-user dungeon programs, or whatever you
+call them).
 
-Just to set the record straight.
-
-
-### Focus on practically usable programs
-
-The point and target of this page is to make line editors useful, so its purpose is practical. I have indulged in some extra
-"honorable mentions" below for fun, and in some links to things of historical interest, but the main focus is on things that
-can be actually compiled and run on "modern" systems and used daily. This excludes things that require elaborate emulators
-to run, or editors embedded in single applications for use there only (like, in multi-user dungeon programs, or whatever you
-call them.
+This is the standard I am using in deciding what to include below, mostly.
+It is also where I would most appreciate PRs for this page if you have anything you can add to it.
 
 Now, if you have interesting info about other line editors
 (there must be a lot from the old 8-bit days I don't know about, among other things)
@@ -286,29 +286,30 @@ I'm just one person, with a real job, and you know, a family and a mortgage and 
 In strict 
 [ASCII sort order](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)....
 
+
 ## EDIT
 
 IBM's EDIT command from as far back as
-[MVS](https://en.wikipedia.org/wiki/MVS)&nbsp;![img/wikipedia.png]
+[MVS](https://en.wikipedia.org/wiki/MVS)&nbsp;![Wikipedia](img/wikipedia.png)
 at least on
-[TSO](https://en.wikipedia.org/wiki/Time_Sharing_Option)&nbsp;![img/wikipedia.png],
+[TSO](https://en.wikipedia.org/wiki/Time_Sharing_Option)&nbsp;![Wikipedia](img/wikipedia.png),
 and still current in z/OS under
 [TSO/E](https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-tsoe).
 
 [Jay Mosley](https://www.jaymoseley.com/)
 has an extensive
 [TSO Tutorial](https://www.jaymoseley.com/hercules/tso_tutor/tsotutor.htm)
-including the use of EDIT, and there are about 100 pages of documentation on EDIT
-in (among many other places) an old MVS
-[TSO Command Language Reference](http://bitsavers.org/pdf/ibm/370/OS_VS2/Release_3.7_1976/GC28-0646-3_OS_VS2_TSO_Command_Language_Reference_Rel_3.7_Jan76.pdf)&nbsp;![img/pdf.png]
+including the use of EDIT, and there are about 100 pages of documentation
+in (among many other places) an old IBM
+[TSO Command Language Reference](http://bitsavers.org/pdf/ibm/370/OS_VS2/Release_3.7_1976/GC28-0646-3_OS_VS2_TSO_Command_Language_Reference_Rel_3.7_Jan76.pdf)&nbsp;![PDF](img/pdf.png)
 on
-[Bitsavers](http://www.bitsavers.org/),
-by IBM.
+[Bitsavers](http://www.bitsavers.org/).
 
 
 ## EDLIN 
 
 [Wikipedia Page](https://en.wikipedia.org/wiki/Edlin)&nbsp;![Wikipedia](img/wikipedia.png) | [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
+
 
 ### Commentary and one-liners
 
@@ -336,8 +337,8 @@ than ``ed(1)`` and a good deal little less powerful, at least the FreeDOS versio
 It is a functional text editor, though, for
 most use cases other, perhaps, than use in scripts.
 
-### Versions
 
+### Versions
 
 #### xx-DOS version (MS-DOS, PC-DOS, whatever) versions
 
