@@ -303,13 +303,14 @@ In strict
 
 ### Commentary and one-liners
 
-IBM's EDIT command from as far back as
+IBM's EDIT command hails from as far back as
+[TSO](https://en.wikipedia.org/wiki/Time_Sharing_Option)&nbsp;![Wikipedia](img/wikipedia.png)
+on
 [MVS](https://en.wikipedia.org/wiki/MVS)&nbsp;![Wikipedia](img/wikipedia.png)
-at least on
-[TSO](https://en.wikipedia.org/wiki/Time_Sharing_Option)&nbsp;![Wikipedia](img/wikipedia.png),
-and still current in z/OS under
+at least,
+and is still current on
 [TSO/E](https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-tsoe).
-
+under z/OS.
 
 ### Versions
 
