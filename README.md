@@ -157,7 +157,7 @@ well enough to comment extensively, but if you appreciate the kind of thinking t
 Iverson's
 [Notation as a Tool of Thought](https://www.jsoftware.com/papers/tot.htm)
 and think that
-[APL](https://en.m.wikipedia.org/wiki/APL_(programming_language))&nbsp;![img/wikipedia.png]
+[APL](https://en.m.wikipedia.org/wiki/APL_(programming_language))&nbsp;![Wikipedia](img/wikipedia.png)
 is a great numerical language, and Wouldn't
 it be nice to have something with similar terseness specialized for text manipulation?—well, then maybe
 line editors are your thing. APL god
@@ -189,7 +189,7 @@ entire.
 
 In any case, some editors, like Teco (the Famed Father of Emacs) are called "character" or "character-level"
 editors. For my purposes, they mostly all operate in such a way that they are like a little
-[REPL](https://en.m.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)&nbsp;![img/wikipedia.png]
+[REPL](https://en.m.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)&nbsp;![Wikipedia](img/wikipedia.png)
 for a text
 editing programming language—a DSL usually not Turing-complete, though famously, Teco's is;
 and so I'm lumping them all together here.
@@ -219,26 +219,38 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
 - Well, mainly, there is the page on the Text Editor Wiki:
   [lineEditorsFamily](https://www.texteditors.org/cgi-bin/wiki.pl?LineEditorFamily)
 
-  Unfortunately much is out of date, and also most of the editors don't seem to have a realistic way to usefully
-  be run on modern systems
-  (which I consider:
-  BSD,
-  Linux,
-  MacOS,
-  Android,
-  IOS,
-  Microsoft Windows).
-  But it's still a good place to start looking at things.
+  Unfortunately much on that wiki is out of date, and also most of the editors don't seem to have a realistic way to usefully
+  be run on modern systems.
+  I conser those systems to be:
+  - Unix and obviously Unix-like systems like Solaris, BSD, GNU/Linux, MacOS, Minix
+  - Android, using something like Termux
+  - IOS, using something like
+    [iSH](https://ish.app/)
+  - Microsoft Windows
+  - FreeDOS and maybe even MS-DOS and similar
+  - Even IBM mainframe and midrange systems like
+    [z/OS](https://en.m.wikipedia.org/wiki/Z/OS)&nbsp;![Wilipedia](img/wikipedia.png),
+    [z/VM](https://en.m.wikipedia.org/wiki/Z/VM)&nbsp;![Wikipedia](img/wikipedia.png),
+    and whatever their marketing department calls
+    [OS/400](https://www.ibm.com/products/ibm-i)
+these days
+
+  But it (the Text Editor Wiki) still seems a good place to start looking at things.
 
   Many could be run in a VM, but I don't consider that "usefully" unless
   the VM is integrated into the host OS so tightly that it's a matter of just clicking on an icon or running a single
   thing from the command line to get the editor (not the VM) to run.
-  Termux counts as realistic, as does maybe WSL or the equivalent 
+  Termux counts as realistic, as does maybe
+  [WSL](https://en.m.wikipedia.org/wiki/Windows_Subsystem_for_Linux)&nbsp;![Wikipedia](img/wikipedia.png) or the equivalent 
   you can run on a Chromebook. But, say, the
   [Hercules](https://sdl-hercules-390.github.io/html/)
   mainframe emulator
   ([fantastically](https://www.prince-webdesign.nl/tk5)
-  cool as it may be) would be a case of not a "realistic way to usefully" run it. Same with 
+  cool as it may be) would be a case of not a "realistic way to usefully" run it. Same with 8 bit systems and emulators like
+  [Commodore](https://en.m.wikipedia.org/wiki/Commodore_International)&nbsp;![Wikipedia](img/wikipedia.png)
+  computers /
+  [Vice](https://vice-emu.sourceforge.io/),
+  &c., &c.
 
   This is the standard I am using in deciding what to include below, mostly.
   It is also where I would most appreciate PRs for this page if you have anything can add to it.
