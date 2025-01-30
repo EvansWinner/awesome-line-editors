@@ -272,6 +272,10 @@ In any case, I consider "modern" systems to be:
 Also, I exclude editors embedded in single applications for use there only
 (like, in multi-user dungeon programs, or whatever you call them).
 
+Finally, I am only including editors that are meant for interactive use,
+even when they are also used for scripting. So something like the standard
+Unix ``sed`` command is out.
+
 This is the standard I am using in deciding what to include below, mostly.
 It is also where I would most appreciate PRs for this page if you have anything you can add to it.
 
@@ -293,6 +297,8 @@ In strict
 
 
 ## EDIT
+
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?TSO_EDIT)
 
 IBM's EDIT command from as far back as
 [MVS](https://en.wikipedia.org/wiki/MVS)&nbsp;![Wikipedia](img/wikipedia.png)
