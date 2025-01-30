@@ -117,7 +117,7 @@ But then I continue to like line editors for another reason, which I can sum up 
 
 Another part of the writing saga is trying to work out how to have the tools you need any time, anywhere
 you are. For me, part of that is using
-[Termux]((https://termux.dev/en/)
+[Termux](https://termux.dev/en/)
 on my Android phone. I like Termux and have gotten good
 at using it. I plug my phone into a port-replicator with a real keyboard, get power to the phone,
 and output to a proper monitor. But there are times when I'm waiting in line at the DMV and don't have a keyboard.
@@ -253,7 +253,7 @@ these days
   &c., &c.
 
   This is the standard I am using in deciding what to include below, mostly.
-  It is also where I would most appreciate PRs for this page if you have anything can add to it.
+  It is also where I would most appreciate PRs for this page if you have anything you can add to it.
 
 
 ## Disclaimers
