@@ -2,7 +2,7 @@
 
 **or, Making Teletype Tech Useful Again!**
 
-(For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
+(For some meaning of "awesome," anyway. "Interesting," might be more accurate.) 
 
 
 ## Praeliminaria
@@ -295,8 +295,41 @@ It is more than enough for
 most use cases other, perhaps, than use in scripts. I intend to make sure this FDOS version
 will compile on MacOS and \*BSD.
 
+### Versions
 
-### Docs and Tutorials
+
+#### xx-DOS version (MS-DOS, PC-DOS, whatever) versions
+
+It may be possible to usefully one of the old versions for DOS if you have old hardware
+but not so old you can't get data off of it. Otherwise, this is here mainly for historical interest.
+
+
+#### Docs and Tutorials
+
+*TBD*
+
+
+#### Getting It
+
+It is included with MS-DOS, so if you have that, you should have EDLIN.
+
+
+#### Source
+
+- Microsoft MS-DOS v.4 [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png). 
+
+
+#### Binaries
+
+*TBD*
+
+
+### FreeDOS version
+
+This is the one you will want to get and probably compile for modern systems.
+
+
+#### Docs and Tutorials
 
 Here are a couple of videos about the FreeDOS project's YouTube
   [channel](https://www.youtube.com/@freedosproject) ![YouTube](img/youtube.png):
@@ -313,15 +346,16 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 ##### Source
 
-- Microsoft [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png)
-- FreeDOS [source](https://github.com/FDOS/edlin) ![GitHub](img/github.png)
+- Microsoft MS-DOS v.4 [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN) ![GitHub](img/github.png). Included for historical interest.
+- FreeDOS [source](https://github.com/FDOS/edlin) ![GitHub](img/github.png). ← Yes, this one.
 
 
 #### Binaries
 
- - Windows: There are native Windows binaries of FreeDOS EDLIN available
+ - Microsoft Windows 10: There are native Windows binaries of FreeDOS EDLIN available
    [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
- - Ubuntu Linux: There seems to be an apt package [available](https://launchpad.net/ubuntu/+source/edlin)
+ - Ubuntu Linux: There seems to be an apt package
+   [available](https://launchpad.net/ubuntu/+source/edlin)
 
 
 ## Teco
