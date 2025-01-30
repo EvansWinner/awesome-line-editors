@@ -111,7 +111,7 @@ first draft, and getting sucked into endless editing, and completely lose your f
 
 It turns out distraction-free writing is a state of mind, not a tool-set.
 
-But then I continue to like line editors for another reason, which I can sum up in just two words:
+But then I continue to like line editors for other reasons, one of which I can sum up in just two words:
 
 
 #### Thumb typing
@@ -142,12 +142,16 @@ don't try to do anything fancy with the screen, then a line editor is what you
 will need for cleaning up that config file. (This can really happen; it's
 happened to me.)
 
+
 #### Oh, and Suckless
 
-Blah blah, small, blah, lightweight, blah blee bleh, [suckless](https://suckless.org/),
+Blah blah, small, blah, fast and lightweight, blah blee bleh, [suckless](https://suckless.org/),
 can be statically linked, blah blah, isn't a [systemd](https://ihatesystemd.com/why/) service or whatever,
 Does One Thing and Does it Well[™](http://www.catb.org/esr/writings/taoup/html/ch01s06.html)—you
 know, all that rap.
+
+Ok, but for really, there is something sort of pleasant and comforting
+about the minimal "suckless" style of doing things—when it works.
 
 
 #### Finally, one weird thing
@@ -265,8 +269,8 @@ In any case, I consider "modern" systems to be:
    - Maaaaaybe VMS or some flavor thereof
 
 
-Also, I exclude editors embedded in single applications for use there only (like, in multi-user dungeon programs, or whatever you
-call them).
+Also, I exclude editors embedded in single applications for use there only
+(like, in multi-user dungeon programs, or whatever you call them).
 
 This is the standard I am using in deciding what to include below, mostly.
 It is also where I would most appreciate PRs for this page if you have anything you can add to it.
@@ -309,7 +313,8 @@ on
 
 ## EDLIN 
 
-[Wikipedia Page](https://en.wikipedia.org/wiki/Edlin)&nbsp;![Wikipedia](img/wikipedia.png) | [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
+[Wikipedia Page](https://en.wikipedia.org/wiki/Edlin)&nbsp;![Wikipedia](img/wikipedia.png) |
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
 
 
 ### Commentary and one-liners
@@ -359,7 +364,7 @@ It is included with MS-DOS, so if you have that, you should have EDLIN.
 
 #### Source
 
-- Microsoft MS-DOS v.4 [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)&nbsp;![GitHub](img/github.png). 
+- **Microsoft MS-DOS v.4** [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)&nbsp;![GitHub](img/github.png). 
 
 
 #### Binaries
@@ -389,14 +394,14 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 ##### Source
 
-- FreeDOS [source](https://github.com/FDOS/edlin)&nbsp;![GitHub](img/github.png).
+- **FreeDOS** [source](https://github.com/FDOS/edlin)&nbsp;![GitHub](img/github.png).
 
 
 #### Binaries
 
- - Microsoft Windows 10: There are native Windows binaries of FreeDOS EDLIN available
+ - **Microsoft Windows 10**: There are native Windows binaries of FreeDOS EDLIN available
    [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
- - Ubuntu Linux: There seems to be an apt package
+ - **Ubuntu Linux**: There seems to be an apt package
    [available](https://launchpad.net/ubuntu/+source/edlin)
 
 
@@ -407,7 +412,8 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 ## ed
 
-(Aka. ``ed(1)``, and yes yes, also aka., "[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
+(Aka. ``ed(1)``, and yes yes, also aka.,
+"[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
 (Obligatory link for everyone who hasn't already heard the joke—all both of you.))
 
 ``ed`` is, in addition to being the standard text editor as see above, also
@@ -526,9 +532,10 @@ Dieter's original web page about ATTO archived from 2016 is
 I've posted a copy of the
 [code](https://github.com/EvansWinner/atto_line_editor)&nbsp;![GitHub](img/github.png)
 with some small changes to get it to compile under Linux.
-From there you can find Dieter's original page on the Wayback machine.
+From there you can find Dieter's original page on the Wayback Machine.
 
-I also have started working a little on a slightly modified version for POSIX environments (see ``buup`` below).
+I also have started working a little on a slightly modified version for POSIX environments
+(see [buup](#buup) below).
 
 
 ### ED.COM
