@@ -460,6 +460,18 @@ of it, read Brian Kernighan's two classic tutorials, in order: 1)
 [A tutorial introduction to the UNIX text editor](https://www.nyx.net/~ewilli/edtut.pdf)&nbsp;![PDF](img/pdf.png) and 2)
 [Advanced Editing on UNIX](https://cscie26.dce.harvard.edu/~dce-lib113/reference/progtools/EdTut.pdf)&nbsp;![PDF](img/pdf.png)
 
+### Versions
+
+There is no doubt much to be said about different versions of ``ed,`` and I don't know what it all is yet,
+but in the meantime, there is a nice 
+[writeup](https://unix.stackexchange.com/questions/657459/what-is-the-difference-between-gnu-ed-and-the-version-of-ed-that-ships-with-unix)
+on Stack Exchange about some differences between the BSD version, the
+[GNU](https://www.gnu.org/)
+version, and the
+[Plan 9 Operating System](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)&nbsp;![Wikipedia](img/wikipedia.png) version.
+
+Also of possible note is the [Heirloom Project](https://heirloom.sourceforge.net/) version of [ed](https://github.com/ryanwoodsmall/heirloom-project/tree/master/heirloom/ed)
+and the musl C library version of [same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed).
 
 ## em
 
