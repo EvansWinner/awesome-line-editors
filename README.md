@@ -46,6 +46,7 @@
     - [ALE](#ale)
     - [ED.COM](#edcom)
     - [buup](#buup)
+    - [led 3](#led-3)
   - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
   - [Appendix C: Others](#appendix-c-others)
 - [Colophon](#colophon)
@@ -156,7 +157,8 @@ about the minimal "suckless" style of doing things—when it works.
 
 #### Finally, one weird thing
 
-Line editors tend to be very terse, and to expose what amounts to a language for the manipulation of textual data.
+Line editors tend to be very terse, and to expose what amounts to
+a language for the manipulation of textual data.
 Teco's command language is even Turing-complete. I don't know it
 well enough to comment extensively, but if you appreciate the kind of thinking that went into Ken
 Iverson's
@@ -603,6 +605,33 @@ There is also a
 [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf)&nbsp;![PDF](img/pdf.png)
 available.
 
+
+### led 3
+
+*(dis?)honorable mention*
+
+What does ``ed(1)`` have to keep track of?
+Well, the name of the current file,
+the current line number, and a buffer full of contents to be written
+the next write. Right? So, what if we were willing to tell ``ed`` what
+file we are working on with every command? And what if the program
+were set to write our changes after every operation? And what if we
+were also willing to tell it what line number or substring to operate
+on with every command? Well, then we could have a perfectly state-less
+editor. We wouldn't need a separate editing environment at all, really.
+We could just write a command line program
+that edited text files one command-line
+command at a time, one line at a time.
+
+And this insane idea is what is behind Patrick Taylor's ``led`` program
+for DOS. I guess it is, anyway. Anyway, you can download
+[led101.zip](https://ftp.icm.edu.pl/pub/windows/garbo/pc/fileutil/led101.zip)
+from that link on some random old DOS software archive,
+or any of several others. Have fun and good luck and all that.
+
+It seems like an interesting idea, and is probably more meant for use
+in batch files rather than for interactive use, but in any case, it's
+the weirdest one I've come up with so far.
 
 
 ## Appendix B: Mainly of Historical Interest
