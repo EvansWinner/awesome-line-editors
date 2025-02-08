@@ -628,6 +628,8 @@ for DOS. I guess it is, anyway. Anyway, you can download
 [led101.zip](https://ftp.icm.edu.pl/pub/windows/garbo/pc/fileutil/led101.zip)
 from that link on some random old DOS software archive,
 or any of several others. Have fun and good luck and all that.
+Note that there is no source code included with that zip archive.
+Maybe it would be fun to re-implement.
 
 It seems like an interesting idea, and is probably more meant for use
 in batch files rather than for interactive use, but in any case, it's
