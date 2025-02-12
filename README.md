@@ -1,8 +1,10 @@
 # Awesome Line Editors
 
-**or, Making Teletype Tech Useful Again!**
+(and some not-so-awesome ones)
 
 (For some meaning of "awesome," anyway. "Interesting," might be more accurate.) 
+
+**or, Making Teletype Tech Useful Again!**
 
 
 ## Praeliminaria
@@ -31,6 +33,7 @@
 - [The Editors](#the-editors)
   - [EDIT](#edit)
   - [EDLIN](#edlin)
+  - [Edbrowse](#edbrowse)
   - [Teco](#teco)
   - [ed](#ed)
   - [em](#em)
@@ -213,6 +216,9 @@ OK, now that you've picked ``ed(1)``, let me mention a couple of things.
 2. Google for ``ed`` tutorials. There are a number of them. Go through a couple to get a feel for things;
 then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
 3. Just use the editor for daily stuff for a while and it will start to click.
+   Here's a nice
+   [cheatsheet](https://github.com/pkrumins/ed-cheat-sheet)
+   to help you along.
 
 
 ## Some general external resources
@@ -382,7 +388,9 @@ but not so old you can't get data off of it. Otherwise, this is here mainly for 
 
 #### Docs and Tutorials
 
-*TBD*
+There is a nice
+[document](https://uncljoedoc.tripod.com/a/edlin.htm)
+with what I can only assume is the docuemntation for an old version of Edlin. It goes into some detail.
 
 
 #### Getting It
@@ -432,6 +440,24 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
    [here](https://darrengoossens.wordpress.com/2019/05/25/native-edlin-on-windows-10/).
  - **Ubuntu Linux**: There seems to be an apt package
    [available](https://launchpad.net/ubuntu/+source/edlin)
+
+
+## Edbrowse 
+
+Many Linux distributions will allow you to install Edbrowse from the package manager.
+If not, it's
+[here](https://github.com/CMB/edbrowse).
+
+Edbrowse is a web browser complete with Javascript engine,
+modeled on the user interface style of `ed(1)` and complete with --
+you guessed it -- a text editor, also modeled on `ed(1)`.
+It's really a kind of complete user interface for the blind.
+In the end, it may be the most complex, complete, and impressive
+bit of work on this page. At some point I would like to have more to say about it.
+
+In the meantime, here's some
+[documentation](https://edbrowse.org/usersguide.html).
+Enjoy.
 
 
 ## Teco
