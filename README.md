@@ -54,14 +54,24 @@
   - [Appendix C: Others](#appendix-c-others)
 - [Colophon](#colophon)
 
-And also, "character editors," as well. And no, I'm not talking about 
-the people who will fix your memoirs line-by-line for
-a fee.  I am talking about text editors of yore, like the Unix ``ed(1)`` editor,
-which operated in terms of lines, or like Teco, which theoretically operated in terms of
-individual characters, and which were originally designed to work on a Teletext terminal
-(or Teletype machine? What's the difference?) with a
-printer printing one line at a time like God intended, instead of a video display, like 
+And also, "character editors," as well.
+
+And no, I'm not talking about
+
+- the people who will fix your memoirs line-by-line for a fee; or
+- those command line editing functions like readline or
+  [linenoise](https://github.com/antirez/linenoise)
+  that are for editing a single line of input at your terminal shell.
+
+**I am talking about text editors of yore**, like the Unix ``ed(1)`` editor,
+which operated in terms of lines (or, yes, like Teco,
+which theoretically operated in terms of individual characters)
+and **which were originally designed to work on a Teletext terminal**
+(or Teletype machine? What's the difference?) **with a
+printer printing one line at a time like God intended**, instead of a video display, like 
 these new-fangled modern computers for lazy people.
+I'm talking about those paragons of the *conversational user interface*,
+the REPLs of text editing: line editors.
 
 
 ### Advertisement 
