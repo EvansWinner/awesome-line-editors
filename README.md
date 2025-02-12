@@ -244,6 +244,13 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
   Unfortunately much on that wiki is out of date,
   and also most of the editors don't seem to have a realistic way to usefully
   be run on modern systems (see [Disclaimers](#disclaimers))
+- Need your text editor to come with a side of formal verification? Here's
+  [Formal Ed](https://github.com/bor0/formal-ed), 
+  verified by Boro Sitnikovski with the
+  [Coq](https://coq.inria.fr/)
+  proof assistant, and here's his
+  [paper](https://arxiv.org/abs/2006.03525).
+  Mind, I don't understand a word of it, but obviously I had to include it.
   
 
 ## Disclaimers
