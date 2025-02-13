@@ -43,15 +43,16 @@
   - [led 2](#led-2)
   - [qed](#qed)
   - [sam -d](#sam--d)
+  - [sued](#sued)
 - [Appendices](#appendices)
   - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
-    - [ATTO](#atto)
     - [ALE](#ale)
+    - [ATTO](#atto)
     - [ED.COM](#edcom)
-    - [buup](#buup)
     - [led 3](#led-3)
   - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
   - [Appendix C: Others](#appendix-c-others)
+    - [buup](#buup)
 - [Colophon](#colophon)
 
 And also, "character editors," as well.
@@ -574,6 +575,24 @@ Some links of general interest, of which the second is contained in the first:
 ## sam -d
 
 *TBD*
+
+## sued
+
+If you like your lightweight minimalistic line editors with a side order of dozens of dependencies, then
+[sued](https://github.com/AeriaVelocity/sued),
+implemented in rust by Arsalan "Aeri" Kazmi, might just be for you.
+
+But all snark aside, sued represents a genuinely creative and independent-minded rethinking of the line editor paradigm.
+(I can't believe I just wrote that with a straight face, but it's true.)
+In particular, unlike most or all others, it is modeless, in the sense that it starts up in insert mode,
+and then to send it commands, you write the command words prefixed with a tilde (~) character
+(which you can change if you want) at the beginning of a line
+and merrily continue in insert mode the whole while.
+The command set is idiosyncractic and even sometimes funny.
+It's a slick addition to the line editor pantheon and worth trying out.
+I got it to `cargo build sued` on my Android running Termux without issue and that's pretty cool by itself.
+
+If you have more to add about this editor, please send me more or send a PR.
 
 
 # Appendices
