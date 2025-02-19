@@ -332,7 +332,7 @@ Ecce Homo? No, homo,
 [ECCE](https://ecce.sourceforge.net/)!
 
 With what, exactly, is
-[Hamish Dewar](https://en.wikipedia.org/wiki/Hamish_Dewar's)&nbsp;![Wikipedia](img/wikipedia.png)
+[Hamish Dewar's](https://en.wikipedia.org/wiki/Hamish_Dewar)&nbsp;![Wikipedia](img/wikipedia.png)
 The Edinburgh Compatible Context Editor compatible?
 Well, if they mean that it's compatible with being implemented and re-implemented on one OS and in one language after another,
 then ECCE is definitely highly compatible.
