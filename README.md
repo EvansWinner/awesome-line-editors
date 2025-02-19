@@ -31,6 +31,7 @@
   - [Disclaimers](#disclaimers)
 
 - [The Editors](#the-editors)
+  - [ECCE](#ecce) 
   - [EDIT](#edit)
   - [EDLIN](#edlin)
   - [Edbrowse](#edbrowse)
@@ -320,6 +321,34 @@ I'm just one person, with a real job, and you know, a family and a mortgage and 
 
 In strict 
 [ASCII sort order](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)....
+
+
+## ECCE
+
+[Text Editor Wiki Page](http://texteditors.org/cgi-bin/wiki.pl?Ecce) |
+[Wikipedia Page](https://en.wikipedia.org/wiki/Edinburgh_Compatible_Context_Editor)&nbsp;![Wikipedia](img/wikipedia.png)
+
+Ecce Homo? No, homo,
+[ECCE](https://ecce.sourceforge.net/)!
+
+With what, exactly, is
+[Hamish Dewar](https://en.wikipedia.org/wiki/Hamish_Dewar's)&nbsp;![Wikipedia](img/wikipedia.png)
+The Edinburgh Compatible Context Editor compatible?
+Well, if they mean that it's compatible with being implemented and re-implemented on one OS and in one language after another,
+then ECCE is definitely highly compatible.
+
+I was able to build the editor and give it a basic smoke test from the c source
+[here](https://ecce.sourceforge.net/download/#source) on both MacOS and Termux on Android.
+I cut/pasted the code to a file, ecce.c,
+then typed ``cc ecce.c``, then typed ``mv a.out ecce`` and ``./ecce file`` and it just worked. That's saying something for a
+1625-line single-file c program (plus a few more hundred of comments and blanks)
+based on something originally written in
+[IMP](https://en.wikipedia.org/wiki/Edinburgh_IMP)&nbsp;![Wikipedia](img/wikipedia.png)
+back in the 1960s.
+
+There is a nice
+[manual](https://ecce.sourceforge.net/manual.html)
+on the same Sourceforge homepage linked above maintained by Graham Toal.
 
 
 ## EDIT
