@@ -2,7 +2,8 @@
 
 (and some not-so-awesome ones)
 
-(For some meaning of "awesome," anyway. "Interesting," might be more accurate.) 
+(For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
+(and also for various meanings of "line editor")
 
 **or, Making Teletype Tech Useful Again!**
 
@@ -25,7 +26,7 @@
     - [Oh, and Suckless](#oh-and-suckless)
     - [Finally, one weird thing](#finally-one-weird-thing)
   - [Some quick notes first](#some-quick-notes-first)
-    - [Line editors vs. character editors](#line-editors-vs-character-editors)
+    - [Line editors, context editors, character editors, oh my!](#line-editors-context-editors-character-editors-oh-my)
     - [How do I learn to use a line editor?](#how-do-i-learn-to-use-a-line-editor)
   - [Some general external resources](#some-general-external-resources)
   - [Disclaimers](#disclaimers)
@@ -56,7 +57,7 @@
     - [buup](#buup)
 - [Colophon](#colophon)
 
-And also, "character editors," as well.
+And also, "character editors" and "context editors" as well.
 
 And no, I'm not talking about
 
@@ -192,7 +193,7 @@ processing with the terseness of APL, I bet he would answer: "APL!").
 
 ## Some quick notes first
 
-### Line editors vs. character editors
+### Line editors, context editors, character editors, oh my!
 
 Quick note, just like I said above: There is a distinction to be made between 
 "line editors" and "character editors." The distinction may not actually be all that distinct.
@@ -216,6 +217,15 @@ for a text
 editing programming language—a DSL usually not Turing-complete, though famously, Teco's is;
 and so I'm lumping them all together here.
 Heck, maybe "REPL-based text editors" would be a better name for them.
+
+As a further note, sometimes you may run across the term "context editor."
+In this context, a context editor seems to be the name given to an editor which allows you to select lines by searching,
+and not only by inputting a raw line number.
+That may seem too obvious a feature to bother getting excited about,
+but my impression is that it was a major selling point back in the day.
+The CP/M ED.COM editor is one that calls itself a context editor;
+another more obvious one is ECCE, which stands for "Edinburgh Compatible Context Editor."
+Most "modern" "line editors," like ``ed(1)`` and so on, are also context editors.
 
 
 ### How do I learn to use a line editor?
