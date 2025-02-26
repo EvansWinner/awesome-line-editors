@@ -1,9 +1,3 @@
-PC Teco for DOS. Smoke test on DOSBOX=good
-http://ftpmirror1.infania.net/pub/simtelnet/msdos/editor/pctco295.zip
-
-Another TECO for DOS from the old Simtel.net. Smoke test=good
-http://ftpmirror1.infania.net/pub/simtelnet/msdos/editor/teco.zip
-
 https://web.mit.edu/kolya/misc/txt/editors
 https://groups.google.com/g/alt.folklore.computers/c/5BnmLRl-FZM/m/HgwdC31cUO4J
 https://archive.org/details/The_CPM_Handbook_with_MPM/mode/1up
@@ -40,7 +34,6 @@ https://github.com/IanDarwin/edj
 https://blogs.oracle.com/javamagazine/post/for-the-fun-of-it-writing-your-own-text-editor-part-1
 https://www.coulouris.net/cs_history/em_story/QMC_Unix_manual.html
 http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
-https://man.freebsd.org/cgi/man.cgi?teco
 https://devpost.com/software/line-editor-led-exe
 https://github.com/Lartu/led
 https://www.ibm.com/docs/en/zos/3.1.0?topic=command-edit-subcommands-overview
