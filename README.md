@@ -263,6 +263,9 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
   proof assistant, and here's his
   [paper](https://arxiv.org/abs/2006.03525).
   Mind, I don't understand a word of it, but obviously I had to include it.
+- I include a link to RFC 569,
+  [NETED: A Common Editor for the ARPA Network](https://www.rfc-editor.org/rfc/rfc569.txt)
+  here from 1973 just because it's kind of facinating and sort of illuminating.
   
 
 ## Disclaimers
