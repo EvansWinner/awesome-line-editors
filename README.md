@@ -265,7 +265,7 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
   Mind, I don't understand a word of it, but obviously I had to include it.
 - I include a link to RFC 569,
   [NETED: A Common Editor for the ARPA Network](https://www.rfc-editor.org/rfc/rfc569.txt)
-  here from 1973 just because it's kind of facinating and sort of illuminating.
+  here from 1973 just because it's sort of facinating and kind of illuminating. Kinda-sorta.
   
 
 ## Disclaimers
@@ -564,7 +564,9 @@ I have been able to compile both on a variety of system including Termux and Mac
 - There is a FreeBSD
   [man](https://man.freebsd.org/cgi/man.cgi?teco)
   page for Teco. Presumably there is or was therefore a version of Teco available from their software repositories.
-
+- Here's the old DEC [manual](https://usermanual.wiki/Document/DEC10UTECAADdecsystem10IntroductionToTECOTextEditorAndCorrector.319080858.pdf)&nbsp;![PDF](img/pdf.png)
+- Here's the old TENEX [manual](https://dn790008.ca.archive.org/0/items/tenex-teco/Image071617171818.duplex_text.pdf)&nbsp;![PDF](img/pdf.png)
+- See the Github archives for TECOC and TECO-64 for more updated manuals.
   
 ## ed
 
