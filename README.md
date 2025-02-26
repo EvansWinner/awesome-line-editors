@@ -519,10 +519,54 @@ Enjoy.
 
 ## Teco
 
-*TBD*
+[Wikipedia Page](https://en.wikipedia.org/wiki/TECO_(text_editor))&nbsp;![Wikipedia](img/wikipedia.png) |
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?TECO)
 
+Teco is a text editing programming language masquerading as a REPL-like text editor.
+It seems to be the nine-hundred pound gorilla of the bunch.
+It is [nortoriously](https://scienceblogs.com/goodmath/2006/09/22/worlds-greatest-pathological-l-1)
+difficult to learn (though perhaps not "pathologically" so)
+and its code so notoriously difficult to read that it can be an amusing
+[game](https://www.catb.org/~esr/jargon/html/T/TECO.html).
+It is also the source of the world's first software
+"[Easter egg](https://www.acriticalhit.com/make-love-not-war-first-software-easter-egg/)."
 
+Teco does not, by itself, seemt to be well integrated into the Unix style of doing things,
+and I have spent very little time looking at it myself, since my interest is mainly practical,
+but for what it's worth:
+
+### Versions
+
+#### DOS
+
+- [Here](http://ftpmirror1.infania.net/pub/simtelnet/msdos/editor/pctco295.zip)
+  is an old FTP archive (Simtelnet archive) version for MS-DOS which I was able to get working in a DOS emulator,
+  with the understanding being that by "working" I mean that I was able to start it
+  then exit it. Not much else.
+- And here is
+  [another](http://ftpmirror1.infania.net/pub/simtelnet/msdos/editor/teco.zip)
+  version someone cooked up also from a Simtelnet archive.
+  This one too I was able to run and exit but with it nothing more have done.
+
+#### POSIXish
+
+But seriously, folks, if you want to try using Teco, what you probably want is either
+[TECOC](https://github.com/blakemcbride/TECOC)&nbsp;![GitHub](img/github.png) or
+[TECO-64](https://github.com/fpjohnston/TECO-64)&nbsp;![GitHub](img/github.png).
+(My money is on the later, as it seems to be a little better integrated into the modern Unix-like environment.)
+I have been able to compile both on a variety of system including Termux and MacOS.
+
+### Documentation
+
+- There is a FreeBSD
+  [man](https://man.freebsd.org/cgi/man.cgi?teco)
+  page for Teco. Presumably there is or was therefore a version of Teco available from their software repositories.
+
+  
 ## ed
+
+[Wikipedia Page](https://en.wikipedia.org/wiki/Ed_(software))&nbsp;![Wikipedia](img/wikipedia.png) |
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?Ed)
 
 (Aka. ``ed(1)``, and yes yes, also aka.,
 "[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
@@ -555,8 +599,11 @@ on Stack Exchange about some differences between the BSD version, the
 version, and the
 [Plan 9 Operating System](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)&nbsp;![Wikipedia](img/wikipedia.png) version.
 
-Also of possible note is the [Heirloom Project](https://heirloom.sourceforge.net/) version of [ed](https://github.com/ryanwoodsmall/heirloom-project/tree/master/heirloom/ed)
-and the musl C library version of [same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed).
+Also of possible note is the
+[Heirloom Project](https://heirloom.sourceforge.net/) version of 
+[ed](https://github.com/ryanwoodsmall/heirloom-project/tree/master/heirloom/ed)&nbsp;![GitHub](img/github.png)
+and the musl C library version of
+[same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed)&nbsp;![GitHub](img/github.png).
 
 ## em
 
@@ -593,6 +640,9 @@ If you're a c hacker, please make it work and let me know.
 
 
 ## qed
+
+[Wikipedia Page](https://en.wikipedia.org/wiki/QED_(text_editor))&nbsp;![Wikipedia](img/wikipedia.png) |
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?Qed)
 
 ``qed`` (sometimes written QED)  was, it is said, written for an old 1960s machine using an old 1960s 
 operating system. Various later versions appeared and eventually it was
@@ -681,6 +731,8 @@ I also have started working a little on a slightly modified version for POSIX en
 
 
 ### ED.COM
+
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?ED)
 
 *honorable mention*
 
