@@ -353,7 +353,9 @@ Ecce Homo? No, homo,
 With what, exactly, is
 [Hamish Dewar's](https://en.wikipedia.org/wiki/Hamish_Dewar)&nbsp;![Wikipedia](img/wikipedia.png)
 The Edinburgh Compatible Context Editor compatible?
-Well, if they mean that it's compatible with being implemented and re-implemented on one OS and in one language after another,
+Well, if they mean that it's compatible with being
+[implemented](https://history.dcs.ed.ac.uk/archive/apps/ecce/)
+and re-implemented on one OS and in one language after another,
 then ECCE is definitely highly compatible.
 
 I was able to build the editor and give it a basic smoke test from the c source
