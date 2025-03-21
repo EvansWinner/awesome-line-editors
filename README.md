@@ -771,7 +771,7 @@ ED.COM is a line editor that was used on the
 operating system, a kind of precursor to DOS.
 All I know about ED.COM I learned from a pair of videos
 done by someone whose name I haven't found, but whose channel on YouTube is called
-[TechTinkering](https://www.youtube.com/@TechTinkering)&nbsp;![YouTube](img/youtube png):
+[TechTinkering](https://www.youtube.com/@TechTinkering)&nbsp;![YouTube](img/youtube.png):
  - [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g)&nbsp;![YouTube](img/youtube.png)
    and the shorter,
  - [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)&nbsp;![YouTube](img/youtube.png)
