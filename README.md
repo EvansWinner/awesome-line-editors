@@ -780,7 +780,7 @@ ED (which I style ED.COM in the CP/M style to differentiate it from the Unix ``e
 appears to be something like a mix between a line-based editor and a character-
 based editor, like Teco. This makes it appear complicated, byzantine—and
 interesting. I get the impression that it was written in assembly language and
-that a port to modern systems would amount to a complete re-write. See the entry for [led](#led-2] for an attempt at that.
+that a port to modern systems would amount to a complete re-write. See the entry for [led](#led-2) for an attempt at that.
 
 There are also a
  - [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf)&nbsp;![PDF](img/pdf.png)
@@ -809,7 +809,7 @@ command at a time, one line at a time.
 And this insane idea is what is behind Patrick Taylor's ``led`` program
 for DOS. I guess it is, anyway. Anyway, you can download
 [led101.zip](https://ftp.icm.edu.pl/pub/windows/garbo/pc/fileutil/led101.zip)
-from that link on some random old DOS software ,
+from that link on some random old DOS software archive
 or any of several others. Have fun and good luck and all that.
 Note that there is no source code included with that zip .
 Maybe it would be fun to re-implement.
