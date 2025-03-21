@@ -265,11 +265,11 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
 - There is someone's idea of a
   [family tree](https://web.mit.edu/kolya/misc/txt/editors)
   of the older of these editors.
-  It is a cleaned up version of what Eric Fischer posted on alt.os.multics,alt.folklore.computers. The complete
+  It is a cleaned up version of what Eric Fischer posted on alt.folklore.computers. The complete
   [thread](https://groups.google.com/g/alt.folklore.computers/c/5BnmLRl-FZM/m/HgwdC31cUO4J)
   can be found on Google Groups.
 - Need your text editor to come with a side of formal verification? Here's
-  [Formal Ed](https://github.com/bor0/formal-ed)![GitHub](img/github.png), 
+  [Formal Ed](https://github.com/bor0/formal-ed)&nbsp;![GitHub](img/github.png), 
   verified by Boro Sitnikovski with the
   [Coq](https://coq.inria.fr/)
   proof assistant, and here's his
