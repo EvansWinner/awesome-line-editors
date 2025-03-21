@@ -56,7 +56,9 @@
   - [Appendix C: Others](#appendix-c-others)
     - [buup](#buup)
     - [cmd-line-text-editor](#cmd-line-text-editor)
+    - [ed clone in go](#ed-clone-in-go)
     - [edd](#edd)
+    - [edlin-clone](#edlin-clone)
     - [edlin-text-editor](#edlin-text-editor)
     - [Fed](#fed)
 - [Colophon](#colophon)
@@ -837,27 +839,41 @@ Nothing known about this yet.
 
 https://github.com/craigbarstow/cmd-line-text-editor
 
+## ed clone in go
+
+An ed [clone](https://go.dev/) in [go](https://go.dev/).
+Just what it sounds like, unless what it sounds to you like is ``ed.``
+I don't understand what is so difficult about naming things.
+I haven't looked at this yet.
+
 
 ## edd
 
-I don't know anything about [edd](https://github.com/bojle/edd)![GitHub](img/github.png) yet.
+I don't know anything about [edd](https://github.com/bojle/edd)&nbsp;![GitHub](img/github.png) yet.
+
+
+## edlin clone
+
+[This one](https://github.com/howerj/edlin)&nbsp;![GitHub](img/github.png)
+the author unhelpfully calls "edlin" even though it is a clone.
+I haven't looked at it yet.
 
 
 ## edlin-text-editor
 
-[edlin-text-editor](https://github.com/shleppy/edlin-text-editor)![GitHub](img/github.png),
+[edlin-text-editor](https://github.com/shleppy/edlin-text-editor)&nbsp;![GitHub](img/github.png),
 as it's author calls it, is a school assignment with a somewhat less-than-original name.
 I haven't looked at it yet.
 
 
 # edpy
 
-Someone had to write an ``ed`` clone in Python. [This](https://github.com/mmanguno/edpy)![GitHub](img/github.png)
+Someone had to write an ``ed`` clone in Python. [This](https://github.com/mmanguno/edpy)&nbsp;![GitHub](img/github.png)
 is it. I'm just glad it wasn't me. At least they didn't call it "pyed."
 
 ## Fed
 
-[Fed](https://github.com/scotws/Fed)![GitHub](img/github.png)
+[Fed](https://github.com/scotws/Fed)&nbsp;![GitHub](img/github.png)
 is a line editor in Fourth, specifically [gforth](https://gforth.org/).
 I haven't looked at it yet.
 
