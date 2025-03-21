@@ -669,12 +669,19 @@ re implemented in c, and there is a version available called
 [qed-new](https://github.com/phonologus/qed-new)&nbsp;![GitHub](img/github.png)
 with Unicode support which will compile and run,
 at least minimally, on POSIXy systems I've tried, with a little tinkering.
-I do not know anything more about it and
-haven't really played with it much, but it sports multiple buffers, which
-is nice if you're into that kind of thing. It and "sam -d" might be the most
-powerful line editors around.
 
-Some links of general interest, of which the second is contained in the first:
+This one has become my daily driver editor -- for first drafts, that is
+(and I still don't know it very well).
+It sports multiple buffers, which is nice if you're into that kind of thing.
+It and "sam -d" might be the most powerful line editors around.
+
+
+Brought to you by the same person behind qed-new above, is a project to produce a nice, updated version
+of --
+
+ - --the [manual](https://github.com/phonologus/qed-book)&nbsp;![GitHub](img/github.png)
+
+Some other links of general interest, of which the second is contained in the first:
 
 - [Some ``qed`` / ``ex`` / ``vi`` historical documents](https://www.reddit.com/r/vim/comments/1o6s9m/some_qed_ex_vi_historical_documents/)
 - [An incomplete history of the QED text editor](https://www.bell-labs.com/usr/dmr/www/qed.html)
@@ -866,7 +873,7 @@ as it's author calls it, is a school assignment with a somewhat less-than-origin
 I haven't looked at it yet.
 
 
-# edpy
+## edpy
 
 Someone had to write an ``ed`` clone in Python. [This](https://github.com/mmanguno/edpy)&nbsp;![GitHub](img/github.png)
 is it. I'm just glad it wasn't me. At least they didn't call it "pyed."
