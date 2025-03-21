@@ -220,7 +220,9 @@ In any case, some editors, like Teco (the Famed Father of Emacs) are called "cha
 editors. For my purposes, they mostly all operate in such a way that they are like a little
 [REPL](https://en.m.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)&nbsp;![Wikipedia](img/wikipedia.png)
 for a text
-editing programming language—a DSL usually not Turing-complete, though famously, Teco's is;
+editing programming language—a
+[DSL](https://en.wikipedia.org/wiki/Domain-specific_language)&nbsp;![Wikipedia](img/wikipedia.png)
+usually not Turing-complete, though famously, Teco's is;
 and so I'm lumping them all together here.
 Heck, maybe "REPL-based text editors" would be a better name for them.
 
