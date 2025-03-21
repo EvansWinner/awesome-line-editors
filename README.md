@@ -55,6 +55,10 @@
   - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
   - [Appendix C: Others](#appendix-c-others)
     - [buup](#buup)
+    - [cmd-line-text-editor](#cmd-line-text-editor)
+    - [edd](#edd)
+    - [edlin-text-editor](#edlin-text-editor)
+    - [Fed](#fed)
 - [Colophon](#colophon)
 
 And also, "character editors" and "context editors" as well.
@@ -263,7 +267,7 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
   [thread](https://groups.google.com/g/alt.folklore.computers/c/5BnmLRl-FZM/m/HgwdC31cUO4J)
   can be found on Google Groups.
 - Need your text editor to come with a side of formal verification? Here's
-  [Formal Ed](https://github.com/bor0/formal-ed), 
+  [Formal Ed](https://github.com/bor0/formal-ed)![GitHub](img/github.png), 
   verified by Boro Sitnikovski with the
   [Coq](https://coq.inria.fr/)
   proof assistant, and here's his
@@ -354,7 +358,7 @@ With what, exactly, is
 [Hamish Dewar's](https://en.wikipedia.org/wiki/Hamish_Dewar)&nbsp;![Wikipedia](img/wikipedia.png)
 The Edinburgh Compatible Context Editor compatible?
 Well, if they mean that it's compatible with being
-[implemented](https://history.dcs.ed.ac.uk/archive/apps/ecce/)
+[implemented](https://history.dcs.ed.ac.uk//apps/ecce/)
 and re-implemented on one OS and in one language after another,
 then ECCE is definitely highly compatible.
 
@@ -767,9 +771,11 @@ based editor, like Teco. This makes it appear complicated, byzantine—and
 interesting. I get the impression that it was written in assembly language and
 that a port to modern systems would amount to a complete re-write. See the entry for [led](#led-2] for an attempt at that.
 
-There is also a
-[manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf)&nbsp;![PDF](img/pdf.png)
-available.
+There are also a
+ - [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf)&nbsp;![PDF](img/pdf.png)
+    available, and
+ - a roughly 35-page chapter in
+   [The CP/M handbook with mp/m](https://.org/details/The_CPM_Handbook_with_MPM/mode/1up)&nbsp;![Wayback Machine](img/archive.png) by Rodnay Zaks.
 
 
 ### led 3
@@ -792,9 +798,9 @@ command at a time, one line at a time.
 And this insane idea is what is behind Patrick Taylor's ``led`` program
 for DOS. I guess it is, anyway. Anyway, you can download
 [led101.zip](https://ftp.icm.edu.pl/pub/windows/garbo/pc/fileutil/led101.zip)
-from that link on some random old DOS software archive,
+from that link on some random old DOS software ,
 or any of several others. Have fun and good luck and all that.
-Note that there is no source code included with that zip archive.
+Note that there is no source code included with that zip .
 Maybe it would be fun to re-implement.
 
 It seems like an interesting idea, and is probably more meant for use
@@ -824,6 +830,36 @@ Not quite usable yet.
 [buup](https://github.com/EvansWinner/buup)&nbsp;![GitHub](img/github.png)
 is basically my own attempt to modify [ATTO](#atto) for Linux use,
 but not really ready to be used... kinda like this page itself, really.
+
+## cmd-line-text-editor
+
+Nothing known about this yet.
+
+https://github.com/craigbarstow/cmd-line-text-editor
+
+
+## edd
+
+I don't know anything about [edd](https://github.com/bojle/edd)![GitHub](img/github.png) yet.
+
+
+## edlin-text-editor
+
+[edlin-text-editor](https://github.com/shleppy/edlin-text-editor)![GitHub](img/github.png),
+as it's author calls it, is a school assignment with a somewhat less-than-original name.
+I haven't looked at it yet.
+
+
+# edpy
+
+Someone had to write an ``ed`` clone in Python. [This](https://github.com/mmanguno/edpy)![GitHub](img/github.png)
+is it. I'm just glad it wasn't me. At least they didn't call it "pyed."
+
+## Fed
+
+[Fed](https://github.com/scotws/Fed)![GitHub](img/github.png)
+is a line editor in Fourth, specifically [gforth](https://gforth.org/).
+I haven't looked at it yet.
 
 
 ---
