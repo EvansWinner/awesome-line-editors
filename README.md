@@ -13,8 +13,11 @@
 **THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
 
 **→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
+<p align="center">
+  <img src="img/shoe.png" alt="The Hermetic Order of ed(1)" width=200 />
+</p>
 
-<img src="img/shoe.png" alt="The Hermetic Order of ed(1)" width=200 />
+
 
 ### Table of Contents
 - [Praeliminaria](#praeliminaria)
@@ -967,5 +970,5 @@ I wanted a mission and despite my sins, nobody will give me one.
 ---
 <p align="center">
   Brought to you by—<br />
-<img src="img/edPunchCard.png" width="300" />
+  <img src="img/edPunchCard.png" style="width:300" />
 </p>
