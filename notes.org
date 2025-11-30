@@ -35,9 +35,6 @@ Manual for Digital Research's manual for the CP/M ED.COM editor.
 * YES https://forum.literatureandlatte.com/t/why-i-write-early-drafts-with-a-manual-typewriter/131092
 One of many peons to manual typewriters
 
-* NO https://github.com/IanDarwin/edj
-"You cannot yet save your work..."
-
 * YES under OTHER https://github.com/Lartu/led
 Appears interesting. A simple line editor without search or context
 editing features, but with a chattier interface. Uses language LDPL for
@@ -49,17 +46,8 @@ TSO/EDIT subcommand reference
 * https://sourceforge.net/projects/led-text-editor/
 Lua script -- lua led.lua FILE -- runs under x64 Ubuntu.
 
-* NO https://sourceforge.net/projects/pyedlin/
-I don't understand Python and couldn't figure out how to make this work,
-of of course there's no documentation.
-
 * YES DOC HISTORICAL http://web.mit.edu/Saltzer/www/publications/AH.9.01.html
 For TYPSET and RUNOFF
-
-* YES! https://github.com/sidju/hired
-cargo install --path .  Build and smoke-test ok.  Some discussion on HN,
-particularly some observations on bloat:
-https://news.ycombinator.com/item?id=39357015
 
 * From one free LLM or another
 8-Bit Home Computer Era
@@ -124,6 +112,11 @@ Code builds and smoke tests on x64 Ubuntu.
 * DONE YES DOC http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
 On structural regular expressions (sam -d I think)
 
+* DONE YES! https://github.com/sidju/hired
+cargo install --path .  Build and smoke-test ok.  Some discussion on HN,
+particularly some observations on bloat:
+https://news.ycombinator.com/item?id=39357015
+
 * NO https://github.com/upman/Snap-Edit
 Can't get configure script to run, even after downloading config.guess
 and config.sub.
@@ -131,6 +124,13 @@ and config.sub.
 * NO https://github.com/clseibold/Edim
 Looks interesting, but doesn't compile on Termux or x64 Ubuntu. Note in Github that it's moved, but the link is dead.
 
+* NO https://sourceforge.net/projects/pyedlin/
+I don't understand Python and couldn't figure out how to make this work,
+of of course there's no documentation.
+
 * NO https://github.com/ShlomiRex/line-oriented-text-editor
 Compiles on Termux and x64 Ubuntu, but segfautls when you leave insert mode.
+
+* NO https://github.com/IanDarwin/edj
+"You cannot yet save your work..."
 

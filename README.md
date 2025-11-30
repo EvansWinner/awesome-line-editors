@@ -659,6 +659,8 @@ systems, but it compiled fine and ran on x64 Ubuntu.
 
 ## em
 
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?Em)
+
 *em* is the "Editor for Mortals," written by Peter Salus. It compiles
 from
 [this](https://github.com/rsdoiel/em-1.0.0)![GitHub](img/github.png)
@@ -738,6 +740,8 @@ Some other links of general interest, of which the second is contained in the fi
 
 ## sam -d
 
+[Wikipedia Page](https://en.wikipedia.org/wiki/Sam_(text_editor))&nbsp;![Wikipedia](img/wikipedia.png) | [Text Editor Wiki Page]( https://texteditors.org/cgi-bin/wiki.pl?Sam)
+
 *sam* is a GUI-based editor for the Plan 9 Operating system with a
 command language similar to *ed*. It requires X libraries to build on
 Linux, but once built it can be invoked in a terminal with "sam -d" and
@@ -748,6 +752,8 @@ http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.p
 
 
 ## sued
+
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?Sued)
 
 If you like your lightweight minimalistic line editors with a side order of dozens of dependencies, then
 [sued](https://github.com/AeriaVelocity/sued),
