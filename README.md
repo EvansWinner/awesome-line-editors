@@ -12,7 +12,7 @@
 
 **→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
 <p align="center">
-  <img src="img/shoe.png" alt="The Hermetic Order of ed(1)" width=200 />
+  <img src="img/shoe.jpg" alt="The Hermetic Order of ed(1)" width=200 />
 </p>
 
 
