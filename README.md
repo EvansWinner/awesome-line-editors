@@ -41,6 +41,7 @@
   - [edam](#edam)
   - [em](#em)
   - [ex](#ex)
+  - [hired](#hired)
   - [led 1](#led-1)
   - [led 2](#led-2)
   - [qed](#qed)
@@ -647,16 +648,21 @@ and the musl C library version of
 [same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed)&nbsp;![GitHub](img/github.png).
 
 ## edam
-[edam](https://github.com/phonologus/edam) is a clone of Rob Pike's sam editor for the [Plan9](https://9p.io/plan9/) OS, but without the graphical display, so it is is the equivalent of running 'sam -d'. I had some trouble getting it to compule on Termux and other less popular systems, but it compiled fine and ran on x64 Ubuntu.
+[edam](https://github.com/phonologus/edam) is a clone of Rob Pike's sam
+editor for the [Plan9](https://9p.io/plan9/) OS, but without the
+graphical display, so it is is the equivalent of running 'sam -d'. I had
+some trouble getting it to compile on Termux and other less popular
+systems, but it compiled fine and ran on x64 Ubuntu.
 
-/sam/ (and therefore edam as well) works similarly to ed, but uses "[structural regular expressions]( http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png)" (similar to the Vim-like [Vis](https://github.com/martanne/vis)![GitHub](img/github.png), supports multiple buffers (like qed) and allows selection to include more than a single line. 
+*sam* (and therefore edam as well) works similarly to ed, but uses "[structural regular expressions]( http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png)" (similar to the Vim-like [Vis](https://github.com/martanne/vis)![GitHub](img/github.png), supports multiple buffers (like qed) and allows selection to include more than a single line. 
+
 
 ## em
 
-'em' is the "Editor for Mortals," written by Peter Salus. It compiles
+*em* is the "Editor for Mortals," written by Peter Salus. It compiles
 from
 [this](https://github.com/rsdoiel/em-1.0.0)![GitHub](img/github.png)
-source on my x64 Ubuntu Linux system, and runs.  It is also available on
+source on my x64 Ubuntu Linux system, and runs.  It is also available
 from [pkgsrc](https://www.pkgsrc.org/). It aims to be an easier to use
 editor similar to the Unix 'ed' editor.
 
@@ -670,6 +676,16 @@ Peter Salus makes interesting reading.
 ## ex
 
 *TBD*
+
+
+## hired
+*hired* is a modern take on the line editor concept written in rust,
+with dozens of dependencies, and syntax highlighting. (See also *sued*
+beloow for something similar.) It compiles from
+[source](https://github.com/sidju/hired) on x64 Ubuntu Linux using
+`cargo install --path .` There is a little
+[discussion](https://news.ycombinator.com/item?id=39357015) on Hacker
+News including some observations about software bloat.
 
 
 ## led 1 
@@ -722,10 +738,10 @@ Some other links of general interest, of which the second is contained in the fi
 
 ## sam -d
 
-/sam/ is a GUI-based editor for the Plan 9 Operating system with a
-command language similar to ed. It requires X libraries to build on
+*sam* is a GUI-based editor for the Plan 9 Operating system with a
+command language similar to *ed*. It requires X libraries to build on
 Linux, but once built it can be invoked in a terminal with "sam -d" and
-operates similarly to ed, but with the addition of the use of
+operates similarly to *ed*, but with the addition of the use of
 "structural regular expressions" (for more on which, see Rob Pike's
 [document](
 http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png).
