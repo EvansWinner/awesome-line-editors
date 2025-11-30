@@ -1,7 +1,3 @@
-* YES https://github.com/sage-etcher/leaf-context-editor
-Claims to be a clone of CP/M's ED.COM for Unix systems. Builds and runs
-on x64 Ubuntu. Inscrutable documentation.
-
 * YES with caveats (OTHER) https://github.com/alzwded/JakED
 This is Windows only. I can't test easily. I wouldn't know how to use
 MVC or whatever anyway.
@@ -31,9 +27,11 @@ On the AmegaDOS EDIT line editor
 
 * YES https://cdn.preterhuman.net/texts/computing/cpm/CPM_1.4_ED_Users_Manual_1978.pdf
 Manual for Digital Research's manual for the CP/M ED.COM editor.
- 
-* YES https://forum.literatureandlatte.com/t/why-i-write-early-drafts-with-a-manual-typewriter/131092
-One of many peons to manual typewriters
+
+* ex
+https://en.wikipedia.org/wiki/Ex_(text_editor)
+https://texteditors.org/cgi-bin/wiki.pl?Ex
+Doc https://users.ox.ac.uk/~martinw/unix/chap9.html
 
 * YES under OTHER https://github.com/Lartu/led
 Appears interesting. A simple line editor without search or context
@@ -42,9 +40,6 @@ which I wasn't able to figure out how to build its one dependency.
 
 * YES DOC https://www.ibm.com/docs/en/zos/3.1.0?topic=command-edit-subcommands-overview
 TSO/EDIT subcommand reference
-
-* https://sourceforge.net/projects/led-text-editor/
-Lua script -- lua led.lua FILE -- runs under x64 Ubuntu.
 
 * YES DOC HISTORICAL http://web.mit.edu/Saltzer/www/publications/AH.9.01.html
 For TYPSET and RUNOFF
@@ -106,11 +101,21 @@ Compiles on x64 Ubuntu. Required apt install libxt-dev
 About em editor
 ** DONE YES https://www.coulouris.net/cs_history/em_story/QMC_Unix_manual.html
 man page for em editor
-** Done https://github.com/rsdoiel/em-1.0.0
+** DONE https://github.com/rsdoiel/em-1.0.0
 Code builds and smoke tests on x64 Ubuntu.
+
+* DONE YES https://forum.literatureandlatte.com/t/why-i-write-early-drafts-with-a-manual-typewriter/131092
+One of many peons to manual typewriters
+
+* DONE https://sourceforge.net/projects/led-text-editor/
+Lua script -- lua led.lua FILE -- runs under x64 Ubuntu.
 
 * DONE YES DOC http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
 On structural regular expressions (sam -d I think)
+
+* DONE YES https://github.com/sage-etcher/leaf-context-editor
+Claims to be a clone of CP/M's ED.COM for Unix systems. Builds and runs
+on x64 Ubuntu. Inscrutable documentation.
 
 * DONE YES! https://github.com/sidju/hired
 cargo install --path .  Build and smoke-test ok.  Some discussion on HN,

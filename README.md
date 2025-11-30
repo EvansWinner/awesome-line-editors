@@ -126,7 +126,7 @@ And re-write it, over and over.
 
 So the next step in the saga is to get a typewriter.
 You can waste a lot of time tinkering with typewriters;
-they're fun and they do fit the bill.
+they're fun and they do [fit the bill](https://forum.literatureandlatte.com/t/why-i-write-early-drafts-with-a-manual-typewriter/131092).
 Editing while drafting with a typewriter is indeed a big hassle,
 which encourages drafting without stopping, and editing later.
 
@@ -690,23 +690,24 @@ beloow for something similar.) It compiles from
 News including some observations about software bloat.
 
 
-## led 1 
+## led 1
 
-This is the "led" that is written in Lisp and compiled to Lua.
+This is the "led" that is written in Lisp and compiled to Lua. There are entirely too many editors called "led" in the world. I am marking them with numbers.
 
-*TBD*
+You can get it [here](https://sourceforge.net/projects/led-text-editor/). I successfully ran it using `lua led.lua FILE` on x64 Ubuntu Linux.
 
 
 ## led 2
 
 This is the "led" that is a re-implementation of the CP/M ED.COM editor.
 
-Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix systems called
+Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix
+systems called
 [led](https://github.com/sage-etcher/leaf-context-editor)&nbsp;![GitHub](img/github.png)
-(for "leaf context editor").
-I have been able to build it on a couple of platforms,
-but either I don't know how to invoke it, or it doesn't work. 
-If you're a c hacker, please make it work and let me know. 
+(or "leaf context editor").  I have been able to build it on a couple of
+platforms, but either I don't know how to invoke it, or it doesn't
+work. It runs on x64 Ubuntu Linux, but I found the documentation wholly
+inscrutable. If you're a c hacker, please make it work and let me know how.
 
 
 ## qed
