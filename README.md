@@ -14,7 +14,7 @@
 
 **→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
 
-![The Sacred Hermetic Order of ed(1)](img/edPunchCard.png)
+<img src="img/shoe.png" alt="The Hermetic Order of ed(1)" width=200 />
 
 ### Table of Contents
 - [Praeliminaria](#praeliminaria)
@@ -663,7 +663,7 @@ systems, but it compiled fine and ran on x64 Ubuntu.
 
 *em* is the "Editor for Mortals," written by Peter Salus. It compiles
 from
-[this](https://github.com/rsdoiel/em-1.0.0)![GitHub](img/github.png)
+[this](https://github.com/rsdoiel/em-1.0.0)&nbsp;![GitHub](img/github.png)
 source on my x64 Ubuntu Linux system, and runs.  It is also available
 from [pkgsrc](https://www.pkgsrc.org/). It aims to be an easier to use
 editor similar to the Unix 'ed' editor.
@@ -748,7 +748,7 @@ Linux, but once built it can be invoked in a terminal with "sam -d" and
 operates similarly to *ed*, but with the addition of the use of
 "structural regular expressions" (for more on which, see Rob Pike's
 [document](
-http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png).
+http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png) and multiple buffers, and the ability to select regions of ttext not defined by line breaks.
 
 
 ## sued
@@ -967,5 +967,5 @@ I wanted a mission and despite my sins, nobody will give me one.
 ---
 <p align="center">
   Brought to you by—<br />
-  <img src="img/edMotto.jpg" alt="The Hermetic Order of ed(1)" width=300 /> 
+<img src="img/edPunchCard.png" width="300" />
 </p>
