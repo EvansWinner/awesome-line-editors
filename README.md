@@ -39,7 +39,6 @@
   - [Teco](#teco)
   - [ed](#ed)
   - [em](#em)
-  - [en](#en)
   - [ex](#ex)
   - [led 1](#led-1)
   - [led 2](#led-2)
@@ -646,14 +645,25 @@ Also of possible note is the
 and the musl C library version of
 [same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed)&nbsp;![GitHub](img/github.png).
 
+## edam
+[edam](https://github.com/phonologus/edam) is a clone of Rob Pike's sam editor for the [Plan9](https://9p.io/plan9/) OS, but without the graphical display, so it is is the equivalent of running 'sam -d'. I had some trouble getting it to compule on Termux and other less popular systems, but it compiled fine and ran on x64 Ubuntu.
+
+/sam/ (and therefore edam as well) works similarly to ed, but uses "[structural regular expressions]( http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png)" (similar to the Vim-like [Vis](https://github.com/martanne/vis)![GitHub](img/github.png), supports multiple buffers (like qed) and allows selection to include more than a single line. 
+
 ## em
 
-*TBD*
+'em' is the "Editor for Mortals," written by Peter Salus. It compiles
+from
+[this](https://github.com/rsdoiel/em-1.0.0)![GitHub](img/github.png)
+source on my x64 Ubuntu Linux system, and runs.  It is also available on
+from [pkgsrc](https://www.pkgsrc.org/). It aims to be an easier to use
+editor similar to the Unix 'ed' editor.
 
-
-## en
-
-*TBD*
+There is a [man
+page](https://www.coulouris.net/cs_history/em_story/QMC_Unix_manual.html);
+and notes from an
+[interview](http://www.eecs.qmul.ac.uk/~gc/history/index.html) with
+Peter Salus makes interesting reading.
 
 
 ## ex
@@ -711,7 +721,14 @@ Some other links of general interest, of which the second is contained in the fi
 
 ## sam -d
 
-*TBD*
+/sam/ is a GUI-based editor for the Plan 9 Operating system with a
+command language similar to ed. It requires X libraries to build on
+Linux, but once built it can be invoked in a terminal with "sam -d" and
+operates similarly to ed, but with the addition of the use of
+"structural regular expressions" (for more on which, see Rob Pike's
+[document](
+http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png).
+
 
 ## sued
 
@@ -796,11 +813,13 @@ done by someone whose name I haven't found, but whose channel on YouTube is call
    and the shorter,
  - [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)&nbsp;![YouTube](img/youtube.png)
 
-ED (which I style ED.COM in the CP/M style to differentiate it from the Unix ``ed(1)``)
-appears to be something like a mix between a line-based editor and a character-
-based editor, like Teco. This makes it appear complicated, byzantine—and
-interesting. I get the impression that it was written in assembly language and
-that a port to modern systems would amount to a complete re-write. See the entry for [led](#led-2) for an attempt at that.
+ED (which I style ED.COM in the CP/M style to differentiate it from the
+Unix ``ed(1)``) appears to be something like a mix between a line-based
+editor and a character- based editor, like Teco. This makes it appear
+complicated, byzantine—and interesting. I get the impression that it was
+written in assembly language and that a port to modern systems would
+amount to a complete re-write. See the entry for [led](#led-2) for an
+attempt at that.
 
 There are also a
  - [manual](http://cpmarchives.classiccmp.org/cpm/Library/Manuals/CPM_1.4_ED_Users_Manual_1978.pdf)&nbsp;![PDF](img/pdf.png)
