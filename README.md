@@ -10,13 +10,10 @@
 
 ## Praeliminaria
 
-**THIS IS A WORK IN PROGRESS AND JUST STARTED. MORE TO COME. STAY TUNED.**
-
 **→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
 <p align="center">
   <img src="img/shoe.png" alt="The Hermetic Order of ed(1)" width=200 />
 </p>
-
 
 
 ### Table of Contents
