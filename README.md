@@ -77,19 +77,25 @@ which operated in terms of lines (or, yes, like Teco,
 which theoretically operated in terms of individual characters)
 and **which were originally designed to work on a Teletext terminal**
 (or Teletype machine? What's the difference?) **with a
-printer printing one line at a time like God intended**, instead of a video display, like 
-these new-fangled modern computers for lazy people.
+printer printing one line at a time like God intended**, instead of
+a video display, like these
+new-fangled modern computers for lazy people.
 I'm talking about those paragons of the *conversational user interface*,
 the REPLs of text editing: line editors.
 
 
 ### Advertisement 
 
-Before anything else, since a YouTube video is worth a thousand ill-chosen words, check out a 
-couple of impressive demos. There are lots of other videos of people using line editors on YouTube (almost
-all using the Unix ``ed(1)`` editor) but most were done by college students who just discovered ``ed``
-yesterday and don't know anything about it. They're mostly kind of embarrassing, frankly (the videos, I mean). But these below
-are the two cool ones I've found because they were done by legit wizards: 
+Before anything else,
+since a YouTube video is worth a thousand ill-chosen words,
+check out a couple of impressive demos.
+There are lots of other videos of people using line editors on YouTube
+(almost all using the Unix ``ed(1)`` editor)
+but most were done by college students
+who just discovered ``ed`` yesterday and don't know anything about it.
+They're mostly kind of embarrassing, frankly (the videos, I mean).
+But these below are the two cool ones I've found
+because they were done by legit wizards: 
 
  - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
  - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png) 
@@ -97,34 +103,47 @@ are the two cool ones I've found because they were done by legit wizards:
 
 ### I can't be bothered to watch the videos, or I still don't get the point 
 
-Yeah, OK, fair enough. For most people, there is zero reason to be interested in line editors.
+Yeah, OK, fair enough.
+For most people, there is zero reason to be interested in line editors.
 For what it's worth, here is how I came to appreciate them.
 
 
 #### First, distraction-free -- hey, a bird!
 
-It all started as one of those "distraction-free writing environment" things. 
-It may seem strange, but many writers find that one of the biggest enemies to productivity is the
-tendency to stop when you're flowing and get distracted by editing what you've written.
-The common wisdom is to separate writing (drafting) and editing. One solution is to write
-long-hand. This works just until your hand gains strength and speed and you learn that
-it's easy to quickly scratch something out and re-write it. And re-write it,
-over and over.
+It all started as one of those
+"distraction-free writing environment" things.
+It may seem strange,
+but many writers find that one of the biggest enemies to productivity is
+the tendency to stop when you're flowing
+and get distracted by editing what you've written.
+The common wisdom is to separate writing (drafting) and editing.
+One solution is to write long-hand.
+This works just until your hand gains strength and speed
+and you learn that it's easy to quickly scratch something out
+and re-write it.
+And re-write it, over and over.
 
-So the next step in the saga is to get a typewriter. You can waste a lot of time
-tinkering with typewriters; they're fun and they do fit the bill. Editing while drafting with a
-typewriter is indeed a big hassle, which encourages drafting without stopping, and editing later.
+So the next step in the saga is to get a typewriter.
+You can waste a lot of time tinkering with typewriters;
+they're fun and they do fit the bill.
+Editing while drafting with a typewriter is indeed a big hassle,
+which encourages drafting without stopping, and editing later.
 
-But it also keeps you rooted to one place. It's not
-something you can take to the local coffee shop unless you want to annoy everyone around you
-and generally look like a hipster jackass. (Of course, if you can stomach that, then more power to you;
-and if you *are* a hipster jackass, then you just go on and be the best hipster jackass you can be, you!)
+But it also keeps you rooted to one place.
+It's not something you can take to the local coffee shop
+unless you want to annoy everyone around you
+and generally look like a hipster jackass.
+(Of course, if you can stomach that, then more power to you;
+and if you *are* a hipster jackass,
+then you just go on and be the best hipster jackass you can be, you!)
 
-So, enter the humble line editor. You can learn to enter text into ``ed(1)`` in five minutes, but
-the basic idea is that learning to do any real editing with a line (or character) editor is so
-difficult, that you won't bother. You'll just type away, and then once you've finished drafting
-something, you'll save it and open the file to edit in a proper text editor like THE, or Emacs, or vi,
-or Microsoft Blub 3.0, right?
+So, enter the humble line editor.
+You can learn to enter text into ``ed(1)`` in five minutes,
+but the basic idea is that learning to do any real editing
+with a line (or character) editor is so difficult, that you won't bother.
+You'll just type away, and then once you've finished drafting something,
+you'll save it and open the file to edit in a proper text editor
+like THE, or Emacs, or vi, or Microsoft Blub 3.0, right?
 
 There's only one problem. It actually turns out that it only takes a little while before you'll learn
 how to edit text in ``ed(1)`` quite quickly, and soon you will find yourself using ``ed`` voluntarily to make
@@ -330,18 +349,19 @@ Finally, I am only including editors that are meant for interactive use,
 even when they are also used for scripting. So something like the standard
 Unix ``sed`` command is out.
 
-This is the standard I am using in deciding what to include below, mostly.
-It is also where I would most appreciate PRs for this page if you have anything you can add to it.
+This is the standard I am using in deciding what to include below, mostly.  It
+is also where I would most appreciate PRs for this page if you have anything you
+can add to it.
 
-Now, if you have interesting info about other line editors
-(there must be a lot from the old 8-bit days I don't know about, among other things)
-then please do send the information along and it can go in the appendices.
+Now, if you have interesting info about other line editors (there must be a lot
+from the old 8-bit days I don't know about, among other things) then please do
+send the information along and it can go in the appendices.
 
 
 ### Stuff could be wrong
 
-Please send me a PR, or just a comment, with corrections or additions.
-I'm just one person, with a real job, and you know, a family and a mortgage and all that.
+Please send me a PR, or just a comment, with corrections or additions.  I'm just
+one person, with a real job, and you know, a family and a mortgage and all that.
 
 
 # The Editors
@@ -827,8 +847,8 @@ The past is coming soon... or something.
 ## Appendix C: Others
 
 This is mostly going to be school final projects on GitHub I think.
-"Implement a line editor like ``ed``. Include commands to
-open a file, write a file, print and replace lines."
+"Implement a line editor like ``ed``.
+Include commands to open a file, write a file, print and replace lines."
 I think there are a lot of them, but I'll probably only include them
 if they at least compile and don't segfault when run.
 Maybe there will be something valuable.

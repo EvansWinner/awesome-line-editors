@@ -1,0 +1,79 @@
+* NO https://github.com/clseibold/Edim
+Looks interesting, but doesn't compile on Termux or x64 Ubuntu. Note in Github that it's moved, but the link is dead.
+
+* NO https://github.com/ShlomiRex/line-oriented-text-editor
+Compiles on Termux and x64 Ubuntu, but segfautls when you leave insert mode.
+
+* YES DOC http://www.eecs.qmul.ac.uk/~gc/history/index.html
+About em editor
+
+* YES https://github.com/sage-etcher/leaf-context-editor
+Claims to be a clone of CP/M's ED.COM for Unix systems. Builds and runs
+on x64 Ubuntu. Inscrutable documentation.
+
+* YES with caveats (OTHER) https://github.com/alzwded/JakED
+This is Windows only. I can't test easily. I wouldn't know how to use
+MVC or whatever anyway.
+
+* YES https://github.com/scott-linder/rusted https://github.com/tobhe/red
+Ed clone in rust. Builds and passes a few basic tests on x64
+Ubuntu. Clone the repo and do `cargo build'.
+
+* NO https://github.com/upman/Snap-Edit
+Can't get configure script to run, even after downloading config.guess
+and config.sub.
+
+* YES HISTORY https://en.wikipedia.org/wiki/ORVYL_and_WYLBUR
+Historical interest only as it is MVS only.
+** https://web.stanford.edu/dept/its/support/wylorv/
+Code for Wylbur for MVS. Might work on z/OS.
+
+* YES HISTORICAL https://en.m.wikipedia.org/wiki/Colossal_Typewriter
+** https://www.computerhistory.org/pdp-1/_media/pdf/DEC.pdp_1.1960.102650331.pdf
+Three page memo documenting Colossal Typewriter
+
+* YES HISTORICAL https://en.m.wikipedia.org/wiki/Expensive_Typewriter
+** http://archive.computerhistory.org/resources/text/DEC/pdp-1/DEC.pdp_1.1972.102650079.pdf
+About 17 pages. Things get complicated fast.
+
+* YES https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf -- Appendix B
+z/VSE Context Editor /EDIT
+
+* YES HISTORICAL https://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf -- Chapter 4
+On the AmegaDOS EDIT line editor
+
+* YES https://cdn.preterhuman.net/texts/computing/cpm/CPM_1.4_ED_Users_Manual_1978.pdf
+Manual for Digital Research's manual for the CP/M ED.COM editor.
+ 
+* YES https://forum.literatureandlatte.com/t/why-i-write-early-drafts-with-a-manual-typewriter/131092
+One of many peons to manual typewriters
+
+* NO https://github.com/IanDarwin/edj
+"You cannot yet save your work..."
+
+* YES https://www.coulouris.net/cs_history/em_story/QMC_Unix_manual.html
+man page for em editor
+** https://github.com/rsdoiel/em-1.0.0
+Code builds and smoke tests on x64 Ubuntu.
+
+* YES DOC http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
+On structural regular expressions (sam -d I think)
+
+* YES under OTHER https://github.com/Lartu/led
+Appears interesting. A simple line editor without search or context
+editing features, but with a chattier interface. Uses language LDPL for
+which I wasn't able to figure out how to build its one dependency.
+
+* YES DOC https://www.ibm.com/docs/en/zos/3.1.0?topic=command-edit-subcommands-overview
+TSO/EDIT subcommand reference
+
+* https://sourceforge.net/projects/led-text-editor/
+Lua script -- lua led.lua FILE -- runs under x64 Ubuntu.
+
+* NO https://sourceforge.net/projects/pyedlin/
+I don't understand Python and couldn't figure out how to make this work,
+of of course there's no documentation.
+
+* YES DOC HISTORICAL http://web.mit.edu/Saltzer/www/publications/AH.9.01.html
+For TYPSET and RUNOFF
+
