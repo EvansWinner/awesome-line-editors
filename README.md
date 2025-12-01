@@ -2,8 +2,8 @@
 
 (and some not-so-awesome ones)
 
-(For some meaning of "awesome," anyway. "Interesting," might be more accurate.)
-(and also for various meanings of "line editor")
+(For some meaning of "awesome," anyway. "Interesting," might be more accurate; 
+and also for various meanings of "line editor.")
 
 **or, Making Teletype Tech Useful Again!**
 
@@ -1072,6 +1072,6 @@ I wanted a mission and despite my sins, nobody will give me one.
 
 ---
 <p align="center">
-  Brought to you by—<br />
-  <img src="img/edPunchCard.png" style="width:300" />
+  This reference is given freely by the penitent and humble hands of <i>Ordo Eduardi</i>—<br />
+   <a href="https://evanswinner.github.io/shoe.html"><img src="img/edPunchCard.png" style="width:300" /></a>
 </p>
