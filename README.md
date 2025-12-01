@@ -396,16 +396,16 @@ In strict
 | Multiple buffers  | ❌ |
 | Suckless approved | ✔️ |
 
-|                  | Builds    | Runs      | Some actual testing |
-|------------------|-----------|-----------|---------------------|
-| Linux            | TBD       | TBD       | TBD                 |
-| BSD              | TBD       | TBD       | TBD                 |
-| Termux (Andorid) | C version | C version | TBD                 |
-| iSH (iOS)        | TBD       | TBD       | TBD                 |
-| MS-DOS           | TBD       | TBD       | TBD                 |
-| FreeDOS          | TBD       | TBD       | TBD                 |
-| MS-Windows       | TBD       | TBD       | TBD                 |
-| MacOS            | C version | C version | TBD                 |
+|                  | Builds         | Runs            | Some actual testing |
+|------------------|-----------------|----------------|---------------------|
+| Linux            | ❓             | ❓             | ❓                 |
+| BSD              | ❓             | ❓             | ❓                 |
+| Termux (Andorid) | ✔️ (C version) | ✔️ (C version) | ❓                 |
+| iSH (iOS)        | ❓             | ❓             | ❓                 |
+| MS-DOS           | ❓             | ❓             | ❓                 |
+| FreeDOS          | ❓             | ❓             | ❓                 |
+| MS-Windows       | ❓             | ❓             | ❓                 |
+| MacOS            | C version       | C version      | ❓                 |
 
 Ecce Homo? No, homo,
 [ECCE](https://ecce.sourceforge.net/)!
@@ -533,7 +533,7 @@ It is included with MS-DOS, so if you have that, you should have EDLIN.
 
 #### Binaries
 
-*TBD*
+*❓*
 
 
 ### FreeDOS version
@@ -708,7 +708,7 @@ Peter Salus makes interesting reading.
 
 ## ex
 
-*TBD*
+*❓*
 
 
 ## hired
