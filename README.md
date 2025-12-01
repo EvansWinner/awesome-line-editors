@@ -101,7 +101,11 @@ But these below are the two cool ones I've found
 because they were done by legit wizards: 
 
  - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
- - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png)
+
+Also worth watching is a very nice video nominally about the Unix *ed* editor, but 
+with a lot of broad context and historical light that applies to the line editor family in general:
+[The little editor that could](https://www.youtube.com/watch?v=GoyNMFccbow)&nbsp;![YouTube](img/youtube.png).
 
 
 ### I can't be bothered to watch the videos, or I still don't get the point 
