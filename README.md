@@ -497,6 +497,24 @@ Let me know—I would love to know—if there are any reimplementations of EDIT 
 [Wikipedia Page](https://en.wikipedia.org/wiki/Edlin)&nbsp;![Wikipedia](img/wikipedia.png) |
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
 
+|  Question  | Answer |
+|------------|---------|
+| Unicode aware     | ✔️ (FreeDOS version at least |
+| Context editing   | ❓ |
+| Multiple buffers  | ❌ |
+| Suckless approved | ✔️ |
+
+|                  | Builds         | Runs            |  Actually functional |
+|------------------|-----------------|----------------|----------------------|
+| Linux            | ✔️ x86 Ubuntu (FreeDOS version)  | ✔️ x86 Ubuntu (FreeDOS version) | ✔️ |
+| BSD              | ❓             | ❓             | ❓                  |
+| Termux (Andorid) | ✔️             | ✔️             | ❓                  |
+| iSH (iOS)        | ❓             | ❓             | ❓                  |
+| MS-DOS           | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) | ❓        |
+| FreeDOS          | ✔️             | ✔️             | ✔️                  |
+| MS-Windows       | ✔️ (FreeDOS version) | ✔️ (FreeDOS version) | ❓      |
+| MacOS            | ❓             | ❓             | ❓                  |
+| [other]          | ❓             | ❓             | ❓                  |
 
 ### Commentary and one-liners
 
