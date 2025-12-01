@@ -389,6 +389,8 @@ In strict
 [Text Editor Wiki Page](http://texteditors.org/cgi-bin/wiki.pl?Ecce) |
 [Wikipedia Page](https://en.wikipedia.org/wiki/Edinburgh_Compatible_Context_Editor)&nbsp;![Wikipedia](img/wikipedia.png)
 
+|  Question  | Answer |
+|------------|---------|
 | Unicode aware     | ❓ |
 | Context editing   | ❓ |
 | Multiple buffers  | ❌ |
