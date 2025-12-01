@@ -33,7 +33,7 @@ and also for various meanings of "line editor.")
   - [Disclaimers](#disclaimers)
     - [A note about the tables](#a-note-about-the-tables)
     - [Focus on practically usable programs](#focus-on-practically-usable-programs)
-    - [Stuff could be wrong(#stuff-could-be-wrong)
+    - [Stuff could be wrong](#stuff-could-be-wrong)
 
 - [The Editors](#the-editors)
   - [ECCE](#ecce) 
