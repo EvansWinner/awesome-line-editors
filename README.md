@@ -510,7 +510,7 @@ Let me know—I would love to know—if there are any reimplementations of EDIT 
 | BSD              | ❓             | ❓             | ❓                  |
 | Termux (Andorid) | ✔️             | ✔️             | ❓                  |
 | iSH (iOS)        | ❓             | ❓             | ❓                  |
-| MS-DOS           | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) | ❓        |
+| MS-DOS           | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) | ✔️        |
 | FreeDOS          | ✔️†           | ✔️†             | ✔️†                 |
 | MS-Windows       | ✔️ (FreeDOS version) | ✔️ (FreeDOS version) | ❓      |
 | MacOS            | ❓             | ❓             | ❓                  |
