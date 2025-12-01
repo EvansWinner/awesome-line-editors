@@ -437,6 +437,24 @@ on the same Sourceforge homepage linked above maintained by Graham Toal.
 
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?TSO_EDIT)
 
+|  Question  | Answer |
+|------------|---------|
+| Unicode aware     | ❓ |
+| Context editing   | ❓ |
+| Multiple buffers  | ❌ |
+| Suckless approved | ❓ |
+
+|                  | Builds         | Runs            |  Actually functional |
+|------------------|-----------------|----------------|----------------------|
+| Linux            | N/A             | N/A            | N/A                  |
+| BSD              | ❓             | ❓             | N/A                  |
+| Termux (Andorid) | ✔️ (C version) | ✔️ (C version) | N/A                  |
+| iSH (iOS)        | ❓             | ❓             | N/A                  |
+| MS-DOS           | ❓             | ❓             | N/A                  |
+| FreeDOS          | ❓             | ❓             | N/A                  |
+| MS-Windows       | ❓             | ❓             | N/A                  |
+| MacOS            | N/A             | N/A            | N/A                  |
+| [other] MVS / z/OS  | N/A          | ✔️             | ✔️                  |
 
 ### Commentary and one-liners
 
