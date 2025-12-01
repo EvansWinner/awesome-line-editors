@@ -629,15 +629,15 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
-| Linux            | ✔️             | ❓             | ❓                  |
-| BSD              | ✔️             | ❓             | ❓                  |
-| Termux (Andorid) | ✔️             | ❓             | ❓                  |
+| Linux            | ✔️             | ✔️             | ✔️                  |
+| BSD              | ✔️             | ✔️             | ✔️                  |
+| Termux (Andorid) | ✔️             | ✔️             | ✔️                  |
 | iSH (iOS)        | ❓             | ❓             | ❓                  |
-| MS-DOS           | ✔️ (older Perl version) | ✔️ (older Perl version) | ✔️ (older Perl version)                  |
+| MS-DOS           | ✔️ (older Perl version) | ✔️ (older Perl version) | ✔️ (older Perl version) |
 | FreeDOS          | ❓             | ❓             | ❓                  |
 | MS-Windows       | ✔️             | ✔️             | ✔️                  |
-| MacOS            | ❓             | ❓             | ❓                  |
-| [other]          | N/A             | N/A            | N/A                  |
+| MacOS            | ✔️             | ✔️             | ✔️                  |
+| [other]          | ❓ (possibly OS/2) | ❓         | ❓                  |
 
 Many Linux distributions will allow you to install Edbrowse from the package manager.
 If not, it's
