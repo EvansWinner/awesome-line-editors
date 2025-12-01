@@ -511,10 +511,12 @@ Let me know—I would love to know—if there are any reimplementations of EDIT 
 | Termux (Andorid) | ✔️             | ✔️             | ❓                  |
 | iSH (iOS)        | ❓             | ❓             | ❓                  |
 | MS-DOS           | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) | ❓        |
-| FreeDOS          | ✔️             | ✔️             | ✔️                  |
+| FreeDOS          | ✔️†           | ✔️†             | ✔️†                 |
 | MS-Windows       | ✔️ (FreeDOS version) | ✔️ (FreeDOS version) | ❓      |
 | MacOS            | ❓             | ❓             | ❓                  |
 | [other]          | ❓             | ❓             | ❓                  |
+
+† Taking this on faith.
 
 ### Commentary and one-liners
 
