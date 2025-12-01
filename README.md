@@ -62,6 +62,7 @@
     - [edlin-clone](#edlin-clone)
     - [edlin-text-editor](#edlin-text-editor)
     - [Fed](#fed)
+    - [JakED](#jaked)
 - [Colophon](#colophon)
 
 And also, "character editors" and "context editors" as well.
