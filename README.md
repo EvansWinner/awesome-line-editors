@@ -12,7 +12,7 @@
 
 **→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
 <p align="center">
-  <img src="img/shoe.jpg" alt="The Hermetic Order of ed(1)" width=200 />
+  <a href="https://evanswinner.github.io/shoe.html"><img src="img/shoe.jpg" alt="The Hermetic Order of ed(1)" width=200 /></a>
 </p>
 
 
