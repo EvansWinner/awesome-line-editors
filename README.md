@@ -406,6 +406,7 @@ In strict
 | FreeDOS          | ❓             | ❓             | ❓                  |
 | MS-Windows       | ❓             | ❓             | ❓                  |
 | MacOS            | ✔️ (C version) | ✔️ (C version) | ❓                  |
+| [other]          | N/A             | N/A            | N/A                  |
 
 Ecce Homo? No, homo,
 [ECCE](https://ecce.sourceforge.net/)!
