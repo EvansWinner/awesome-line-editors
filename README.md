@@ -319,6 +319,15 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
 
 Just to set the record straight.
 
+### A note about the tables
+
+I am trying to be reasonable without being pedantic.
+If a program is well-maintained and the maintainer claims that it runs on a given platform,
+I am not necessarily going to verify that myself before I put a checkmark (✔️) in the table.
+More obscure things, however, I will try to test myself (or would take a contributer's word for it).
+
+Also, the "Suckless approved" field really just means that in my estimate,
+it would be useful for someone looking for something "minimalist."
 
 ### Focus on practically usable programs
 
@@ -572,7 +581,7 @@ It is included with MS-DOS, so if you have that, you should have EDLIN.
 
 #### Binaries
 
-*❓*
+*TBD*
 
 
 ### FreeDOS version
@@ -609,7 +618,26 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
    [available](https://launchpad.net/ubuntu/+source/edlin)
 
 
-## Edbrowse 
+## Edbrowse
+
+|  Question  | Answer |
+|------------|---------|
+| Unicode aware     | ✔️ |
+| Context editing   | ✔️ |
+| Multiple buffers  | ✔️ |
+| Suckless approved | ❌ |
+
+|                  | Builds         | Runs            |  Actually functional |
+|------------------|-----------------|----------------|----------------------|
+| Linux            | ✔️             | ❓             | ❓                  |
+| BSD              | ✔️             | ❓             | ❓                  |
+| Termux (Andorid) | ✔️             | ❓             | ❓                  |
+| iSH (iOS)        | ❓             | ❓             | ❓                  |
+| MS-DOS           | ✔️ (older Perl version) | ✔️ (older Perl version) | ✔️ (older Perl version)                  |
+| FreeDOS          | ❓             | ❓             | ❓                  |
+| MS-Windows       | ✔️             | ✔️             | ✔️                  |
+| MacOS            | ❓             | ❓             | ❓                  |
+| [other]          | N/A             | N/A            | N/A                  |
 
 Many Linux distributions will allow you to install Edbrowse from the package manager.
 If not, it's
@@ -747,7 +775,7 @@ Peter Salus makes interesting reading.
 
 ## ex
 
-*❓*
+*TBD*
 
 
 ## hired
