@@ -447,12 +447,12 @@ on the same Sourceforge homepage linked above maintained by Graham Toal.
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
 | Linux            | N/A             | N/A            | N/A                  |
-| BSD              | ❓             | ❓             | N/A                  |
-| Termux (Andorid) | ✔️ (C version) | ✔️ (C version) | N/A                  |
-| iSH (iOS)        | ❓             | ❓             | N/A                  |
-| MS-DOS           | ❓             | ❓             | N/A                  |
-| FreeDOS          | ❓             | ❓             | N/A                  |
-| MS-Windows       | ❓             | ❓             | N/A                  |
+| BSD              | N/A             | N/A             | N/A                  |
+| Termux (Andorid) | N/A             | N/A            | N/A                  |
+| iSH (iOS)        | N/A             | N/A             | N/A                  |
+| MS-DOS           | N/A             | N/A             | N/A                  |
+| FreeDOS          | N/A             | N/A             | N/A                  |
+| MS-Windows       | N/A             | N/A             | N/A                  |
 | MacOS            | N/A             | N/A            | N/A                  |
 | [other] MVS / z/OS  | N/A          | ✔️             | ✔️                  |
 
