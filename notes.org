@@ -1,7 +1,3 @@
-* YES with caveats (OTHER) https://github.com/alzwded/JakED
-This is Windows only. I can't test easily. I wouldn't know how to use
-MVC or whatever anyway.
-
 * YES https://github.com/scott-linder/rusted https://github.com/tobhe/red
 Ed clone in rust. Builds and passes a few basic tests on x64
 Ubuntu. Clone the repo and do `cargo build'.
@@ -116,6 +112,10 @@ On structural regular expressions (sam -d I think)
 * DONE YES https://github.com/sage-etcher/leaf-context-editor
 Claims to be a clone of CP/M's ED.COM for Unix systems. Builds and runs
 on x64 Ubuntu. Inscrutable documentation.
+
+* DONE YES with caveats (OTHER) https://github.com/alzwded/JakED
+This is Windows only. I can't test easily. I wouldn't know how to use
+MVC or whatever anyway.
 
 * DONE YES! https://github.com/sidju/hired
 cargo install --path .  Build and smoke-test ok.  Some discussion on HN,
