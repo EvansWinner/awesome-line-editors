@@ -749,7 +749,7 @@ Linux, but once built it can be invoked in a terminal with "sam -d" and
 operates similarly to *ed*, but with the addition of the use of
 "structural regular expressions" (for more on which, see Rob Pike's
 [document](
-http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png) and multiple buffers, and the ability to select regions of ttext not defined by line breaks.
+http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png) and multiple buffers, and the ability to select regions of text not defined by line breaks.
 
 
 ## sued
@@ -949,6 +949,13 @@ is it. I'm just glad it wasn't me. At least they didn't call it "pyed."
 is a line editor in Fourth, specifically [gforth](https://gforth.org/).
 I haven't looked at it yet.
 
+## JakED
+
+[JakED](https://github.com/alzwded/JakED)&nbsp;![GitHub](img/github.png)
+is an MS Windows only line editor written in C++.
+I don't have access to this environment with the Microsoft compiler
+to try to test this, so unless someone else confirms it,
+it will have to stay in this section.
 
 ---
 
