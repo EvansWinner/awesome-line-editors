@@ -396,16 +396,16 @@ In strict
 | Multiple buffers  | ❌ |
 | Suckless approved | ✔️ |
 
-|                  | Builds         | Runs            | Some actual testing |
-|------------------|-----------------|----------------|---------------------|
-| Linux            | ❓             | ❓             | ❓                 |
-| BSD              | ❓             | ❓             | ❓                 |
-| Termux (Andorid) | ✔️ (C version) | ✔️ (C version) | ❓                 |
-| iSH (iOS)        | ❓             | ❓             | ❓                 |
-| MS-DOS           | ❓             | ❓             | ❓                 |
-| FreeDOS          | ❓             | ❓             | ❓                 |
-| MS-Windows       | ❓             | ❓             | ❓                 |
-| MacOS            | ✔️ (C version) | ✔️ (C version) | ❓                 |
+|                  | Builds         | Runs            |  Actually functional |
+|------------------|-----------------|----------------|----------------------|
+| Linux            | ❓             | ❓             | ❓                  |
+| BSD              | ❓             | ❓             | ❓                  |
+| Termux (Andorid) | ✔️ (C version) | ✔️ (C version) | ❓                  |
+| iSH (iOS)        | ❓             | ❓             | ❓                  |
+| MS-DOS           | ❓             | ❓             | ❓                  |
+| FreeDOS          | ❓             | ❓             | ❓                  |
+| MS-Windows       | ❓             | ❓             | ❓                  |
+| MacOS            | ✔️ (C version) | ✔️ (C version) | ❓                  |
 
 Ecce Homo? No, homo,
 [ECCE](https://ecce.sourceforge.net/)!
