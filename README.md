@@ -569,7 +569,7 @@ but not so old you can't get data off of it. Otherwise, this is here mainly for 
 
 There is a nice
 [document](https://uncljoedoc.tripod.com/a/edlin.htm)
-with what I can only assume is the docuemntation for an old version of Edlin. It goes into some detail.
+with what I can only assume is the documentation for an old version of Edlin. It goes into some detail.
 
 
 #### Getting It
