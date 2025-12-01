@@ -24,6 +24,7 @@
     - [Thumb typing](#thumb-typing)
     - [And then the usual excuse](#and-then-the-usual-excuse)
     - [Oh, and Suckless](#oh-and-suckless)
+    - [For the hard of seeing](#for-the-hard-of-seeing)
     - [Finally, one weird thing](#finally-one-weird-thing)
   - [Some quick notes first](#some-quick-notes-first)
     - [Line editors, context editors, character editors, oh my!](#line-editors-context-editors-character-editors-oh-my)
@@ -196,6 +197,13 @@ know, all that rap.
 
 Ok, but for really, there is something sort of pleasant and comforting
 about the minimal "suckless" style of doing things—when it works.
+
+
+#### For the hard of seeing
+
+It seems too obvious to need mentioning (and so therefore I forgot until just today)
+but if you have vision problems, then a user interface like that of ed is a necessity,
+not just a help. See also *edbrowse* below.
 
 
 #### Finally, one weird thing
@@ -954,7 +962,7 @@ I haven't looked at it yet.
 
 [JakED](https://github.com/alzwded/JakED)&nbsp;![GitHub](img/github.png)
 is an MS Windows only line editor written in C++.
-I don't have access to this environment with the Microsoft compiler
+I don't have easy access to this environment with the Microsoft compiler
 to try to test this, so unless someone else confirms it,
 it will have to stay in this section.
 
