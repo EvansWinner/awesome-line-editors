@@ -499,7 +499,7 @@ Let me know—I would love to know—if there are any reimplementations of EDIT 
 
 |  Question  | Answer |
 |------------|---------|
-| Unicode aware     | ✔️ (FreeDOS version at least |
+| Unicode aware     | ✔️ (FreeDOS version) |
 | Context editing   | ❓ |
 | Multiple buffers  | ❌ |
 | Suckless approved | ✔️ |
