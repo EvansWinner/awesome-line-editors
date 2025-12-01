@@ -1,4 +1,5 @@
-* YES https://github.com/scott-linder/rusted https://github.com/tobhe/red
+* YES https://github.com/scott-linder/rusted
+https://github.com/tobhe/red
 Ed clone in rust. Builds and passes a few basic tests on x64
 Ubuntu. Clone the repo and do `cargo build'.
 
