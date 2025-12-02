@@ -403,7 +403,7 @@ In strict
 The IBM VSE operating system has an editor, possibly a shell built-in, called /EDIT.
 I don't know anything else about this editor, but suspect it may be similar to the TSO EDIT editor (see below)
 but there is some information in Appendix B of
-[this](https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf)&nbsp;![PDF](img/pdf.png)&nbsp;![PDF](img/pdf.png)
+[this](https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf)&nbsp;![PDF](img/pdf.png)
 IBM document.
 
 
