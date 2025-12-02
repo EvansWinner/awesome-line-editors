@@ -36,7 +36,7 @@ and also for various meanings of "line editor.")
     - [Stuff could be wrong](#stuff-could-be-wrong)
 
 - [The Editors](#the-editors)
-  - [/EDIT](#-edit-vse)
+  - [/EDIT](#edit-vse)
   - [ECCE](#ecce) 
   - [EDIT](#edit-tso)
   - [EDLIN](#edlin)
