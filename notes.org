@@ -11,9 +11,6 @@ Three page memo documenting Colossal Typewriter
 ** http://archive.computerhistory.org/resources/text/DEC/pdp-1/DEC.pdp_1.1972.102650079.pdf
 About 17 pages. Things get complicated fast.
 
-* YES https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf -- Appendix B
-z/VSE Context Editor /EDIT
-
 * YES HISTORICAL https://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf -- Chapter 4
 On the AmegaDOS EDIT line editor
 
@@ -104,6 +101,9 @@ Lua script -- lua led.lua FILE -- runs under x64 Ubuntu.
 
 * DONE YES DOC http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
 On structural regular expressions (sam -d I think)
+
+* YES https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf -- Appendix B
+z/VSE Context Editor /EDIT
 
 * DONE YES https://github.com/sage-etcher/leaf-context-editor
 Claims to be a clone of CP/M's ED.COM for Unix systems. Builds and runs
