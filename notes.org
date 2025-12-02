@@ -1,8 +1,3 @@
-* YES https://github.com/scott-linder/rusted
-https://github.com/tobhe/red
-Ed clone in rust. Builds and passes a few basic tests on x64
-Ubuntu. Clone the repo and do `cargo build'.
-
 * YES HISTORY https://en.wikipedia.org/wiki/ORVYL_and_WYLBUR
 Historical interest only as it is MVS only.
 ** https://web.stanford.edu/dept/its/support/wylorv/
@@ -114,6 +109,10 @@ On structural regular expressions (sam -d I think)
 Claims to be a clone of CP/M's ED.COM for Unix systems. Builds and runs
 on x64 Ubuntu. Inscrutable documentation.
 
+* DONE YES https://github.com/scott-linder/rusted
+Ed clone in rust. Builds and passes a few basic tests on x64
+Ubuntu. Clone the repo and do `cargo build'.
+
 * DONE YES with caveats (OTHER) https://github.com/alzwded/JakED
 This is Windows only. I can't test easily. I wouldn't know how to use
 MVC or whatever anyway.
@@ -139,4 +138,8 @@ Compiles on Termux and x64 Ubuntu, but segfautls when you leave insert mode.
 
 * NO https://github.com/IanDarwin/edj
 "You cannot yet save your work..."
+
+* NO red. Builds but just issues "?" to every command
+https://github.com/tobhe/red
+
 
