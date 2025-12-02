@@ -14,9 +14,6 @@ About 17 pages. Things get complicated fast.
 * YES HISTORICAL https://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf -- Chapter 4
 On the AmegaDOS EDIT line editor
 
-* YES https://cdn.preterhuman.net/texts/computing/cpm/CPM_1.4_ED_Users_Manual_1978.pdf
-Manual for Digital Research's manual for the CP/M ED.COM editor.
-
 * ex
 https://en.wikipedia.org/wiki/Ex_(text_editor)
 https://texteditors.org/cgi-bin/wiki.pl?Ex
