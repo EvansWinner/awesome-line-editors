@@ -49,6 +49,7 @@ and also for various meanings of "line editor.")
   - [led 1](#led-1)
   - [led 2](#led-2)
   - [qed](#qed)
+  - [rusted](#rusted)
   - [sam -d](#sam--d)
   - [sued](#sued)
 - [Appendices](#appendices)
@@ -838,6 +839,12 @@ Some other links of general interest, of which the second is contained in the fi
 
 - [Some ``qed`` / ``ex`` / ``vi`` historical documents](https://www.reddit.com/r/vim/comments/1o6s9m/some_qed_ex_vi_historical_documents/)
 - [An incomplete history of the QED text editor](https://www.bell-labs.com/usr/dmr/www/qed.html)
+
+
+## rusted
+
+[rusted](https://github.com/scott-linder/rusted)&nbsp;![GitHub](img/github.png)
+is another *ed* clone written in rust. Unlike some, it compiles and seems to function for simple things at least.
 
 
 ## sam -d
