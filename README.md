@@ -36,9 +36,9 @@ and also for various meanings of "line editor.")
     - [Stuff could be wrong](#stuff-could-be-wrong)
 
 - [The Editors](#the-editors)
-  - [/EDIT](#-edit)
+  - [/EDIT](#-edit-vse)
   - [ECCE](#ecce) 
-  - [EDIT](#edit)
+  - [EDIT](#edit-tso)
   - [EDLIN](#edlin)
   - [Edbrowse](#edbrowse)
   - [Teco](#teco)
@@ -398,7 +398,7 @@ In strict
 [ASCII sort order](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)....
 
 
-## /EDIT
+## /EDIT (VSE)
 
 The IBM VSE operating system has an editor, possibly a shell built-in, called /EDIT.
 I don't know anything else about this editor, but suspect it may be similar to the TSO EDIT editor (see below)
@@ -456,7 +456,7 @@ There is a nice
 on the same Sourceforge homepage linked above maintained by Graham Toal.
 
 
-## EDIT
+## EDIT (TSO)
 
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?TSO_EDIT)
 
