@@ -36,6 +36,7 @@ and also for various meanings of "line editor.")
     - [Stuff could be wrong](#stuff-could-be-wrong)
 
 - [The Editors](#the-editors)
+  - [/EDIT](#-edit)
   - [ECCE](#ecce) 
   - [EDIT](#edit)
   - [EDLIN](#edlin)
@@ -395,6 +396,15 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 
 In strict 
 [ASCII sort order](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)....
+
+
+## /EDIT
+
+The IBM VSE operating system has an editor, possibly a shell built-in, called /EDIT.
+I don't know anything else about this editor, but suspect it may be similar to the TSO EDIT editor (see below)
+but there is some information in Appendix B of
+[this](https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf)&nbsp;![PDF](img/pdf.png)
+IBM document.
 
 
 ## ECCE
