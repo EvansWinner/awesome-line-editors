@@ -354,6 +354,7 @@ computers /
 In any case, I consider "modern" systems to be:
 
   - Unix and obviously Unix-like systems like Solaris, BSD, GNU/Linux, MacOS, Minix
+  - Maybe some research OSs like Plan 9 or GNU/Hurd 
   - Android, using something like Termux
   - IOS, using something like
     [iSH](https://ish.app/)
