@@ -770,7 +770,7 @@ and the musl C library version of
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
 | Linux            | ✔️             | ✔️             | ❌                  |
-| BSD              |                | ❓             | ❓                  |
+| BSD              | ❓               | ❓             | ❓                 |
 | Termux (Andorid) | ✔️             | ✔️             | ❌                |
 | iSH (iOS)        | ✔️             | ❌             | ❌                  |
 | MS-DOS           | ❌†             | ❌†             | ❌†                  |
@@ -778,6 +778,7 @@ and the musl C library version of
 | MS-Windows       | ❌†             | ❌†             | ❌†                 |
 | MacOS            | ❓             | ❓             | ❓                  |
 | [other]          | N/A             | N/A            | N/A                  |
+
 † Assumed
 
 [edam](https://github.com/phonologus/edam) is a clone of Rob Pike's sam
