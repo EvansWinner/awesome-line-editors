@@ -83,7 +83,7 @@ And no, I'm not talking about
 **I am talking about text editors of yore**, like the Unix ``ed(1)`` editor,
 which operated in terms of lines (or, yes, like Teco,
 which theoretically operated in terms of individual characters)
-and **which were originally designed to work on a Teletype terminal**
+and **which were originally designed to work on a Teletype terminal
 with a printer printing one line at a time like God intended**,
 instead of a video display, like these new-fangled modern computers for lazy people.
 I'm talking about those paragons of the *conversational user interface*,
