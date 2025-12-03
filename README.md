@@ -759,6 +759,27 @@ and the musl C library version of
 [same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed)&nbsp;![GitHub](img/github.png).
 
 ## edam
+
+|  Question         | Answer |
+|-------------------|--------|
+| Unicode aware     | ✔️    |
+| Context editing   | ✔️   |
+| Multiple buffers  | ✔️    |
+| Suckless approved | ✔️    |
+
+|                  | Builds         | Runs            |  Actually functional |
+|------------------|-----------------|----------------|----------------------|
+| Linux            | ✔️             | ✔️             | ❌                  |
+| BSD              |                | ❓             | ❓                  |
+| Termux (Andorid) | ✔️             | ✔️             | ❌                |
+| iSH (iOS)        | ✔️             | ❌             | ❌                  |
+| MS-DOS           | ❌†             | ❌†             | ❌†                  |
+| FreeDOS          | ❌†             | ❌†             | ❌†                  |
+| MS-Windows       | ❌†             | ❌†             | ❌†                 |
+| MacOS            | ❓             | ❓             | ❓                  |
+| [other]          | N/A             | N/A            | N/A                  |
+† Assumed
+
 [edam](https://github.com/phonologus/edam) is a clone of Rob Pike's sam
 editor for the [Plan9](https://9p.io/plan9/) OS, but without the
 graphical display, so it is is the equivalent of running 'sam -d'. I had
