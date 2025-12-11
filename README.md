@@ -34,7 +34,7 @@ and also for various meanings of "line editor.")
     - [A note about the tables](#a-note-about-the-tables)
     - [Focus on practically usable programs](#focus-on-practically-usable-programs)
     - [Stuff could be wrong](#stuff-could-be-wrong)
-- Tables
+- [Tables](#tables)
   - [Features](#features)
   - [Compatibility](#compatibility)
 - [The Editors](#the-editors)
