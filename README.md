@@ -424,8 +424,8 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 ## Compatibility
 |              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 |--------------|------------------|------------|-------------|-------------------|
-| **ECCE**[3]  | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
+| **ECCE**[3]  | Linux            | ✔️           | ✔️            | ✔️                  |
+|              | BSD              | ✔️           | ✔️            | ✔️                  |
 |              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
 |              | iSH (iOS)        | ❓           | ❓            | ❓                  |
 |              | MS-DOS           | ❓           | ❓            | ❓                  |
