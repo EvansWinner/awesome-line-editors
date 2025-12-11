@@ -426,31 +426,31 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |--------------|------------------|------------|-------------|-------------------|
 | **ECCE**[3]  | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
 |              | iSH (iOS)        | ❓           | ❓            | ❓                  |
 |              | MS-DOS           | ❓           | ❓            | ❓                  |
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
-| **Edlin**[4] | Linux            | ❓           | ❓            | ❓                  |
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+| **Edlin**[4] | Linux            | ✔️ x86 Ubuntu | ✔️ x86 Ubuntu | ✔️ x86 Ubuntu      |
 |              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
 |              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) |
+|              | FreeDOS          | ✔️†           | ✔️†            | ✔️†              |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
-| **edbrowse** | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+| **edbrowse** | Linux            | ✔️           | ✔️            | ✔️                  |
+|              | BSD              | ✔️           | ✔️            | ✔️                  |
+|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
 |              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ✔️ (Perl version) | ✔️ (Perl version) | ✔️ (Perl version) |
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|              | MS-Windows       | ✔️           | ✔️            | ✔️                  |
+|              | MacOS            | ✔️           | ✔️            | ✔️                  |
+|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **Teco**[5]  | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -459,16 +459,16 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
-| **ed**       | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+| **ed**       | Linux            | ✔️           | ✔️            | ✔️                  |
+|              | BSD              | ✔️           | ✔️            | ✔️                  |
+|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
+|              | iSH (iOS)        | ✔️           | ✔️            | ✔️                  |
+|              | MS-DOS           | ✔️           | ✔️            | ✔️                  |
+|              | FreeDOS          | ✔️           | ✔️            | ✔️                  |
+|              | MS-Windows       | ✔️           | ✔️            | ✔️                  |
+|              | MacOS            | ✔️           | ✔️            | ✔️                  |
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **edam**     | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -477,7 +477,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **em**       | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -486,7 +486,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **ex**       | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -495,7 +495,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **hired**    |                  | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -504,7 +504,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **led**[6]   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -513,7 +513,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **led**[7]   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -522,7 +522,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **qed**[8]   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -531,7 +531,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **rusted**   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -540,7 +540,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **sam** -d   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -549,7 +549,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|------------------|------------|-------------|-------------------|
+|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
 | **sued**     | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -559,6 +559,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
 <pre>
+  † Taking this on faith
   [1] This means, someone reports getting it to start and it didn't immediately
       segfault or the like.
   [2] This means, *I do not know for certain*, but someone reports using it at
@@ -593,18 +594,6 @@ IBM document.
 [Text Editor Wiki Page](http://texteditors.org/cgi-bin/wiki.pl?Ecce) |
 [Wikipedia Page](https://en.wikipedia.org/wiki/Edinburgh_Compatible_Context_Editor)&nbsp;![Wikipedia](img/wikipedia.png)
 
-|                  | Builds         | Runs            |  Actually functional |
-|------------------|-----------------|----------------|----------------------|
-| Linux            | ❓             | ❓             | ❓                  |
-| BSD              | ❓             | ❓             | ❓                  |
-| Termux (Andorid) | ✔️ (C version) | ✔️ (C version) | ✔️                  |
-| iSH (iOS)        | ❓             | ❓             | ❓                  |
-| MS-DOS           | ❓             | ❓             | ❓                  |
-| FreeDOS          | ❓             | ❓             | ❓                  |
-| MS-Windows       | ❓             | ❓             | ❓                  |
-| MacOS            | ✔️ (C version) | ✔️ (C version) | ❓                  |
-| [other]          | N/A             | N/A            | N/A                  |
-
 Ecce Homo? No, homo,
 [ECCE](https://ecce.sourceforge.net/)!
 
@@ -633,18 +622,6 @@ on the same Sourceforge homepage linked above maintained by Graham Toal.
 ## EDIT (TSO)
 
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?TSO_EDIT)
-
-|                  | Builds         | Runs            |  Actually functional |
-|------------------|-----------------|----------------|----------------------|
-| Linux            | N/A             | N/A            | N/A                  |
-| BSD              | N/A             | N/A             | N/A                  |
-| Termux (Andorid) | N/A             | N/A            | N/A                  |
-| iSH (iOS)        | N/A             | N/A             | N/A                  |
-| MS-DOS           | N/A             | N/A             | N/A                  |
-| FreeDOS          | N/A             | N/A             | N/A                  |
-| MS-Windows       | N/A             | N/A             | N/A                  |
-| MacOS            | N/A             | N/A            | N/A                  |
-| [other] MVS / z/OS  | N/A          | ✔️             | ✔️                  |
 
 ### Commentary and one-liners
 
@@ -686,18 +663,6 @@ Let me know—I would love to know—if there are any reimplementations of EDIT 
 
 [Wikipedia Page](https://en.wikipedia.org/wiki/Edlin)&nbsp;![Wikipedia](img/wikipedia.png) |
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
-
-|                  | Builds         | Runs            |  Actually functional |
-|------------------|-----------------|----------------|----------------------|
-| Linux            | ✔️ x86 Ubuntu (FreeDOS version)  | ✔️ x86 Ubuntu (FreeDOS version) | ✔️ |
-| BSD              | ❓             | ❓             | ❓                  |
-| Termux (Andorid) | ✔️             | ✔️             | ❓                  |
-| iSH (iOS)        | ❓             | ❓             | ❓                  |
-| MS-DOS           | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) | ✔️        |
-| FreeDOS          | ✔️†           | ✔️†             | ✔️†                 |
-| MS-Windows       | ✔️ (FreeDOS version) | ✔️ (FreeDOS version) | ❓      |
-| MacOS            | ❓             | ❓             | ❓                  |
-| [other]          | ❓             | ❓             | ❓                  |
 
 † Taking this on faith.
 
@@ -793,18 +758,6 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 
 ## Edbrowse
-
-|                  | Builds         | Runs            |  Actually functional |
-|------------------|-----------------|----------------|----------------------|
-| Linux            | ✔️             | ✔️             | ✔️                  |
-| BSD              | ✔️             | ✔️             | ✔️                  |
-| Termux (Andorid) | ✔️             | ✔️             | ✔️                  |
-| iSH (iOS)        | ❓             | ❓             | ❓                  |
-| MS-DOS           | ✔️ (older Perl version) | ✔️ (older Perl version) | ✔️ (older Perl version) |
-| FreeDOS          | ❓             | ❓             | ❓                  |
-| MS-Windows       | ✔️             | ✔️             | ✔️                  |
-| MacOS            | ✔️             | ✔️             | ✔️                  |
-| [other]          | ❓ (possibly OS/2) | ❓         | ❓                  |
 
 Many Linux distributions will allow you to install Edbrowse from the package manager.
 If not, it's
@@ -911,20 +864,6 @@ Also of possible note is the
 [ed](https://github.com/ryanwoodsmall/heirloom-project/tree/master/heirloom/ed)&nbsp;![GitHub](img/github.png)
 and the musl C library version of
 [same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed)&nbsp;![GitHub](img/github.png).
-
-|                  | Builds         | Runs            |  Actually functional |
-|------------------|-----------------|----------------|----------------------|
-| Linux            | ✔️             | ✔️             | ❌                  |
-| BSD              | ❓               | ❓             | ❓                 |
-| Termux (Andorid) | ✔️             | ✔️             | ❌                |
-| iSH (iOS)        | ✔️             | ❌             | ❌                  |
-| MS-DOS           | ❌†             | ❌†             | ❌†                  |
-| FreeDOS          | ❌†             | ❌†             | ❌†                  |
-| MS-Windows       | ❌†             | ❌†             | ❌†                 |
-| MacOS            | ❓             | ❓             | ❓                  |
-| [other]          | N/A             | N/A            | N/A                  |
-
-† Assumed
 
 [edam](https://github.com/phonologus/edam) is a clone of Rob Pike's sam
 editor for the [Plan9](https://9p.io/plan9/) OS, but without the
