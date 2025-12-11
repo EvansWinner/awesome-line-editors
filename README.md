@@ -432,7 +432,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **Edlin**[4] | Linux            | ✔️ x86 Ubuntu | ✔️ x86 Ubuntu | ✔️ x86 Ubuntu      |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
@@ -441,7 +441,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ✔️†           | ✔️†            | ✔️†              |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **edbrowse** | Linux            | ✔️           | ✔️            | ✔️                  |
 |              | BSD              | ✔️           | ✔️            | ✔️                  |
 |              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
@@ -450,7 +450,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ✔️           | ✔️            | ✔️                  |
 |              | MacOS            | ✔️           | ✔️            | ✔️                  |
-|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **Teco**[5]  | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -459,7 +459,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **ed**       | Linux            | ✔️           | ✔️            | ✔️                  |
 |              | BSD              | ✔️           | ✔️            | ✔️                  |
 |              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
@@ -468,7 +468,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ✔️           | ✔️            | ✔️                  |
 |              | MS-Windows       | ✔️           | ✔️            | ✔️                  |
 |              | MacOS            | ✔️           | ✔️            | ✔️                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **edam**     | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -477,7 +477,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **em**       | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -486,7 +486,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **ex**       | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -495,7 +495,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **hired**    |                  | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -504,7 +504,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|---------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **led**[6]   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -513,7 +513,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **led**[7]   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -522,7 +522,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **qed**[8]   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -531,7 +531,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **rusted**   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -540,7 +540,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **sam** -d   | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
@@ -549,7 +549,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 |              | FreeDOS          | ❓           | ❓            | ❓                  |
 |              | MS-Windows       | ❓           | ❓            | ❓                  |
 |              | MacOS            | ❓           | ❓            | ❓                  |
-|--------------|----------------- | **Builds** | **Runs**[1] | **Functional**[2] |
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
 | **sued**     | Linux            | ❓           | ❓            | ❓                  |
 |              | BSD              | ❓           | ❓            | ❓                  |
 |              | Termux (Android) | ❓           | ❓            | ❓                  |
