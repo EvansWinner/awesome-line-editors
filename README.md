@@ -34,7 +34,9 @@ and also for various meanings of "line editor.")
     - [A note about the tables](#a-note-about-the-tables)
     - [Focus on practically usable programs](#focus-on-practically-usable-programs)
     - [Stuff could be wrong](#stuff-could-be-wrong)
-
+- Tables
+  - [Features](#features)
+  - [Compatibility](#compatibility)
 - [The Editors](#the-editors)
   - [/EDIT](#edit-vse)
   - [ECCE](#ecce) 
@@ -390,6 +392,186 @@ send the information along and it can go in the appendices.
 Please send me a PR, or just a comment, with corrections or additions.  I'm just
 one person, with a real job, and you know, a family and a mortgage and all that.
 
+# Tables
+## Features
+|          | Unicode aware | Multiple buffers | Macros/Programs | Structural Regexes/Pattern matching |
+|----------|---------------|------------------|-----------------|-------------------------------------|
+| /EDIT    | ❓            | ❌              | ❓               |  ❌                                 |
+| ECCE[1]  | ❌            | ❌               | ❌              | ❌                                  |
+| EDIT     | ❓             | ❌               | ❌              | ❌                                  |
+| Edlin[2] | ✔️           | ❌               | ❌              | ❌                                  |
+| Edbrowse | ❓             | ❓                | ❓               | ❓                                   |
+| Teco[3]  | ❓             | ❓                | ✔️             | ❓                                   |
+| ed       | ✔️           | ❌               | ❌              | ❌                                  |
+| edam     | ✔️           | ✔️              | ❓                  | ✔️                                 |
+| em       | ❓             | ❓                | ❓               | ❓                                   |
+| ex       | ❓             | ❓                | ❓               | ❓                                   |
+| hired    | ❓             | ❓                | ❓              | ❓                                  |
+| led[4]   | ❓             | ❓                | ❓               | ❓                                   |
+| led[5]   | ❓             | ❓                | ❓               | ❓                                   |
+| qed      | ✔️           | ✔️              | ✔️             | ❌                                  |
+| rusted   | ❓             | ❓               | ❓               | ❓                                   |
+| sam -d   | ✔️           | ✔️              |                 | ✔️                                 |
+| sued     | ❓             | ❓                | ❓               | ❓                                   |
+<pre>
+  [1] The C version discussed.
+  [2] FreeDOS Edlin.
+  [3] TECO-64
+  [4] Discussed as "led 1" below
+  [5] Discissed as "led 2" below
+</pre>
+
+## Compatibility
+|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
+|--------------|------------------|------------|-------------|-------------------|
+| **ECCE**[3]  | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **Edlin**[4] | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **edbrowse** | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **Teco**[5]  | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **ed**       | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **edam**     | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **em**       | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **ex**       | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **hired**    |                  | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **led**[6]   | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **led**[7]   | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **qed**[8]   | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **rusted**   | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **sam** -d   | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+|--------------|------------------|------------|-------------|-------------------|
+| **sued**     | Linux            | ❓           | ❓            | ❓                  |
+|              | BSD              | ❓           | ❓            | ❓                  |
+|              | Termux (Android) | ❓           | ❓            | ❓                  |
+|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
+|              | MS-DOS           | ❓           | ❓            | ❓                  |
+|              | FreeDOS          | ❓           | ❓            | ❓                  |
+|              | MS-Windows       | ❓           | ❓            | ❓                  |
+|              | MacOS            | ❓           | ❓            | ❓                  |
+<pre>
+  [1] This means, someone reports getting it to start and it didn't immediately
+      segfault or the like.
+  [2] This means, *I do not know for certain*, but someone reports using it at
+      least a little and it seems to function more or less as advertized. It
+      obviously does not mean I certify it bug-free.
+  [3] The C version discussed.
+  [4] FreeDOS Edlin.
+  [5] TECO-64
+  [6] Discussed as "led 1" below
+  [7] Discissed as "led 2" below
+  [8] "qed-new" as discussed below
+</pre>
+
 
 # The Editors
 
@@ -410,13 +592,6 @@ IBM document.
 
 [Text Editor Wiki Page](http://texteditors.org/cgi-bin/wiki.pl?Ecce) |
 [Wikipedia Page](https://en.wikipedia.org/wiki/Edinburgh_Compatible_Context_Editor)&nbsp;![Wikipedia](img/wikipedia.png)
-
-|  Question         | Answer |
-|-------------------|--------|
-| Unicode aware     | ❌    |
-| Context editing   | ✔️    |
-| Multiple buffers  | ❌    |
-| Suckless approved | ✔️    |
 
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
@@ -458,13 +633,6 @@ on the same Sourceforge homepage linked above maintained by Graham Toal.
 ## EDIT (TSO)
 
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?TSO_EDIT)
-
-|  Question  | Answer |
-|------------|---------|
-| Unicode aware     | ❓ |
-| Context editing   | ❓ |
-| Multiple buffers  | ❌ |
-| Suckless approved | ❓ |
 
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
@@ -518,13 +686,6 @@ Let me know—I would love to know—if there are any reimplementations of EDIT 
 
 [Wikipedia Page](https://en.wikipedia.org/wiki/Edlin)&nbsp;![Wikipedia](img/wikipedia.png) |
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?EDLIN)
-
-|  Question  | Answer |
-|------------|---------|
-| Unicode aware     | ✔️ (FreeDOS version) |
-| Context editing   | ❓ |
-| Multiple buffers  | ❌ |
-| Suckless approved | ✔️ |
 
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
@@ -632,13 +793,6 @@ The FreeDOS tutorial page images don't seem to work, so here is a snapshot from 
 
 
 ## Edbrowse
-
-|  Question  | Answer |
-|------------|---------|
-| Unicode aware     | ✔️ |
-| Context editing   | ✔️ |
-| Multiple buffers  | ✔️ |
-| Suckless approved | ❌ |
 
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
@@ -757,15 +911,6 @@ Also of possible note is the
 [ed](https://github.com/ryanwoodsmall/heirloom-project/tree/master/heirloom/ed)&nbsp;![GitHub](img/github.png)
 and the musl C library version of
 [same](https://github.com/ryanwoodsmall/heirloom-project/tree/musl/heirloom/ed)&nbsp;![GitHub](img/github.png).
-
-## edam
-
-|  Question         | Answer |
-|-------------------|--------|
-| Unicode aware     | ✔️    |
-| Context editing   | ✔️   |
-| Multiple buffers  | ✔️    |
-| Suckless approved | ✔️    |
 
 |                  | Builds         | Runs            |  Actually functional |
 |------------------|-----------------|----------------|----------------------|
