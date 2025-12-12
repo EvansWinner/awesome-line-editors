@@ -475,7 +475,7 @@ As always, if anyone wants to contribute....
 | **edam**     | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        |  ✔️                 | ❌                  | ❌                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
