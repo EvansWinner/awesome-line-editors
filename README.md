@@ -422,6 +422,9 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 </pre>
 
 ## Compatibility
+Just at the moment, I don't have easy access to a machine running MacOS, FreeDOS, MS-DOS, or MS Windows.
+As always, if anyone wants to contribute....
+
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 |--------------|------------------|---------------------|---------------------|---------------------|
 | **ECCE**[3]  | Linux            | ✔️                   | ✔️                   | ✔️                   |
@@ -436,7 +439,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 | **Edlin**[4] | Linux            | ✔️ x86 Ubuntu        | ✔️ x86 Ubuntu        | ✔️ x86 Ubuntu        |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ✔️ (MS-DOS version)  | ✔️ (MS-DOS version)  | ✔️ (MS-DOS version)  |
 |              | FreeDOS          | ✔️†                  | ✔️†                  | ✔️†                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
