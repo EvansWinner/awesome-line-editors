@@ -396,23 +396,23 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 ## Features
 |          | Unicode aware | Multiple buffers | Macros/Programs | Structural Regexes/Pattern matching |
 |----------|---------------|------------------|-----------------|-------------------------------------|
-| /EDIT    | ❓            | ❌              | ❓               |  ❌                                 |
+| /EDIT    | ❓            | ❌               | ❓              | ❌                                  |
 | ECCE[1]  | ❌            | ❌               | ❌              | ❌                                  |
-| EDIT     | ❓             | ❌               | ❌              | ❌                                  |
-| Edlin[2] | ✔️           | ❌               | ❌              | ❌                                  |
-| Edbrowse | ❓             | ❓                | ❓               | ❓                                   |
-| Teco[3]  | ❓             | ❓                | ✔️             | ❓                                   |
-| ed       | ✔️           | ❌               | ❌              | ❌                                  |
-| edam     | ✔️           | ✔️              | ❓                  | ✔️                                 |
-| em       | ❓             | ❓                | ❓               | ❓                                   |
-| ex       | ❓             | ❓                | ❓               | ❓                                   |
-| hired    | ❓             | ❓                | ❓              | ❓                                  |
-| led[4]   | ❓             | ❓                | ❓               | ❓                                   |
-| led[5]   | ❓             | ❓                | ❓               | ❓                                   |
-| qed      | ✔️           | ✔️              | ✔️             | ❌                                  |
-| rusted   | ❓             | ❓               | ❓               | ❓                                   |
-| sam -d   | ✔️           | ✔️              |    ❓            | ✔️                                 |
-| sued     | ❓             | ❓                | ❓               | ❓                                   |
+| EDIT     | ❓            | ❌               | ❌              | ❌                                  |
+| Edlin[2] | ✔️             | ❌               | ❌              | ❌                                  |
+| Edbrowse | ❓            | ❓               | ❓              | ❓                                  |
+| Teco[3]  | ❓            | ❓               | ✔️               | ❓                                  |
+| ed       | ✔️             | ❌               | ❌              | ❌                                  |
+| edam     | ✔️             | ✔️                | ❓              | ✔️                                   |
+| em       | ❓            | ❓               | ❓              | ❓                                  |
+| ex       | ❓            | ❓               | ❓              | ❓                                  |
+| hired    | ❓            | ❓               | ❓              | ❓                                  |
+| led[4]   | ❓            | ❓               | ❓              | ❓                                  |
+| led[5]   | ❓            | ❓               | ❓              | ❓                                  |
+| qed      | ✔️             | ✔️                | ✔️               | ❌                                  |
+| rusted   | ❓            | ❓               | ❓              | ❓                                  |
+| sam -d   | ✔️             | ✔️                | ❓              | ✔️                                   |
+| sued     | ❓            | ❓               | ❓              | ❓                                  |
 <pre>
   [1] The C version discussed.
   [2] FreeDOS Edlin.
@@ -422,142 +422,142 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 </pre>
 
 ## Compatibility
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-|--------------|------------------|------------|-------------|-------------------|
-| **ECCE**[3]  | Linux            | ✔️           | ✔️            | ✔️                  |
-|              | BSD              | ✔️           | ✔️            | ✔️                  |
-|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **Edlin**[4] | Linux            | ✔️ x86 Ubuntu | ✔️ x86 Ubuntu | ✔️ x86 Ubuntu      |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) | ✔️ (MS-DOS version) |
-|              | FreeDOS          | ✔️†           | ✔️†            | ✔️†              |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **edbrowse** | Linux            | ✔️           | ✔️            | ✔️                  |
-|              | BSD              | ✔️           | ✔️            | ✔️                  |
-|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ✔️ (Perl version) | ✔️ (Perl version) | ✔️ (Perl version) |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ✔️           | ✔️            | ✔️                  |
-|              | MacOS            | ✔️           | ✔️            | ✔️                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **Teco**[5]  | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **ed**       | Linux            | ✔️           | ✔️            | ✔️                  |
-|              | BSD              | ✔️           | ✔️            | ✔️                  |
-|              | Termux (Android) | ✔️           | ✔️            | ✔️                  |
-|              | iSH (iOS)        | ✔️           | ✔️            | ✔️                  |
-|              | MS-DOS           | ✔️           | ✔️            | ✔️                  |
-|              | FreeDOS          | ✔️           | ✔️            | ✔️                  |
-|              | MS-Windows       | ✔️           | ✔️            | ✔️                  |
-|              | MacOS            | ✔️           | ✔️            | ✔️                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **edam**     | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **em**       | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **ex**       | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **hired**    |                  | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **led**[6]   | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **led**[7]   | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **qed**[8]   | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **rusted**   | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **sam** -d   | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
-|              |                  | **Builds** | **Runs**[1] | **Functional**[2] |
-| **sued**     | Linux            | ❓           | ❓            | ❓                  |
-|              | BSD              | ❓           | ❓            | ❓                  |
-|              | Termux (Android) | ❓           | ❓            | ❓                  |
-|              | iSH (iOS)        | ❓           | ❓            | ❓                  |
-|              | MS-DOS           | ❓           | ❓            | ❓                  |
-|              | FreeDOS          | ❓           | ❓            | ❓                  |
-|              | MS-Windows       | ❓           | ❓            | ❓                  |
-|              | MacOS            | ❓           | ❓            | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+|--------------|------------------|---------------------|---------------------|---------------------|
+| **ECCE**[3]  | Linux            | ✔️                   | ✔️                   | ✔️                   |
+|              | BSD              | ✔️                   | ✔️                   | ✔️                   |
+|              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **Edlin**[4] | Linux            | ✔️ x86 Ubuntu        | ✔️ x86 Ubuntu        | ✔️ x86 Ubuntu        |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ✔️ (MS-DOS version)  | ✔️ (MS-DOS version)  | ✔️ (MS-DOS version)  |
+|              | FreeDOS          | ✔️†                  | ✔️†                  | ✔️†                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **edbrowse** | Linux            | ✔️                   | ✔️                   | ✔️                   |
+|              | BSD              | ✔️                   | ✔️                   | ✔️                   |
+|              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ✔️ (Perl version)    | ✔️ (Perl version)    | ✔️ (Perl version)    |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ✔️                   | ✔️                   | ✔️                   |
+|              | MacOS            | ✔️                   | ✔️                   | ✔️                   |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **Teco**[5]  | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **ed**       | Linux            | ✔️                   | ✔️                   | ✔️                   |
+|              | BSD              | ✔️                   | ✔️                   | ✔️                   |
+|              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
+|              | iSH (iOS)        | ✔️                   | ✔️                   | ✔️                   |
+|              | MS-DOS           | ✔️                   | ✔️                   | ✔️                   |
+|              | FreeDOS          | ✔️                   | ✔️                   | ✔️                   |
+|              | MS-Windows       | ✔️                   | ✔️                   | ✔️                   |
+|              | MacOS            | ✔️                   | ✔️                   | ✔️                   |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **edam**     | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **em**       | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **ex**       | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **hired**    |                  | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **led**[6]   | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **led**[7]   | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **qed**[8]   | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **rusted**   | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **sam** -d   | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **sued**     | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ❓                  | ❓                  | ❓                  |
 <pre>
   † Taking this on faith
   [1] This means, someone reports getting it to start and it didn't immediately
