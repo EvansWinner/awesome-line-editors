@@ -448,7 +448,7 @@ As always, if anyone wants to contribute....
 | **edbrowse** | Linux            | ✔️                   | ✔️                   | ✔️                   |
 |              | BSD              | ✔️                   | ✔️                   | ✔️                   |
 |              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
-|              | iSH (iOS)        | ❌                  | ❌                  | ❌                  |
+|              | iSH (iOS)        | ❌                  | **NA**                | **NA**                |
 |              | MS-DOS           | ✔️ (Perl version)    | ✔️ (Perl version)    | ✔️ (Perl version)    |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ✔️                   | ✔️                   | ✔️                   |
@@ -475,7 +475,7 @@ As always, if anyone wants to contribute....
 | **edam**     | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        |  ✔️                 | ❌                  | ❌                  |
+|              | iSH (iOS)        |  ✔️                 | ❌                  | **NA**                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -502,7 +502,7 @@ As always, if anyone wants to contribute....
 | **hired**    |                  | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❌‡                 | **NA**               | **NA**               |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -563,6 +563,7 @@ As always, if anyone wants to contribute....
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 <pre>
   † Taking this on faith
+  ‡ Requres me to special build the nightly version of the entire Rust toolchain. Not gonna happen.
   [1] This means, someone reports getting it to start and it didn't immediately
       segfault or the like.
   [2] This means, *I do not know for certain*, but someone reports using it at
