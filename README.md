@@ -508,7 +508,7 @@ and it *might* be possible for you to get it to work on yours too.
 | **hired**    |                  | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❌‡                 | **NA**               | **NA**               |
+|              | iSH (iOS)        | ❓‡                 | **NA**               | **NA**               |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -562,7 +562,7 @@ and it *might* be possible for you to get it to work on yours too.
 | **sued**     | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓‡                 | ❓                  | ❓                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
