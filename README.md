@@ -538,7 +538,7 @@ As always, if anyone wants to contribute....
 | **rusted**   | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❌                  | **NA**              | **NA**               |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
