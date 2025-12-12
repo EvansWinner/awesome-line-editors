@@ -511,7 +511,7 @@ As always, if anyone wants to contribute....
 | **led**[6]   | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ✔️⁑                  | ✔️                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -520,7 +520,7 @@ As always, if anyone wants to contribute....
 | **led**[7]   | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ✔️⁑                 | ✔️                  | ❓                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -529,7 +529,7 @@ As always, if anyone wants to contribute....
 | **qed**[8]   | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
