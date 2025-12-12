@@ -427,7 +427,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 | **ECCE**[3]  | Linux            | ✔️                   | ✔️                   | ✔️                   |
 |              | BSD              | ✔️                   | ✔️                   | ✔️                   |
 |              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
