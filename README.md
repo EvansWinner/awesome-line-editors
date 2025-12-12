@@ -553,7 +553,7 @@ and it *might* be possible for you to get it to work on yours too.
 | **sam** -d   | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ✔️                  | ✔️⁂                  | ❓                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -571,6 +571,7 @@ and it *might* be possible for you to get it to work on yours too.
   † Taking this on faith
   ‡ Requres me to special build the nightly version of the entire Rust toolchain. Not gonna happen.
   ⁑ After adding `-std=c99` to `COPTS` in the Makefile, and adding `#include <stdlib.h>` to `settings-struct.h`. 
+ ⁂ Get a "null characters elided" warning on startup with any file. Not sure if that's dangerous or not.
   [1] This means, someone reports getting it to start and it didn't immediately
       segfault or the like.
   [2] This means, *I do not know for certain*, but someone reports using it at
