@@ -425,6 +425,12 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 Just at the moment, I don't have easy access to a machine running MacOS, FreeDOS, MS-DOS, or MS Windows.
 As always, if anyone wants to contribute....
 
+**IMORTANT (another) DISCLAIMER** That something is marked as working below doesn't mean it will work on your system.
+There are an infinitude of possible combinations of configurations, especially on BSD and Linux,
+any of which may make it impossible to compile or run one of these programs. A ✔️ mark just means
+that I or someone reports that it worked on some system or other and it *might* be possible for you to
+get it to work on yours too.
+
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 |--------------|------------------|---------------------|---------------------|---------------------|
 | **ECCE**[3]  | Linux            | ✔️                   | ✔️                   | ✔️                   |
