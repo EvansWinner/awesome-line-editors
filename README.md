@@ -448,7 +448,7 @@ As always, if anyone wants to contribute....
 | **edbrowse** | Linux            | ✔️                   | ✔️                   | ✔️                   |
 |              | BSD              | ✔️                   | ✔️                   | ✔️                   |
 |              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
-|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❌                  | ❌                  | ❌                  |
 |              | MS-DOS           | ✔️ (Perl version)    | ✔️ (Perl version)    | ✔️ (Perl version)    |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ✔️                   | ✔️                   | ✔️                   |
