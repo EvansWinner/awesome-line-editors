@@ -485,7 +485,7 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
-|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ✔️                  | ✔️                  | ✔️    Update README.md              |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **em**       | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
