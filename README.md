@@ -401,7 +401,7 @@ For the serious contenders only. If you're on IBM TSO you don't have a choice he
 |----------|---------------|------------------|-----------------|-------------------------------------|
 | ECCE[1]  | ❌            | ❌               | ❌              | ❌                                  |
 | Edlin[2] | ✔️             | ❌               | ❌              | ❌                                  |
-| Edbrowse | ❓            | ❓               | ❓              | ❓                                  |
+| Edbrowse | ✔️            | ✔️               | ✔️              | ❓                                  |
 | Teco[3]  | ✔️            | ❌               | ✔️               | ✔️                                  |
 | ed       | ✔️             | ❌              | ❌              | ❌                                  |
 | edam     | ✔️             | ✔️               | ✔️              | ✔️                                 |
