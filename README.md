@@ -406,7 +406,7 @@ For the serious contenders only. If you're on IBM TSO you don't have a choice he
 | ed       | ✔️             | ❌              | ❌              | ❌                                  |
 | edam     | ✔️             | ✔️               | ✔️              | ✔️                                 |
 | em       | ❓            | ❌               | ❌              | ❌                                  |
-| ex       | ❓            | ❓               | ❓              | ❓                                  |
+| ex       | ❌            | ❌               | ❓              | ❌                                  |
 | hired    | ❓            | ❓               | ❓              | ❓                                  |
 | led[4]   | ❓            | ❓               | ❓              | ❓                                  |
 | led[5]   | ❓            | ❓               | ❓              | ❓                                  |
