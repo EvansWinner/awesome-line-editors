@@ -443,7 +443,7 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **Edlin**[4] | Linux            | ✔️ x86 Ubuntu        | ✔️ x86 Ubuntu        | ✔️ x86 Ubuntu        |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ✔️ FreeBSD           | ✔️ FreeBSD          | ✔️ FreeBSD           |
 |              | Termux (Android) | ✔️                   | ✔️                   | ✔️                   |
 |              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ✔️ (MS-DOS version)  | ✔️ (MS-DOS version)  | ✔️ (MS-DOS version)  |
