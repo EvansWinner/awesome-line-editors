@@ -498,7 +498,7 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **ex**       | Linux            | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ✔️                  | ✔️                  | ✔️                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
 |              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
@@ -506,8 +506,8 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **hired**    |                  | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
+| **hired**    | Linux            | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ✔️                  | ✔️                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
 |              | iSH (iOS)        | ❓‡                 | **NA**               | **NA**               |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
