@@ -400,20 +400,19 @@ For the serious contenders only. If you're on IBM TSO you don't have a choice he
 |          | Unicode aware | Multiple buffers | Macros/Programs | Structural Regexes/Pattern matching |
 |----------|---------------|------------------|-----------------|-------------------------------------|
 | ECCE[1]  | ❌            | ❌               | ❌              | ❌                                  |
-| EDIT     | ❓            | ❌               | ❌              | ❌                                  |
 | Edlin[2] | ✔️             | ❌               | ❌              | ❌                                  |
 | Edbrowse | ❓            | ❓               | ❓              | ❓                                  |
 | Teco[3]  | ✔️            | ❌               | ✔️               | ✔️                                  |
-| ed       | ✔️             | ❌               | ❌              | ❌                                  |
-| edam     | ✔️             | ✔️                | ✔️              | ✔️                                   |
+| ed       | ✔️             | ❌              | ❌              | ❌                                  |
+| edam     | ✔️             | ✔️               | ✔️              | ✔️                                 |
 | em       | ❓            | ❌               | ❌              | ❌                                  |
 | ex       | ❓            | ❓               | ❓              | ❓                                  |
 | hired    | ❓            | ❓               | ❓              | ❓                                  |
 | led[4]   | ❓            | ❓               | ❓              | ❓                                  |
 | led[5]   | ❓            | ❓               | ❓              | ❓                                  |
-| qed      | ✔️             | ✔️                | ✔️               | ❌                                  |
+| qed      | ✔️             | ✔️                | ✔️            | ❌                                  |
 | rusted   | ❓            | ❓               | ❓              | ❓                                  |
-| sam -d   | ✔️             | ✔️                | ✔️              | ✔️                                   |
+| sam -d   | ✔️             | ✔️                | ✔️              | ✔️                                |
 | sued     | ❓            | ❓               | ❓              | ❓                                  |
 <pre>
   [1] The C version discussed.
