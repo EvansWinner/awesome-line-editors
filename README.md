@@ -403,7 +403,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 | Edbrowse | ❓            | ❓               | ❓              | ❓                                  |
 | Teco[3]  | ❓            | ❓               | ✔️               | ❓                                  |
 | ed       | ✔️             | ❌               | ❌              | ❌                                  |
-| edam     | ✔️             | ✔️                | ❓              | ✔️                                   |
+| edam     | ✔️             | ✔️                | ✔️              | ✔️                                   |
 | em       | ❓            | ❓               | ❓              | ❓                                  |
 | ex       | ❓            | ❓               | ❓              | ❓                                  |
 | hired    | ❓            | ❓               | ❓              | ❓                                  |
@@ -411,7 +411,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 | led[5]   | ❓            | ❓               | ❓              | ❓                                  |
 | qed      | ✔️             | ✔️                | ✔️               | ❌                                  |
 | rusted   | ❓            | ❓               | ❓              | ❓                                  |
-| sam -d   | ✔️             | ✔️                | ❓              | ✔️                                   |
+| sam -d   | ✔️             | ✔️                | ✔️              | ✔️                                   |
 | sued     | ❓            | ❓               | ❓              | ❓                                  |
 <pre>
   [1] The C version discussed.
