@@ -57,7 +57,63 @@ and also for various meanings of "line editor.")
   - [sued](#sued)
 - [Appendices](#appendices)
   - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
+    - [ALE](#ale)- [Appendices](#appendices)
+  - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
     - [ALE](#ale)
+    - [ATTO](#atto)
+    - [ED.COM](#edcom)
+    - [led 3](#led-3)
+  - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
+  - [Appendix C: Others](#appendix-c-others)
+    - [buup](#buup)
+    - [cmd-line-text-editor](#cmd-line-text-editor)
+    - [ed clone in go](#ed-clone-in-go)
+    - [edd](#edd)
+    - [edlin-clone](#edlin-clone)
+    - [edlin-text-editor](#edlin-text-editor)
+    - [Fed](#fed)
+    - [JakED](#jaked)
+- [Colophon](#colophon)
+
+And also, "character editors" and "context editors" as well.
+
+And no, I'm not talking about
+
+- the people who will fix your memoirs line-by-line for a fee; or
+- those command line editing functions like readline or
+  [linenoise](https://github.com/antirez/linenoise)
+  that are for editing a single line of input at your terminal shell.
+
+**I am talking about text editors of yore**, like the Unix ``ed(1)`` editor,
+which operated in terms of lines (or, yes, like Teco,
+which theoretically operated in terms of individual characters)
+and **which were originally designed to work on a Teletype terminal
+with a printer printing one line at a time like God intended**,
+instead of a video display, like these new-fangled modern computers for lazy people.
+I'm talking about those paragons of the *conversational user interface*,
+the REPLs of text editing: line editors.
+
+
+### Advertisement 
+
+Before anything else,
+since a YouTube video is worth a thousand ill-chosen words,
+check out a couple of impressive demos.
+There are lots of other videos of people using line editors on YouTube
+(almost all using the Unix ``ed(1)`` editor)
+but most were done by college students
+who just discovered ``ed`` yesterday and don't know anything about it.
+They're mostly kind of embarrassing, frankly (the videos, I mean).
+But these below are the two cool ones I've found
+because they were done by legit wizards: 
+
+ - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png)
+
+Also worth watching is a very nice video by Kay Lack, nominally about the Unix *ed* editor, but 
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Attach files by dragging & dropping, selecting or pasting them.
+
     - [ATTO](#atto)
     - [ED.COM](#edcom)
     - [led 3](#led-3)
@@ -497,8 +553,176 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **ex**       | Linux            | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
+| **ex**       | Linux            | ✔️                  | ✔️                  | ✔️- [Appendices](#appendices)
+  - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
+    - [ALE](#ale)
+    - [ATTO](#atto)
+    - [ED.COM](#edcom)
+    - [led 3](#led-3)
+  - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
+  - [Appendix C: Others](#appendix-c-others)
+    - [buup](#buup)
+    - [cmd-line-text-editor](#cmd-line-text-editor)
+    - [ed clone in go](#ed-clone-in-go)
+    - [edd](#edd)
+    - [edlin-clone](#edlin-clone)
+    - [edlin-text-editor](#edlin-text-editor)
+    - [Fed](#fed)
+    - [JakED](#jaked)
+- [Colophon](#colophon)
+
+And also, "character editors" and "context editors" as well.
+
+And no, I'm not talking about
+
+- the people who will fix your memoirs line-by-line for a fee; or
+- those command line editing functions like readline or
+  [linenoise](https://github.com/antirez/linenoise)
+  that are for editing a single line of input at your terminal shell.
+
+**I am talking about text editors of yore**, like the Unix ``ed(1)`` editor,
+which operated in terms of lines (or, yes, like Teco,
+which theoretically operated in terms of individual characters)
+and **which were originally designed to work on a Teletype terminal
+with a printer printing one line at a time like God intended**,
+instead of a video display, like these new-fangled modern computers for lazy people.
+I'm talking about those paragons of the *conversational user interface*,
+the REPLs of text editing: line editors.
+
+
+### Advertisement 
+
+Before anything else,
+since a YouTube video is worth a thousand ill-chosen words,
+check out a couple of impressive demos.
+There are lots of other videos of people using line editors on YouTube
+(almost all using the Unix ``ed(1)`` editor)
+but most were done by college students
+who just discovered ``ed`` yesterday and don't know anything about it.
+They're mostly kind of embarrassing, frankly (the videos, I mean).
+But these below are the two cool ones I've found
+because they were done by legit wizards: 
+
+ - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png)
+
+Also worth watching is a very nice video by Kay Lack, nominally about the Unix *ed* editor, but 
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Attach files by dragging & dropping, selecting or pasting them.
+- [Appendices](#appendices)
+  - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
+    - [ALE](#ale)
+    - [ATTO](#atto)
+    - [ED.COM](#edcom)
+    - [led 3](#led-3)
+  - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
+  - [Appendix C: Others](#appendix-c-others)
+    - [buup](#buup)
+    - [cmd-line-text-editor](#cmd-line-text-editor)
+    - [ed clone in go](#ed-clone-in-go)
+    - [edd](#edd)
+    - [edlin-clone](#edlin-clone)
+    - [edlin-text-editor](#edlin-text-editor)
+    - [Fed](#fed)
+    - [JakED](#jaked)
+- [Colophon](#colophon)
+
+And also, "character editors" and "context editors" as well.
+
+And no, I'm not talking about
+
+- the people who will fix your memoirs line-by-line for a fee; or
+- those command line editing functions like readline or
+  [linenoise](https://github.com/antirez/linenoise)
+  that are for editing a single line of input at your terminal shell.
+
+**I am talking about text editors of yore**, like the Unix ``ed(1)`` editor,
+which operated in terms of lines (or, yes, like Teco,
+which theoretically operated in terms of individual characters)
+and **which were originally designed to work on a Teletype terminal
+with a printer printing one line at a time like God intended**,
+instead of a video display, like these new-fangled modern computers for lazy people.
+I'm talking about those paragons of the *conversational user interface*,
+the REPLs of text editing: line editors.
+
+
+### Advertisement 
+
+Before anything else,
+since a YouTube video is worth a thousand ill-chosen words,
+check out a couple of impressive demos.
+There are lots of other videos of people using line editors on YouTube
+(almost all using the Unix ``ed(1)`` editor)
+but most were done by college students
+who just discovered ``ed`` yesterday and don't know anything about it.
+They're mostly kind of embarrassing, frankly (the videos, I mean).
+But these below are the two cool ones I've found
+because they were done by legit wizards: 
+
+ - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png)
+
+Also worth watching is a very nice video by Kay Lack, nominally about the Unix *ed* editor, but 
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Attach files by dragging & dropping, selecting or pasting them.
+- [Appendices](#appendices)
+  - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
+    - [ALE](#ale)
+    - [ATTO](#atto)
+    - [ED.COM](#edcom)
+    - [led 3](#led-3)
+  - [Appendix B: Mainly of Historical Interest](#appendix-b-mainly-of-historical-interest)
+  - [Appendix C: Others](#appendix-c-others)
+    - [buup](#buup)
+    - [cmd-line-text-editor](#cmd-line-text-editor)
+    - [ed clone in go](#ed-clone-in-go)
+    - [edd](#edd)
+    - [edlin-clone](#edlin-clone)
+    - [edlin-text-editor](#edlin-text-editor)
+    - [Fed](#fed)
+    - [JakED](#jaked)
+- [Colophon](#colophon)
+
+And also, "character editors" and "context editors" as well.
+
+And no, I'm not talking about
+
+- the people who will fix your memoirs line-by-line for a fee; or
+- those command line editing functions like readline or
+  [linenoise](https://github.com/antirez/linenoise)
+  that are for editing a single line of input at your terminal shell.
+
+**I am talking about text editors of yore**, like the Unix ``ed(1)`` editor,
+which operated in terms of lines (or, yes, like Teco,
+which theoretically operated in terms of individual characters)
+and **which were originally designed to work on a Teletype terminal
+with a printer printing one line at a time like God intended**,
+instead of a video display, like these new-fangled modern computers for lazy people.
+I'm talking about those paragons of the *conversational user interface*,
+the REPLs of text editing: line editors.
+
+
+### Advertisement 
+
+Before anything else,
+since a YouTube video is worth a thousand ill-chosen words,
+check out a couple of impressive demos.
+There are lots of other videos of people using line editors on YouTube
+(almost all using the Unix ``ed(1)`` editor)
+but most were done by college students
+who just discovered ``ed`` yesterday and don't know anything about it.
+They're mostly kind of embarrassing, frankly (the videos, I mean).
+But these below are the two cool ones I've found
+because they were done by legit wizards: 
+
+ - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
+ - [Lambda Island 40. The Ultimate Dev Setup](https://www.youtube.com/watch?v=6oPRUzzP9DU)&nbsp;![YouTube](img/youtube.png)
+
+Also worth watching is a very nice video by Kay Lack, nominally about the Unix *ed* editor, but 
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Attach files by dragging & dropping, selecting or pasting them.
+                  |
+|              | BSD              | ✔️                  | ✔️                  | ✔️                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
 |              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
