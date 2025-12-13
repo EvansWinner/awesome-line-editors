@@ -488,7 +488,7 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MacOS            | ✔️                  | ✔️                  | ✔️    Update README.md              |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **em**       | Linux            | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ✔️                  | ✔️                  | ❌                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
 |              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
