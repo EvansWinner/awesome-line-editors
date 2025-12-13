@@ -479,9 +479,9 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MacOS            | ✔️                   | ✔️                   | ✔️                   |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **edam**     | Linux            | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | BSD              | ✔️[a]               | ✔️                  | ✔️                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        |  ✔️                 | ❌                  | **NA**                  |
+|              | iSH (iOS)        |  ✔️                 | ❌                  | **NA**              |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -572,6 +572,7 @@ and it *might* be possible for you to get it to work on yours too.
   ‡ Requres me to special build the nightly version of the entire Rust toolchain. Not gonna happen.
   ⁑ After adding `-std=c99` to `COPTS` in the Makefile, and adding `#include <stdlib.h>` to `settings-struct.h`. 
  ⁂ Get a "null characters elided" warning on startup with any file. Not sure if that's dangerous or not.
+  [a] Had to change `#include <utmp.h>` in *posix.c* to `#include <utmpx.h>`on FreeBSD.
   [1] This means, someone reports getting it to start and it didn't immediately
       segfault or the like.
   [2] This means, *I do not know for certain*, but someone reports using it at
