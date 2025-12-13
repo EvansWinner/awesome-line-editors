@@ -393,10 +393,12 @@ Please send me a PR, or just a comment, with corrections or additions.  I'm just
 one person, with a real job, and you know, a family and a mortgage and all that.
 
 # Tables
+
+For the serious contenders only. If you're on IBM TSO you don't have a choice here, so leaving that out.
+
 ## Features
 |          | Unicode aware | Multiple buffers | Macros/Programs | Structural Regexes/Pattern matching |
 |----------|---------------|------------------|-----------------|-------------------------------------|
-| /EDIT    | ❓            | ❌               | ❓              | ❌                                  |
 | ECCE[1]  | ❌            | ❌               | ❌              | ❌                                  |
 | EDIT     | ❓            | ❌               | ❌              | ❌                                  |
 | Edlin[2] | ✔️             | ❌               | ❌              | ❌                                  |
