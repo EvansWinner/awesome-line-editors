@@ -480,7 +480,7 @@ and it *might* be possible for you to get it to work on yours too.
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **edam**     | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ✔️[a]               | ✔️                  | ✔️                  |
-|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ✔️                  | ✔️                  | ✔️                  |
 |              | iSH (iOS)        |  ✔️                 | ❌                  | **NA**              |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
