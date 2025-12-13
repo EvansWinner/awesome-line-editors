@@ -880,12 +880,14 @@ and the musl C library version of
 
 ## edam
 
-[edam](https://github.com/phonologus/edam)&nbsp;![GitHub](img/github.png) 
-is Sean Jensen's clone/port/rewrite of Rob Pike's *sam*
+Despite some hiccups building it on some systems, I don't really have much snark to offer about
+[edam](https://github.com/phonologus/edam)&nbsp;![GitHub](img/github.png) because it is probably 
+the editor on this page which I find most compelling.
+The *edam* editor is is Sean Jensen's clone/port/rewrite of Rob Pike's *sam*
 editor for the [Plan 9](https://9p.io/plan9/) OS, but without the
 graphical display, so it is is the equivalent of running `sam -d`. 
 
-*sam* (and therefore *edam* as well) works similarly to ed, but uses so-called
+*sam* (and therefore *edam* as well) works similarly to *ed*, but uses so-called
 "[structural regular expressions]( http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png)"
 (similar to the Vim-like [Vis](https://github.com/martanne/vis)&nbsp;![GitHub](img/github.png),
 supports UTF-8, multiple buffers (like qed) and allows dot (the current selection) to span arbitrary ranges of text,
