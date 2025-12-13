@@ -401,7 +401,7 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 | EDIT     | ❓            | ❌               | ❌              | ❌                                  |
 | Edlin[2] | ✔️             | ❌               | ❌              | ❌                                  |
 | Edbrowse | ❓            | ❓               | ❓              | ❓                                  |
-| Teco[3]  | ❓            | ❓               | ✔️               | ❓                                  |
+| Teco[3]  | ❓            | ❌               | ✔️               | ❓                                  |
 | ed       | ✔️             | ❌               | ❌              | ❌                                  |
 | edam     | ✔️             | ✔️                | ✔️              | ✔️                                   |
 | em       | ❓            | ❓               | ❓              | ❓                                  |
