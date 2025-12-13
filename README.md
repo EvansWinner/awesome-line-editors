@@ -408,7 +408,7 @@ For the serious contenders only. If you're on IBM TSO you don't have a choice he
 | em       | ❌            | ❌               | ❌              | ❌                                  |
 | ex       | ❌            | ❌               | ❓              | ❌                                  |
 | hired    | ❓            | ❓               | ❓              | ❓                                  |
-| led[4]   | ❓            | ❓               | ❓              | ❓                                  |
+| led[4]   | ✔️            | ❌               | ❌              | ❌                                  |
 | led[5]   | ❓            | ❓               | ❓              | ❓                                  |
 | qed      | ✔️             | ✔️                | ✔️            | ❌                                  |
 | rusted   | ❓            | ❓               | ❓              | ❓                                  |
