@@ -1,8 +1,3 @@
-* YES HISTORY https://en.wikipedia.org/wiki/ORVYL_and_WYLBUR
-Historical interest only as it is MVS only.
-** https://web.stanford.edu/dept/its/support/wylorv/
-Code for Wylbur for MVS. Might work on z/OS.
-
 * YES HISTORICAL https://en.m.wikipedia.org/wiki/Colossal_Typewriter
 ** https://www.computerhistory.org/pdp-1/_media/pdf/DEC.pdp_1.1960.102650331.pdf
 Three page memo documenting Colossal Typewriter
@@ -14,129 +9,154 @@ About 17 pages. Things get complicated fast.
 * YES HISTORICAL https://www.pagetable.com/docs/amigados_tripos/amigados_manual.pdf -- Chapter 4
 On the AmegaDOS EDIT line editor
 
-* ex
-https://en.wikipedia.org/wiki/Ex_(text_editor)
-https://texteditors.org/cgi-bin/wiki.pl?Ex
-Doc https://users.ox.ac.uk/~martinw/unix/chap9.html
-
 * YES under OTHER https://github.com/Lartu/led
 Appears interesting. A simple line editor without search or context
 editing features, but with a chattier interface. Uses language LDPL for
 which I wasn't able to figure out how to build its one dependency.
 
-* YES DOC https://www.ibm.com/docs/en/zos/3.1.0?topic=command-edit-subcommands-overview
-TSO/EDIT subcommand reference
-
 * YES DOC HISTORICAL http://web.mit.edu/Saltzer/www/publications/AH.9.01.html
 For TYPSET and RUNOFF
+* Ted (Multics)
+
+* edm (Multics)
+
+* qedx (Multics)
 
 * From one free LLM or another
-8-Bit Home Computer Era
 
-Apple Program Line Editor (Apple II series, 1982)
-A dedicated line-numbered editor from A.P.P.L.E. (Apple PugetSound Program Library Exchange) for tweaking BASIC/assembly code. Command-driven like ed, with insert/delete by line range. Comes on disk images for emulators.
-Archive: https://www.ebay.com/itm/226149589254 (or search Call-A.P.P.L.E. archives)
-TRS-80 Editor/Assembler Series I (TRS-80 Model I/III, 1981)
-Tandy's official line-oriented editor bundled with their assembler package. Handles line addressing, printing, and substitutions via commands like L (list lines) or D (delete range). Feels very ed-like for batch editing. Manuals and disk images are floating around retro sites.
-Manual: https://www.classic-computers.org.nz/system-80/software-manuals/manuals-Editor-Assembler-Tandy.pdf
-Commodore BASIC Line Editor (PET/C64/VIC-20, 1977–1982)
-Not a standalone tool, but the built-in BASIC interpreter acts as a de facto line editor—enter lines by number, edit with LIST, EDIT n, or RENUM. Obscure in hindsight as a "whole-system editor," but it powered most early C64 coding. (If you want something more distinct, check emulated "Simon Ed" variants, though they're borderline screen-based.)
+** Apple Program Line Editor (Apple II series, 1982)
+A dedicated line-numbered editor from A.P.P.L.E. (Apple PugetSound
+Program Library Exchange) for tweaking BASIC/assembly
+code. Command-driven like ed, with insert/delete by line range. Comes on
+disk images for emulators.  Archive:
+https://www.ebay.com/itm/226149589254 (or search
+Call-A.P.P.L.E. archives)
+
+** TRS-80 Editor/Assembler Series I (TRS-80 Model I/III, 1981)
+Tandy's official line-oriented editor bundled with their assembler
+package. Handles line addressing, printing, and substitutions via
+commands like L (list lines) or D (delete range). Feels very ed-like for
+batch editing. Manuals and disk images are floating around retro sites.
+Manual:
+https://www.classic-computers.org.nz/system-80/software-manuals/manuals-Editor-Assembler-Tandy.pdf
+
+** Commodore BASIC Line Editor (PET/C64/VIC-20, 1977–1982)
+Not a standalone tool, but the built-in BASIC interpreter acts as a de
+facto line editor—enter lines by number, edit with LIST, EDIT n, or
+RENUM. Obscure in hindsight as a "whole-system editor," but it powered
+most early C64 coding. (If you want something more distinct, check
+emulated "Simon Ed" variants, though they're borderline screen-based.)
 Docs: Commodore manuals via https://www.c64-wiki.com/wiki/BASIC
 
-Pre-8-Bit Curios (Mainframes/Minicomputers)
-These predate home computers but set the stage for ed-style tools. Perfect for a "Historical Precursors" sub-appendix.
+** Colossal Typewriter (PDP-1, ~1961)
+One of the earliest interactive line editors, basically a teletype-based
+text manipulator for debugging punch-card code. Commands for line
+insert/delete/print; it's more proof-of-concept than usable today, but
+emulatable.  Info:
+https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors
 
-Colossal Typewriter (PDP-1, ~1961)
-One of the earliest interactive line editors, basically a teletype-based text manipulator for debugging punch-card code. Commands for line insert/delete/print; it's more proof-of-concept than usable today, but emulatable.
-Info: https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors
-EXP (CTSS, ~1965)
-A pioneering line editor from MIT's Compatible Time-Sharing System, influencing QED/ed. Line-range ops like substitute/print; historical only, but source/docs in retro computing archives.
-Info: https://en.wikipedia.org/wiki/Line_editor
-EW (Multics, ~1972)
-Multics' line editor, with advanced pattern matching and macros. Feels like a beefed-up ed for multi-user systems; influential but obscure outside OS history buffs.
-Info: https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors
+** EXP (CTSS, ~1965)
 
+A pioneering line editor from MIT's Compatible Time-Sharing System,
+influencing QED/ed. Line-range ops like substitute/print; historical
+only, but source/docs in retro computing archives.  Info:
+https://en.wikipedia.org/wiki/Line_editor
 
+** EW (Multics, ~1972)
+Multics' line editor, with advanced pattern matching and macros. Feels
+like a beefed-up ed for multi-user systems; influential but obscure
+outside OS history buffs.  Info:
+https://en.wikipedia.org/wiki/List_of_text_editors#Line_editors
 
-SLED: IBM’s “Source Line EDitor” used on VM/CMS and other mainframe environments. Very much in the edlin/ed tradition.
+** SLED
+IBM’s “Source Line EDitor” used on VM/CMS and other mainframe
+environments. Very much in the edlin/ed tradition.
 
-BBC Micro *EDIT: A built‑in line editor for BASIC programs, invoked with *EDIT.
+** BBC Micro *EDIT
+A built‑in line editor for BASIC programs, invoked with *EDIT.
 
-Commodore PET/CBM EDIT: PET BASIC had a primitive line editor for program entry.
+** Apple II EDASM
+The assembler package included a line editor for source code.
 
-Apple II EDASM: The assembler package included a line editor for source code.
+** TRS‑80 Editor/Assembler
+Another line‑based editor bundled with the assembler.
 
-TRS‑80 Editor/Assembler: Another line‑based editor bundled with the assembler.
+** ZX Spectrum’s built‑in BASIC editor
+Not a separate program, but its quirky line‑editing model is worth
+noting.
 
-ZX Spectrum’s built‑in BASIC editor: Not a separate program, but its quirky line‑editing model is worth noting.
-BBC Micro *EDIT: A command that invoked a line editor for BASIC programs. It let you step through code line by line, editing text without a full‑screen interface.
+* Done/not going to do
+** DONE ex
+CLOSED: [2025-12-21 Sun 08:53]
+https://en.wikipedia.org/wiki/Ex_(text_editor)
+https://texteditors.org/cgi-bin/wiki.pl?Ex
+Doc https://users.ox.ac.uk/~martinw/unix/chap9.html
 
-
-Commodore PET/CBM EDIT: PET BASIC had a primitive line editor where you typed line numbers and could only edit by re‑entering them. Later CBM machines kept similar quirks.
-
-Apple II EDASM: The assembler package included a line editor for source code. Editing assembler mnemonics line by line was the norm.
-
-TRS‑80 Editor/Assembler: Bundled with the assembler, it provided a bare‑bones line editor that felt closer to edlin than to modern editors.
-
-ZX Spectrum BASIC editor: Not a separate program, but its unique “keyword entry” model (pressing keys to insert whole BASIC commands) made editing quirky and constrained.
-
-* DONE sam https://github.com/deadpixi/sam
+** DONE sam https://github.com/deadpixi/sam
 Compiles on x64 Ubuntu. Required apt install libxt-dev
 
-* DONE YES DOC http://www.eecs.qmul.ac.uk/~gc/history/index.html
+** DONE YES DOC http://www.eecs.qmul.ac.uk/~gc/history/index.html
 About em editor
 ** DONE YES https://www.coulouris.net/cs_history/em_story/QMC_Unix_manual.html
 man page for em editor
 ** DONE https://github.com/rsdoiel/em-1.0.0
 Code builds and smoke tests on x64 Ubuntu.
 
-* DONE YES https://forum.literatureandlatte.com/t/why-i-write-early-drafts-with-a-manual-typewriter/131092
+** DONE YES HISTORY https://en.wikipedia.org/wiki/ORVYL_and_WYLBUR
+Historical interest only as it is MVS only.
+** https://web.stanford.edu/dept/its/support/wylorv/
+Code for Wylbur for MVS. Might work on z/OS.
+
+** DONE YES DOC https://www.ibm.com/docs/en/zos/3.1.0?topic=command-edit-subcommands-overview
+TSO/EDIT subcommand reference
+
+** DONE YES https://forum.literatureandlatte.com/t/why-i-write-early-drafts-with-a-manual-typewriter/131092
 One of many peons to manual typewriters
 
-* DONE https://sourceforge.net/projects/led-text-editor/
+** DONE https://sourceforge.net/projects/led-text-editor/
 Lua script -- lua led.lua FILE -- runs under x64 Ubuntu.
 
-* DONE YES DOC http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
+** DONE YES DOC http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf
 On structural regular expressions (sam -d I think)
 
-* YES https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf -- Appendix B
+** YES https://publibfp.dhe.ibm.com/epubs/pdf/iesige11.pdf -- Appendix B
 z/VSE Context Editor /EDIT
 
-* DONE YES https://github.com/sage-etcher/leaf-context-editor
+** DONE YES https://github.com/sage-etcher/leaf-context-editor
 Claims to be a clone of CP/M's ED.COM for Unix systems. Builds and runs
 on x64 Ubuntu. Inscrutable documentation.
 
-* DONE YES https://github.com/scott-linder/rusted
+** DONE YES https://github.com/scott-linder/rusted
 Ed clone in rust. Builds and passes a few basic tests on x64
 Ubuntu. Clone the repo and do `cargo build'.
 
-* DONE YES with caveats (OTHER) https://github.com/alzwded/JakED
+** DONE YES with caveats (OTHER) https://github.com/alzwded/JakED
 This is Windows only. I can't test easily. I wouldn't know how to use
 MVC or whatever anyway.
 
-* DONE YES! https://github.com/sidju/hired
+** DONE YES! https://github.com/sidju/hired
 cargo install --path .  Build and smoke-test ok.  Some discussion on HN,
 particularly some observations on bloat:
 https://news.ycombinator.com/item?id=39357015
 
-* NO https://github.com/upman/Snap-Edit
+** NO https://github.com/upman/Snap-Edit
 Can't get configure script to run, even after downloading config.guess
 and config.sub.
 
-* NO https://github.com/clseibold/Edim
+** NO https://github.com/clseibold/Edim
 Looks interesting, but doesn't compile on Termux or x64 Ubuntu. Note in Github that it's moved, but the link is dead.
 
-* NO https://sourceforge.net/projects/pyedlin/
+** NO https://sourceforge.net/projects/pyedlin/
 I don't understand Python and couldn't figure out how to make this work,
 of of course there's no documentation.
 
-* NO https://github.com/ShlomiRex/line-oriented-text-editor
+** NO https://github.com/ShlomiRex/line-oriented-text-editor
 Compiles on Termux and x64 Ubuntu, but segfautls when you leave insert mode.
 
-* NO https://github.com/IanDarwin/edj
+** NO https://github.com/IanDarwin/edj
 "You cannot yet save your work..."
 
-* NO red. Builds but just issues "?" to every command
+** NO red. Builds but just issues "?" to every command
 https://github.com/tobhe/red
 
 

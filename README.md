@@ -648,6 +648,10 @@ and is still current on
 [TSO/E](https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-tsoe).
 under z/OS.
 
+There is an IBM
+[doc](https://www.ibm.com/docs/en/zos/3.1.0?topic=command-edit-subcommands-overview)
+you can read if you're into reading and all that.
+
 ### Versions
 
 There are no-doubt as many versions of EDIT as there are versions of TSO, and therefore of IBM mainframe operating systems.
@@ -881,12 +885,11 @@ and the musl C library version of
 
 ## edam
 
-Despite some hiccups building it on some systems, I don't really have much snark to offer about
-[edam](https://github.com/phonologus/edam)&nbsp;![GitHub](img/github.png) because it is probably 
-the editor on this page which I find most compelling.
-The *edam* editor is is Sean Jensen's clone/port/rewrite of Rob Pike's *sam*
-editor for the [Plan 9](https://9p.io/plan9/) OS, but without the
-graphical display, so it is is the equivalent of running `sam -d`. 
+[edam](https://github.com/phonologus/edam)&nbsp;![GitHub](img/github.png)
+is currently my own line editor of choice. It is Sean Jensen's
+clone/port/rewrite of Rob Pike's *sam* editor (originally for the [Plan
+9](https://9p.io/plan9/) OS) but without the graphical display,
+so it is is the equivalent of running `sam -d`.
 
 *sam* (and therefore *edam* as well) works similarly to *ed*, but uses so-called
 "[structural regular expressions]( http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png)"
@@ -915,7 +918,15 @@ Peter Salus makes interesting reading.
 
 ## ex
 
-*TBD*
+[Wikipedia Page](https://en.wikipedia.org/wiki/Ex_(text_editor))&nbsp;![Wikipedia](img/wikipedia.png) |
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?Ex)
+
+*ex* was the precursor to *vi*. Evidently, *vi* was originally an *ex* command to go to "visual" mode. *ex* still lives on in *vi* implementations, including Vim. On most platforms, if you type `ex` at the command prompt, you will get *vi* or Vim running in line editor mode.
+
+*ex* still takes over the screen in most contexts, providing a command line at the bottom of the screen, and otherwise clears the screen when it is run -- so it seems to me to only sort of qualify as a line editor,
+but here it is anyway.
+
+[Here](https://users.ox.ac.uk/~martinw/unix/chap9.html) is a brief doc on its use.
 
 
 ## hired
@@ -1128,7 +1139,18 @@ the weirdest one I've come up with so far.
 
 ## Appendix B: Mainly of Historical Interest
 
-The past is coming soon... or something.
+### WYLBUR
+
+[Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?Wylbur) |
+[Wikipedia Page](https://en.wikipedia.org/wiki/ORVYL_and_WYLBUR)&nbsp;![Wikipedia](img/wikipedia.png)
+
+WYLBUR is part of the ORVYL/WYLBUR team, an operating environment (alternative to TSO and friends) for the IBM MVS mainframe operating environment. Wylber in particularly appears to have included a line editor. Wylbur is a context editor with the ability to do pattern matching similar to that used in
+[Snobol](https://en.wikipedia.org/wiki/SNOBOL).
+If this is true, it is probably more powerful than the regular expressions used in most modern line editors.
+
+If you happen to have access to an IBM environment, you might be able to download the source for Orvyl and Wylbur and use it today, based on the code available [here](https://web.stanford.edu/dept/its/support/wylorv/).
+
+If you find that you are able to do so an make it work, please let me know and I will move this out of the "merely of historical interest" section.
 
 
 ## Appendix C: Others
