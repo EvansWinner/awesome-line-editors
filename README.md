@@ -534,7 +534,7 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **qed**[8]   | Linux            | ❓                  | ❓                  | ❓                  |
+| **qed**[8]   | Linux            | ✔️                  | ✔️                | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
 |              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
@@ -561,9 +561,9 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ✔️                  | ✔️                  | ✔️                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **sued**     | Linux            | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
-|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+| **sued**     | Linux            | ✔️                  | ✔️                  | ✔️                  |
+|              | BSD              | ✔️                  | ✔️                  | ✔️                  |
+|              | Termux (Android) | ✔️                  | ✔️                  | ✔️                  |
 |              | iSH (iOS)        | ❓‡                 | ❓                  | ❓                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
