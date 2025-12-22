@@ -895,7 +895,7 @@ so it is is the equivalent of running `sam -d`.
 *sam* (and therefore *edam* as well) works similarly to *ed*, but uses so-called
 "[structural regular expressions]( http://doc.cat-v.org/bell_labs/structural_regexps/se.pdf))&nbsp;![PDF](img/pdf.png)"
 (similar to the Vim-like [Vis](https://github.com/martanne/vis)&nbsp;![GitHub](img/github.png),
-supports UTF-8, multiple buffers (like qed) and allows dot (the current selection) to span arbitrary ranges of text,
+supports UTF-8, multiple buffers (like *qed*) and allows dot (the current selection) to span arbitrary ranges of text,
 including newlines -- that is, you are not limited to thinking in terms of whole lines only, as in *ed*.
 
 
