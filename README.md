@@ -395,26 +395,27 @@ one person, with a real job, and you know, a family and a mortgage and all that.
 # Tables
 
 For the serious contenders only. If you're on IBM TSO you don't have a choice here, so leaving that out.
+Otherwise you've at least got to appear to work reliably on Linux and BSD.
 
 
 ## Features
 |          | Unicode aware | Multiple buffers | Macros/Programs | Structural Regexes/Pattern matching |
 |----------|---------------|------------------|-----------------|-------------------------------------|
 | ECCE[1]  | ❌            | ❌               | ❌              | ❌                                  |
-| Edlin[2] | ✔️             | ❌               | ❌              | ❌                                  |
+| Edlin[2] | ✔️            | ❌               | ❌              | ❌                                  |
 | Edbrowse | ✔️            | ✔️               | ✔️              | ❓                                  |
-| Teco[3]  | ✔️            | ❌               | ✔️               | ✔️                                  |
-| ed       | ✔️             | ❌              | ❌              | ❌                                  |
-| edam     | ✔️             | ✔️               | ✔️              | ✔️                                 |
+| Teco[3]  | ✔️            | ❌               | ✔️              | ✔️                                  |
+| ed       | ✔️            | ❌               | ❌              | ❌                                  |
+| edam     | ✔️            | ✔️               | ✔️              | ✔️                                  |
 | em       | ❌            | ❌               | ❌              | ❌                                  |
 | ex       | ❌            | ❌               | ❓              | ❌                                  |
-| hired    | ✔️            | ❌               | ❌              | ❌                                   |
+| hired    | ✔️            | ❌               | ❌              | ❌                                  |
 | led[4]   | ✔️            | ❌               | ❌              | ❌                                  |
 | led[5]   | ❓            | ❓               | ❓              | ❓                                  |
-| qed      | ✔️             | ✔️                | ✔️            | ❌                                  |
+| qed      | ✔️            | ✔️               | ✔️              | ❌                                  |
 | rusted   | ❓            | ❓               | ❓              | ❓                                  |
-| sam -d   | ✔️             | ✔️                | ✔️              | ✔️                                |
-| sued     | ❓            | ❓               | ❓              | ❓                                  |
+| sam -d   | ✔️            | ✔️               | ✔️              | ✔️                                  |
+| sued     | ✔️            | ❌               | ❌              | ❌                                  |
 <pre>
   [1] The C version discussed.
   [2] FreeDOS Edlin.
