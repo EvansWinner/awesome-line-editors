@@ -699,7 +699,7 @@ it is Assembly code and could be challenging to assemble or re-implement.
 
 The FreeDOS project has done an
 [implementation](https://github.com/FDOS/edlin)&nbsp;![GitHub](img/github.png)
-in c, and I have been able to compile and run it on several POSIX or POSIX-adjacent systems,
+in C, and I have been able to compile and run it on several POSIX or POSIX-adjacent systems,
 but my skimming some documentation suggests that
 the FreeDOS implementation is a simplified version
 possibly lacking in character editing features DOS EDLIN *may* have had.
