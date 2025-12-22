@@ -13,7 +13,6 @@ and also for various meanings of "line editor.")
 **→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
 <p align="center">
   <a href="https://evanswinner.github.io/shoe.html"><img src="img/shoe.jpg" alt="The Hermetic Order of ed(1)" width=200 /></a>
-</p>
 
 
 ### Table of Contents
@@ -809,7 +808,7 @@ and its code so notoriously difficult to read that it can be an amusing
 It is also the source of the world's first software
 "[Easter egg](https://www.acriticalhit.com/make-love-not-war-first-software-easter-egg/)."
 
-Teco does not, by itself, seemt to be well integrated into the Unix style of doing things,
+Teco does not, by itself, seem to be well integrated into the Unix style of doing things,
 and I have spent very little time looking at it myself, since my interest is mainly practical,
 but for what it's worth:
 
