@@ -620,11 +620,11 @@ Well, if they mean that it's compatible with being
 and re-implemented on one OS and in one language after another,
 then ECCE is definitely highly compatible.
 
-I was able to build the editor and give it a basic smoke test from the c source
+I was able to build the editor and give it a basic smoke test from the C source
 [here](https://ecce.sourceforge.net/download/#source) on both MacOS and Termux on Android.
 I cut/pasted the code to a file, ecce.c,
 then typed ``cc ecce.c``, then typed ``mv a.out ecce`` and ``./ecce file`` and it just worked. That's saying something for a
-1625-line single-file c program (plus a few more hundred of comments and blanks)
+1625-line single-file C program (plus a few more hundred of comments and blanks)
 based on something originally written in
 [IMP](https://en.wikipedia.org/wiki/Edinburgh_IMP)&nbsp;![Wikipedia](img/wikipedia.png)
 back in the 1960s.
