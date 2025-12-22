@@ -407,7 +407,7 @@ For the serious contenders only. If you're on IBM TSO you don't have a choice he
 | edam     | ✔️             | ✔️               | ✔️              | ✔️                                 |
 | em       | ❌            | ❌               | ❌              | ❌                                  |
 | ex       | ❌            | ❌               | ❓              | ❌                                  |
-| hired    | ❓            | ❓               | ❓              | ❓                                  |
+| hired    | ✔️            | ❌               | ❌              | ❌                                   |
 | led[4]   | ✔️            | ❌               | ❌              | ❌                                  |
 | led[5]   | ❓            | ❓               | ❓              | ❓                                  |
 | qed      | ✔️             | ✔️                | ✔️            | ❌                                  |
@@ -461,9 +461,9 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ✔️                   | ✔️                   | ✔️                   |
 |              | MacOS            | ✔️                   | ✔️                   | ✔️                   |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **Teco**[5]  | Linux            | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
-|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+| **Teco**[5]  | Linux            | ✔️                  | ✔️                  | ❓                  |
+|              | BSD              | ✔️                  | ✔️                  | ❓                  |
+|              | Termux (Android) | ✔️                  | ✔️                  | ❓                  |
 |              | iSH (iOS)        | ✔️                   | ✔️                   | ❓                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
@@ -479,16 +479,16 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ✔️                   | ✔️                   | ✔️                   |
 |              | MacOS            | ✔️                   | ✔️                   | ✔️                   |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **edam**     | Linux            | ❓                  | ❓                  | ❓                  |
+| **edam**     | Linux            | ✔️                  | ✔️                  | ✔️                  |
 |              | BSD              | ✔️[a]               | ✔️                  | ✔️                  |
 |              | Termux (Android) | ✔️                  | ✔️                  | ✔️                  |
-|              | iSH (iOS)        |  ✔️                 | ❌                  | **NA**              |
+|              | iSH (iOS)        |  ✔️                 | ❌ (Needs 64 bit)   | **NA**              |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
-|              | MacOS            | ✔️                  | ✔️                  | ✔️    Update README.md              |
+|              | MacOS            | ✔️                  | ✔️                  | ✔️                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **em**       | Linux            | ❓                  | ❓                  | ❓                  |
+| **em**       | Linux            | ✔️ (pkgsrc)         | ✔️                  | ❓                  |
 |              | BSD              | ✔️                  | ✔️                  | ❌                  |
 |              | Termux (Android) | ❓                  | ❓                  | ❓                  |
 |              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
@@ -497,19 +497,19 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **ex**       | Linux            | ❓                  | ❓                  | ❓                  |
+| **ex**       | Linux            | ✔️                  | ✔️                  | ✔️                  |
 |              | BSD              | ✔️                  | ✔️                  | ✔️                  |
-|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ✔️                  | ✔️                  | ✔️                  |
 |              | iSH (iOS)        | ✔️                  | ✔️                  | ✔️                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **hired**    | Linux            | ❓                  | ❓                  | ❓                  |
+| **hired**    | Linux            | ✔️                  | ✔️                  | ❓                  |
 |              | BSD              | ✔️                  | ✔️                  | ❓                  |
-|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❓‡                 | **NA**               | **NA**               |
+|              | Termux (Android) | ✔️                  | ✔️                  | ❓                  |
+|              | iSH (iOS)        | ❓‡                 | **NA**              | **NA**              |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
@@ -542,23 +542,23 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **rusted**   | Linux            | ❓                  | ❓                  | ❓                  |
+| **rusted**   | Linux            | ✔️                  | ❌                  | **NA**              |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
-|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ❌                  | **NA**              | **NA**               |
+|              | Termux (Android) | ✔️                  | ❌                  | **NA**              |
+|              | iSH (iOS)        | ❌                  | **NA**              | **NA**              |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
-| **sam** -d   | Linux            | ❓                  | ❓                  | ❓                  |
-|              | BSD              | ❓                  | ❓                  | ❓                  |
-|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
-|              | iSH (iOS)        | ✔️                  | ✔️⁂                  | ❓                  |
+| **sam** -d   | Linux            | ✔️                  | ✔️                  | ✔️                  |
+|              | BSD              | ✔️                  | ✔️                  | ✔️                  |
+|              | Termux (Android) | ✔️                  | ✔️                  | ✔️                  |
+|              | iSH (iOS)        | ✔️                  | ✔️⁂                  | ✔️                  |
 |              | MS-DOS           | ❓                  | ❓                  | ❓                  |
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
-|              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              | MacOS            | ✔️                  | ✔️                  | ✔️                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **sued**     | Linux            | ❓                  | ❓                  | ❓                  |
 |              | BSD              | ❓                  | ❓                  | ❓                  |
