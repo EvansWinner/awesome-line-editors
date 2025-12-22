@@ -78,18 +78,18 @@ And also, "character editors" and "context editors" as well.
 And no, I'm not talking about
 
 - the people who will fix your memoirs line-by-line for a fee; or
-- those command line editing functions like readline or
+- those command line editing functions like *readline* or
   [linenoise](https://github.com/antirez/linenoise)
   that are for editing a single line of input at your terminal shell.
 
-**I am talking about text editors of yore**, like the Unix ``ed(1)`` editor,
+**I am talking about text editors of yore**, like the Unix *ed* editor,
 which operated in terms of lines (or, yes, like Teco,
 which theoretically operated in terms of individual characters)
 and **which were originally designed to work on a Teletype terminal
 with a printer printing one line at a time like God intended**,
 instead of a video display, like these new-fangled modern computers for lazy people.
 I'm talking about those paragons of the *conversational user interface*,
-the REPLs of text editing: line editors.
+the REPLs of text editing: *line editors*.
 
 
 ### Advertisement 
@@ -98,11 +98,11 @@ Before anything else,
 since a YouTube video is worth a thousand ill-chosen words,
 check out a couple of impressive demos.
 There are lots of other videos of people using line editors on YouTube
-(almost all using the Unix ``ed(1)`` editor)
+(almost all using the Unix *ed* editor)
 but most were done by college students
-who just discovered ``ed`` yesterday and don't know anything about it.
-They're mostly kind of embarrassing, frankly (the videos, I mean).
-But these below are the two cool ones I've found
+who just discovered *ed* yesterday and don't know anything about it.
+They're mostly kind of embarrassing, frankly (the videos, I mean);
+but these below are the two cool ones I've found
 because they were done by legit wizards: 
 
  - [Ed text editor](https://www.youtube.com/watch?v=BNYpmLH6IjQ)&nbsp;![Youtube](img/youtube.png) 
@@ -117,7 +117,7 @@ with a lot of broad context and historical light that applies to the line editor
 
 Yeah, OK, fair enough.
 For most people, there is zero reason to be interested in line editors.
-For what it's worth, here is how I came to appreciate them.
+For what it's worth, here is how I came to appreciate them:
 
 
 #### First, distraction-free -- hey, a bird!
@@ -127,8 +127,9 @@ It all started as one of those
 It may seem strange,
 but many writers find that one of the biggest enemies to productivity is
 the tendency to stop when you're flowing
-and get distracted by editing what you've written.
+and get distracted by editing what you've written. Premature optimization and all that. 
 The common wisdom is to separate writing (drafting) and editing.
+
 One solution is to write long-hand.
 This works just until your hand gains strength and speed
 and you learn that it's easy to quickly scratch something out
@@ -142,7 +143,7 @@ Editing while drafting with a typewriter is indeed a big hassle,
 which encourages drafting without stopping, and editing later.
 
 But it also keeps you rooted to one place.
-It's not something you can take to the local coffee shop
+It's not something you can take to the local coffee shop --
 unless you want to annoy everyone around you
 and generally look like a hipster jackass.
 (Of course, if you can stomach that, then more power to you;
@@ -150,15 +151,15 @@ and if you *are* a hipster jackass,
 then you just go on and be the best hipster jackass you can be, you!)
 
 So, enter the humble line editor.
-You can learn to enter text into ``ed(1)`` in five minutes,
+You can learn to enter text into *ed* in five minutes,
 but the basic idea is that learning to do any real editing
 with a line (or character) editor is so difficult, that you won't bother.
 You'll just type away, and then once you've finished drafting something,
 you'll save it and open the file to edit in a proper text editor
-like THE, or Emacs, or vi, or Microsoft Blub 3.0, right?
+like [THE](https://hessling-editor.sourceforge.net/), or [Emacs](https://www.gnu.org/software/emacs/), or [vi](https://ex-vi.sourceforge.net/), or Microsoft Visual [Blub](https://paulgraham.com/avg.html) 3.0, right?
 
 There's only one problem. It actually turns out that it only takes a little while before you'll learn
-how to edit text in ``ed(1)`` quite quickly, and soon you will find yourself using ``ed`` voluntarily to make
+how to edit text in *ed* quite quickly, and soon you will find yourself using *ed* voluntarily to make
 little edits in config files, and then soon you'll realize that you like the minimal interface and the
 no-bullshit feel of the line editor. You'll find yourself stopping what you're doing while writing your
 first draft, and getting sucked into endless editing, and completely lose your flow.
@@ -183,7 +184,7 @@ has brought back a situation in which the extremely terse command language of a 
 just as it was when the I/O model was a Teletype line printer sans CRT or curses library, &c.
 Thumb typing makes every extra character an annoyance, and even when ``Control`` and ``Alt`` and ``Escape`` are present
 on the keyboard, key chording in general is an annoyance too. That leaves out Emacs for certain and makes
-``vi`` barely tolerable. ``ed`` and similar editors could have a renaissance, at least among hipster-nerd-writers,
+*vi* barely tolerable. *ed* and similar editors could have a renaissance -- at least among hipster-nerd-writers,
 I guess.
 
 
@@ -191,7 +192,7 @@ I guess.
 
 But in all seriousness, these days, line editors mostly have one purpose: to work when nothing else
 will. For example, if your Linux machine is so hosed that it can't figure out
-its terminal characteristics, and nothing works but command line programs in ``/bin`` that
+its terminal characteristics, and nothing works but command line programs in `/bin` that
 don't try to do anything fancy with the screen, then a line editor is what you
 will need for cleaning up that config file. (This can really happen; it's
 happened to me.)
@@ -211,7 +212,7 @@ about the minimal "suckless" style of doing things—when it works.
 #### For the hard of seeing
 
 It seems too obvious to need mentioning (and so therefore I forgot until just today)
-but if you have vision problems, then a user interface like that of ed is a necessity,
+but if you have vision problems, then a user interface like that of *ed* is a necessity,
 not just a help. See also *edbrowse* below.
 
 
@@ -225,8 +226,8 @@ Iverson's
 [Notation as a Tool of Thought](https://www.jsoftware.com/papers/tot.htm)
 and think that
 [APL](https://en.m.wikipedia.org/wiki/APL_(programming_language))&nbsp;![Wikipedia](img/wikipedia.png)
-is a great numerical language, and Wouldn't
-it be nice to have something with similar terseness specialized for text manipulation?—well, then maybe
+is a great numerical language, and wouldn't
+it be nice to have something with similar terseness specialized for text manipulation? — well, then maybe
 line editors are your thing. APL god
 [Aaron Hsu](https://www.sacrideo.us/)
 seems to have thought so when he wrote his editor
@@ -241,7 +242,7 @@ processing with the terseness of APL, I bet he would answer: "APL!").
 
 Quick note, just like I said above: There is a distinction to be made between 
 "line editors" and "character editors." The distinction may not actually be all that distinct.
-In the classic Unix ``ed(1)'' editor, the conceptual unit of structure is the line.
+In the classic Unix *ed* editor, the conceptual unit of structure is the line.
 You navigate to and between and around lines. Once you've found a line you like, if you want to
 change something for example, you issue a (s)ubstitute command and use a regular expression to
 specify what you want to change; then you specify what you want to change it to, as a string.
@@ -269,20 +270,20 @@ In this context, a context editor seems to be the name given to an editor which 
 and not only by inputting a raw line number.
 That may seem too obvious a feature to bother getting excited about,
 but my impression is that it was a major selling point back in the day.
-The CP/M ED.COM editor is one that calls itself a context editor;
+The CP/M *ED.COM* editor is one that calls itself a context editor;
 another more obvious one is ECCE, which stands for "Edinburgh Compatible Context Editor."
-Most "modern" "line editors," like ``ed(1)`` and so on, are also context editors.
+Most "modern" "line editors," like *ed* and so on, are also context editors.
 
 
 ### How do I learn to use a line editor?
 
 Well, first, pick one. I'll wait.
 
-OK, now that you've picked ``ed(1)``, let me mention a couple of things.
+OK, now that you've picked *ed*, let me mention a couple of things.
 
 1. It's not as hard to learn to use effectively as you think.
-2. Google for ``ed`` tutorials. There are a number of them. Go through a couple to get a feel for things;
-then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
+2. Google for *ed* tutorials. There are a number of them. Go through a couple to get a feel for things;
+then read the two PDFs I link to by Brian Kernighan under *ed* below.
 3. Just use the editor for daily stuff for a while and it will start to click.
    Here's a nice
    [cheatsheet](https://github.com/pkrumins/ed-cheat-sheet)
@@ -317,7 +318,7 @@ then read the two PDFs I link to by Brian Kernighan under ``ed(1)`` below.
   Mind, I don't understand a word of it, but obviously I had to include it.
 - I include a link to RFC 569,
   [NETED: A Common Editor for the ARPA Network](https://www.rfc-editor.org/rfc/rfc569.txt)
-  here from 1973 just because it's kind of facinating and sort of illuminating. Kinda-sorta.
+  here from 1973 just because it's kinda facinating and sorta illuminating. Kinda-sorta.
   
 
 ## Disclaimers
@@ -331,8 +332,6 @@ If a program is well-maintained and the maintainer claims that it runs on a give
 I am not necessarily going to verify that myself before I put a checkmark (✔️) in the table.
 More obscure things, however, I will try to test myself (or would take a contributer's word for it).
 
-Also, the "Suckless approved" field really just means that in my estimate,
-it would be useful for someone looking for something "minimalist."
 
 ### Focus on practically usable programs
 
@@ -376,7 +375,7 @@ Also, I exclude editors embedded in single applications for use there only
 
 Finally, I am only including editors that are meant for interactive use,
 even when they are also used for scripting. So something like the standard
-Unix ``sed`` command is out.
+Unix *sed* command is out.
 
 This is the standard I am using in deciding what to include below, mostly.  It
 is also where I would most appreciate PRs for this page if you have anything you
@@ -392,9 +391,11 @@ send the information along and it can go in the appendices.
 Please send me a PR, or just a comment, with corrections or additions.  I'm just
 one person, with a real job, and you know, a family and a mortgage and all that.
 
+
 # Tables
 
 For the serious contenders only. If you're on IBM TSO you don't have a choice here, so leaving that out.
+
 
 ## Features
 |          | Unicode aware | Multiple buffers | Macros/Programs | Structural Regexes/Pattern matching |
@@ -689,8 +690,8 @@ Let me know—I would love to know—if there are any reimplementations of EDIT 
 I'm really not sure about EDLIN (as it is sometimes written, or Edlin, as the FDOS project writes it).
 [Tim Paterson's](https://en.wikipedia.org/wiki/Tim_Paterson)&nbsp;![Wikipedia](img/wikipedia.png)
 original seems as if it may have been intended
-to be a clone or simplified version of the ED.COM editor from the old CP/M operating
-system (about which see the ED.COM entry).
+to be a clone or simplified version of the *ED.COM* editor from the old CP/M operating
+system (about which see the *ED.COM* entry).
 While the MS-DOS
 [source](https://github.com/microsoft/MS-DOS/tree/main/v4.0/src/CMD/EDLIN)&nbsp;![GitHub](img/github.png)
 has been released by Microsoft,
@@ -706,7 +707,7 @@ possibly lacking in character editing features DOS EDLIN *may* have had.
 
 EDLIN came standard on MS-DOS machines and I believe up to about Windows 7,
 in some versions, at any rate. It is a little more friendly 
-than ``ed(1)`` and a good deal little less powerful, at least the FreeDOS version seems so to me.
+than *ed* and a good deal little less powerful, at least the FreeDOS version seems so to me.
 It is a functional text editor, though, for
 most use cases other, perhaps, than use in scripts.
 
@@ -782,8 +783,8 @@ If not, it's
 [here](https://github.com/CMB/edbrowse).
 
 Edbrowse is a web browser complete with Javascript engine,
-modeled on the user interface style of `ed(1)` and complete with --
-you guessed it -- a text editor, also modeled on `ed(1)`.
+modeled on the user interface style of *ed* and complete with --
+you guessed it -- a text editor, also modeled on *ed*.
 It's really a kind of complete user interface for the blind.
 In the end, it may be the most complex, complete, and impressive
 bit of work on this page. At some point I would like to have more to say about it.
@@ -850,7 +851,7 @@ I have been able to compile both on a variety of system including Termux and Mac
 "[The standard text editor](https://www.gnu.org/fun/jokes/ed-msg.html)."
 (Obligatory link for everyone who hasn't already heard the joke—all both of you.))
 
-``ed`` is, in addition to being the standard text editor as see above, also
+*ed* is, in addition to being the standard text editor as see above, also
 probably the only line editor anyone reading this ought ever to bother with.
 It comes standard or is easily gotten on any Linux, Unix, BSD, or on MacOS; and it 
 has been ported to Microsoft Windows. It is mature, stable, and reliable.
@@ -858,7 +859,7 @@ has been ported to Microsoft Windows. It is mature, stable, and reliable.
 Therefore it is uninteresting. Well, that's not entirely true, but the nerd
 in me wants to find other options.
 
-If ``ed(1)`` isn't on your Linux or BSD system, wipe your hard drive and install a better
+If *ed* isn't on your Linux or BSD system, wipe your hard drive and install a better
 distribution. Failing that, try something like ``sudo xbps-install ed`` or for you poor benighted souls, try
 ``sudo port install ed`` or ``sudo apt install ed``—you get the idea.
 
@@ -869,7 +870,7 @@ of it, read Brian Kernighan's two classic tutorials, in order: 1)
 
 ### Versions
 
-There is no doubt much to be said about different versions of ``ed,`` and I don't know what it all is yet,
+There is no doubt much to be said about different versions of *ed*, and I don't know what it all is yet,
 but in the meantime, there is a nice 
 [writeup](https://unix.stackexchange.com/questions/657459/what-is-the-difference-between-gnu-ed-and-the-version-of-ed-that-ships-with-unix)
 on Stack Exchange about some differences between the BSD version, the
@@ -907,7 +908,7 @@ from
 [this](https://github.com/rsdoiel/em-1.0.0)&nbsp;![GitHub](img/github.png)
 source on my x64 Ubuntu Linux system, and runs.  It is also available
 from [pkgsrc](https://www.pkgsrc.org/). It aims to be an easier to use
-editor similar to the Unix 'ed' editor.
+editor similar to the Unix *ed* editor.
 
 There is a [man
 page](https://www.coulouris.net/cs_history/em_story/QMC_Unix_manual.html);
@@ -941,22 +942,22 @@ News including some observations about software bloat.
 
 ## led 1
 
-This is the "led" that is written in Lisp and compiled to Lua. There are entirely too many editors called "led" in the world. I am marking them with numbers.
+This is the *led* that is written in Lisp and compiled to Lua. There are entirely too many editors called "led" in the world. I am marking them with numbers.
 
 You can get it [here](https://sourceforge.net/projects/led-text-editor/). I successfully ran it using `lua led.lua FILE` on x64 Ubuntu Linux.
 
 
 ## led 2
 
-This is the "led" that is a re-implementation of the CP/M ED.COM editor.
+This is the *led* that is a re-implementation of the CP/M *ED.COM* editor.
 
-Sage Hendricks has a re-implementation if the CP/M ED.COM for \*nix
+Sage Hendricks has a re-implementation if the CP/M *ED.COM* for \*nix
 systems called
 [led](https://github.com/sage-etcher/leaf-context-editor)&nbsp;![GitHub](img/github.png)
 (or "leaf context editor").  I have been able to build it on a couple of
 platforms, but either I don't know how to invoke it, or it doesn't
 work. It runs on x64 Ubuntu Linux, but I found the documentation wholly
-inscrutable. If you're a c hacker, please make it work and let me know how.
+inscrutable. If you're a C hacker, please make it work and let me know how.
 
 
 ## qed
@@ -964,17 +965,17 @@ inscrutable. If you're a c hacker, please make it work and let me know how.
 [Wikipedia Page](https://en.wikipedia.org/wiki/QED_(text_editor))&nbsp;![Wikipedia](img/wikipedia.png) |
 [Text Editor Wiki Page](https://texteditors.org/cgi-bin/wiki.pl?Qed)
 
-``qed`` (sometimes written QED)  was, it is said, written for an old 1960s machine using an old 1960s 
+*qed* (sometimes written QED)  was, it is said, written for an old 1960s machine using an old 1960s 
 operating system. Various later versions appeared and eventually it was
-re implemented in c, and there is a version available called
+re implemented in C, and there is a version available called
 [qed-new](https://github.com/phonologus/qed-new)&nbsp;![GitHub](img/github.png)
 with Unicode support which will compile and run,
 at least minimally, on POSIXy systems I've tried, with a little tinkering.
 
-This one has become my daily driver editor -- for first drafts, that is
-(and I still don't know it very well).
+This one was briefly my daily driver editor -- for first drafts, that is
+(and I still don't know it very well) until I discovered *edam*.
 It sports multiple buffers, which is nice if you're into that kind of thing.
-It and "sam -d" might be the most powerful line editors around.
+It and `sam -d` might be the most powerful line editors around.
 
 
 Brought to you by the same person behind qed-new above, is a project to produce a nice, updated version
@@ -984,7 +985,7 @@ of --
 
 Some other links of general interest, of which the second is contained in the first:
 
-- [Some ``qed`` / ``ex`` / ``vi`` historical documents](https://www.reddit.com/r/vim/comments/1o6s9m/some_qed_ex_vi_historical_documents/)
+- [Some `qed` / `ex` / `vi` historical documents](https://www.reddit.com/r/vim/comments/1o6s9m/some_qed_ex_vi_historical_documents/)
 - [An incomplete history of the QED text editor](https://www.bell-labs.com/usr/dmr/www/qed.html)
 
 
@@ -1000,7 +1001,7 @@ is another *ed* clone written in rust. Unlike some, it compiles and seems to fun
 
 *sam* is a GUI-based editor for the Plan 9 Operating system with a
 command language similar to *ed*. It requires X libraries to build on
-Linux, but once built it can be invoked in a terminal with "sam -d" and
+Linux, but once built it can be invoked in a terminal with `sam -d` and
 operates similarly to *ed*, but with the addition of the use of
 "structural regular expressions" (for more on which, see Rob Pike's
 [document](
@@ -1015,7 +1016,7 @@ If you like your lightweight minimalistic line editors with a side order of doze
 [sued](https://github.com/AeriaVelocity/sued),
 implemented in rust by Arsalan "Aeri" Kazmi, might just be for you.
 
-But all snark aside, sued represents a genuinely creative and independent-minded rethinking of the line editor paradigm.
+But all snark aside, *sued* represents a genuinely creative and independent-minded rethinking of the line editor paradigm.
 (I can't believe I just wrote that with a straight face, but it's true.)
 In particular, unlike most or all others, it is modeless, in the sense that it starts up in insert mode,
 and then to send it commands, you write the command words prefixed with a tilde (~) character
@@ -1024,8 +1025,6 @@ and merrily continue in insert mode the whole while.
 The command set is idiosyncractic and even sometimes funny.
 It's a slick addition to the line editor pantheon and worth trying out.
 I got it to `cargo build sued` on my Android running Termux without issue and that's pretty cool by itself.
-
-If you have more to add about this editor, please send me more or send a PR.
 
 
 # Appendices
@@ -1041,7 +1040,7 @@ If you have more to add about this editor, please send me more or send a PR.
 [Aaron Hsu's](https://www.sacrideo.us/)
 editor
 [ALE](https://github.com/arcfide/ALE)&nbsp;![GitHub](img/github.png)
-is a line editor modeled on ``ed(1)`` in, apparently, something like 68 lines of characteristically inscrutable APL,
+is a line editor modeled on *ed* in, apparently, something like 68 lines of characteristically inscrutable APL,
 including blank lines for formatting.
 I have not tested it in large part because it appears to be written for the
 [Dyalog](https://www.dyalog.com/)
@@ -1060,7 +1059,7 @@ that it would not have much general use, and seems to be really a single-applica
 *honorable mention* (Doesn't really seem to be usable.)
 
 A very small line editor that really wants to use conio in the Microsoft environment, by Dieter Schoppitsch,
-it is not to be confused with the Emacs-alike of the same name. See more information below under "buup." 
+it is not to be confused with the Emacs-alike of the same name. See more information below under *buup*.
 
 Dieter's original web page about ATTO archived from 2016 is
 [here](https://web.archive.org/web/20160826220131/http://web.uta4you.at/shop/atto/index.htm)&nbsp;![Wayback Machine](img/archive.png)
@@ -1082,19 +1081,19 @@ I also have started working a little on a slightly modified version for POSIX en
 
 Not really available on modern systems.
 
-ED.COM is a line editor that was used on the
+*ED.COM* is a line editor that was used on the
 [CP/M](https://en.wikipedia.org/wiki/CP/M)&nbsp;![Wikipedia](img/wikipedia.png)
 operating system, a kind of precursor to DOS.
-All I know about ED.COM I learned from a pair of videos
+All I know about *ED.COM* I learned from a pair of videos
 done by someone whose name I haven't found, but whose channel on YouTube is called
 [TechTinkering](https://www.youtube.com/@TechTinkering)&nbsp;![YouTube](img/youtube.png):
  - [I Love ED on CP/M](https://www.youtube.com/watch?v=7pqaj050X7g)&nbsp;![YouTube](img/youtube.png)
    and the shorter,
  - [A Very Quick Tour of ED on CP/M](https://www.youtube.com/watch?v=DY58jTcidxE)&nbsp;![YouTube](img/youtube.png)
 
-ED (which I style ED.COM in the CP/M style to differentiate it from the
-Unix ``ed(1)``) appears to be something like a mix between a line-based
-editor and a character- based editor, like Teco. This makes it appear
+*ED* (which I style *ED.COM* in the CP/M style to differentiate it from the
+Unix *ed*) appears to be something like a mix between a line-based
+editor and a character-based editor, like Teco. This makes it appear
 complicated, byzantine—and interesting. I get the impression that it was
 written in assembly language and that a port to modern systems would
 amount to a complete re-write. See the entry for [led](#led-2) for an
@@ -1111,10 +1110,10 @@ There are also a
 
 *(dis?)honorable mention*
 
-What does ``ed(1)`` have to keep track of?
+What does *ed* have to keep track of?
 Well, the name of the current file,
 the current line number, and a buffer full of contents to be written
-the next write. Right? So, what if we were willing to tell ``ed`` what
+the next write. Right? So, what if we were willing to tell *ed* what
 file we are working on with every command? And what if the program
 were set to write our changes after every operation? And what if we
 were also willing to tell it what line number or substring to operate
@@ -1124,7 +1123,7 @@ We could just write a command line program
 that edited text files one command-line
 command at a time, one line at a time.
 
-And this insane idea is what is behind Patrick Taylor's ``led`` program
+And this insane idea is what is behind Patrick Taylor's *led* program
 for DOS. I guess it is, anyway. Anyway, you can download
 [led101.zip](https://ftp.icm.edu.pl/pub/windows/garbo/pc/fileutil/led101.zip)
 from that link on some random old DOS software archive
@@ -1156,7 +1155,7 @@ If you find that you are able to do so an make it work, please let me know and I
 ## Appendix C: Others
 
 This is mostly going to be school final projects on GitHub I think.
-"Implement a line editor like ``ed``.
+"Implement a line editor like *ed*.
 Include commands to open a file, write a file, print and replace lines."
 I think there are a lot of them, but I'll probably only include them
 if they at least compile and don't segfault when run.
@@ -1180,7 +1179,7 @@ https://github.com/craigbarstow/cmd-line-text-editor
 ## ed clone in go
 
 An ed [clone](https://go.dev/) in [go](https://go.dev/).
-Just what it sounds like, unless what it sounds to you like is ``ed.``
+Just what it sounds like, unless what it sounds to you like is *ed*.
 I don't understand what is so difficult about naming things.
 I haven't looked at this yet.
 
@@ -1229,7 +1228,7 @@ it will have to stay in this section.
 # Colophon
 
 This was mostly written with [vim](https://www.vim.org/), frankly. Shoot me.
-Some was in ``vi``, and yes, some in ``ed``. Right at this moment, I'm typing
+Some was in *vi*, and yes, some in *ed*. Right at this moment, I'm typing
 in GitHub's web-based editor. So, I fear commitment
 (though evidently not Git commitment).
 
