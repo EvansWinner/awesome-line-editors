@@ -7,10 +7,12 @@ and also for various meanings of "line editor.")
 
 **or, Making Teletype Tech Useful Again!**
 
+**→&nbsp;[Skip Intro](#tables)&nbsp;←**
+
 
 ## Praeliminaria
 
-**→&nbsp;[Skip Intro](#the-editors)&nbsp;←**
+
 <p align="center">
   <a href="https://evanswinner.github.io/shoe.html"><img src="img/shoe.jpg" alt="The Hermetic Order of ed(1)" width=200 /></a>
 
