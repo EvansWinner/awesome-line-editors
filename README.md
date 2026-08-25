@@ -52,10 +52,12 @@ and also for various meanings of "line editor.")
   - [hired](#hired)
   - [led 1](#led-1)
   - [led 2](#led-2)
+  - [nved](#nved)
   - [qed](#qed)
   - [rusted](#rusted)
   - [sam -d](#sam--d)
   - [sued](#sued)
+  - [ved](#ved)
 - [Appendices](#appendices)
   - [Appendix A: Honorable Mentions](#appendix-a-honorable-mentions)
     - [ALE](#ale)
@@ -413,10 +415,12 @@ Otherwise you've at least got to appear to work reliably on Linux and BSD.
 | hired    | ✔️            | ❌               | ❌              | ❌                                  |
 | led[4]   | ✔️            | ❌               | ❌              | ❌                                  |
 | led[5]   | ❓            | ❓               | ❓              | ❓                                  |
+| nved     | ✔️            | ❌               | ❌              | ❌                                  |
 | qed      | ✔️            | ✔️               | ✔️              | ❌                                  |
 | rusted   | ❓            | ❓               | ❓              | ❓                                  |
 | sam -d   | ✔️            | ✔️               | ✔️              | ✔️                                  |
 | sued     | ✔️            | ❌               | ❌              | ❌                                  |
+| ved      | ✔️            | ❌               | ❌              | ❌                                  |
 <pre>
   [1] The C version discussed.
   [2] FreeDOS Edlin.
@@ -536,6 +540,15 @@ and it *might* be possible for you to get it to work on yours too.
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
 |              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **nved**     | Linux            | ✔️                  | ✔️                  | ✔️                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ✔️                  | ✔️                  | ✔️                  |
+|              | MacOS            | ✔️                  | ✔️                  | ✔️                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
 | **qed**[8]   | Linux            | ✔️                  | ✔️                  | ✔️                  |
 |              | BSD              | ✔️                  | ✔️                  | ✔️                  |
 |              | Termux (Android) | ✔️                  | ✔️                  | ✔️                  |
@@ -571,6 +584,15 @@ and it *might* be possible for you to get it to work on yours too.
 |              | FreeDOS          | ❓                  | ❓                  | ❓                  |
 |              | MS-Windows       | ❓                  | ❓                  | ❓                  |
 |              | MacOS            | ❓                  | ❓                  | ❓                  |
+|              |                  | **Builds**          | **Runs**[1]         | **Functional**[2]   |
+| **ved**      | Linux            | ✔️                  | ✔️                  | ✔️                  |
+|              | BSD              | ❓                  | ❓                  | ❓                  |
+|              | Termux (Android) | ❓                  | ❓                  | ❓                  |
+|              | iSH (iOS)        | ❓                  | ❓                  | ❓                  |
+|              | MS-DOS           | ❓                  | ❓                  | ❓                  |
+|              | FreeDOS          | ❓                  | ❓                  | ❓                  |
+|              | MS-Windows       | ✔️                  | ✔️                  | ✔️                  |
+|              | MacOS            | ✔️                  | ✔️                  | ✔️                  |
 <pre>
   † Taking this on faith
   ‡ Requres me to special build the nightly version of the entire Rust toolchain. Not gonna happen.
@@ -961,6 +983,27 @@ platforms, but either I don't know how to invoke it, or it doesn't
 work. It runs on x64 Ubuntu Linux, but I found the documentation wholly
 inscrutable. If you're a C hacker, please make it work and let me know how.
 
+## nved
+
+[nved](https://github.com/excelano/nved)&nbsp;![GitHub](img/github.png) is a small
+terminal editor, written in Go, that feels like a REPL rather than a full-screen
+application. There is no alternate screen and no takeover of the terminal: output
+scrolls normally and your scrollback stays intact, the way *cat* or an old line
+editor leaves it. You print a range of lines by number, then climb into the
+printed block with the arrow keys and edit it in place. It runs the terminal in
+raw mode, so it fills the `VISUAL` slot rather than `EDITOR` — but unlike *vi* or
+*ex*, it never clears the screen.
+
+It is a from-scratch descendant of *ved* (below): where *ved* replays commands
+against text the way *ed* does, *nved* moves a real cursor through committed
+lines. Addressing is by line number (`N`, `N.M`, `$`, `$-N`, `head`, `tail`), and
+a `+spec` startup argument opens straight onto a range. There is search and
+replace over Go's RE2 (`find`, `replace`, stepping preview-first so you confirm
+each change), and — a little off the beaten path for a line editor — an optional
+aligned-column view for CSV/TSV/DSV files. The author reports building and running
+it on Linux, macOS, and Windows (on Windows via Windows Terminal, since it draws
+with ANSI escapes).
+
 
 ## qed
 
@@ -1028,6 +1071,30 @@ The command set is idiosyncractic and even sometimes funny.
 It's a slick addition to the line editor pantheon and worth trying out.
 I got it to `cargo build sued` on my Android running Termux without issue and that's pretty cool by itself.
 
+## ved
+
+[ved](https://github.com/excelano/ved)&nbsp;![GitHub](img/github.png) is a clone
+of *ed* in pure-stdlib Rust — and, unlike the other Rust entries here, it carries
+zero dependencies: no regex crate, no external crates at all. The regex engine is
+hand-written, a POSIX BRE matcher translated from Rob Pike's ~30-line matcher in
+*The Practice of Programming* and grown from there with a compile step in the
+spirit of Ken Thompson's original *ed*.
+
+The twist is in the name: ved is the *verbose* ed. It keeps close *ed*
+compatibility — most scripts written for real *ed* run against it unchanged — but
+where *ed* answers a mistake with a bare `?` and a success with silence, ved tells
+you what happened: `? no match`, `deleted 3 lines (2-4)`, `wrote 56 bytes`. Every
+terse command has a long-form alias (`append`, `print`, `delete`), and `help`
+prints a reference without leaving the editor. If you already know *ed*, ved is
+immediately familiar; if you don't, it explains itself as you go.
+
+That makes it a gentle on-ramp to *ed* itself — the editor this list already
+singles out as the one worth learning. There is a
+[tutorial](https://excelano.com/ved/tutorial/) that teaches line editing from zero
+on ved's friendly commands, then reveals that the shorthand *is* ed's, so you come
+out able to sit down at real *ed* on a stripped-down server. Its companion *nved*
+(above) fills the interactive `VISUAL` slot. The author reports building and
+running ved on Linux, macOS, and Windows.
 
 # Appendices
 
